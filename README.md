@@ -44,7 +44,13 @@ Boxhead 是由 Sean Cooper 创作并由 Crazy Monkey Games 赞助的一系列游
 
 Facebook：https://www.facebook.com/stcg.games/
 
+Twitter：https://twitter.com/seantcooper
+
+tumblr：https://seantcooper.tumblr.com/
+
 Github：https://github.com/seantcooper
+
+Youtube：https://www.youtube.com/user/SeanTCooper/videos
 
 ## 更多链接
 

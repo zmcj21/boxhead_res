@@ -18,6 +18,8 @@
 
 1. boxhead nightmare非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。!!!该系列无法直接用ffdec反编译出全部内容!!!
 
+1. 对于Chrome浏览器的用户，ruffle跟其他flash player emulator可能无法模拟ActionScript3，所以建议大家下载一个Y8浏览器。
+
 ## 公告：
 
 只要你不停下来，走多慢都无所谓。——孔子

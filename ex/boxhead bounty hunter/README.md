@@ -4,7 +4,7 @@
 
 游戏名：Boxhead - Bounty Hunter
 
-游戏发布日期：
+游戏发布日期：November 25, 2009
 
 在线游玩链接：http://www.xgenstudios.com/game.php?keyword=boxhead-bounty-hunter
 

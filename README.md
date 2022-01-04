@@ -30,6 +30,14 @@ Boxhead 是由 Sean Cooper 创作并由 Crazy Monkey Games 赞助的一系列游
 
 邮箱：zmcj20plusplus@gmail.com
 
+## 联系肖恩(Sean Cooper)：
+
+官网：https://www.seantcooper.com/
+
+Facebook：https://www.facebook.com/stcg.games/
+
+Github：https://github.com/seantcooper
+
 ## 更多链接
 
 https://boxhead.fandom.com/wiki/Boxhead_(series)

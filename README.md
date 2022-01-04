@@ -2,6 +2,8 @@
 
 僵尸危机资源大全，这里也是有关僵尸危机的信息的汇总
 
+注意：本仓库所有.swf文件均来源于：https://www.crazymonkeygames.com/
+
 最后更新日期：2022/1/4
 
 Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
@@ -9,6 +11,8 @@ Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
 疯狂猴子网：https://www.crazymonkeygames.com/
 
 ## 公告：
+
+只要你不停下来，走多慢都无所谓。——孔子
 
 我（造梦C君）正在使用unity3D开发僵尸危机续作，有志者可以联系我参与开发或测试：
 

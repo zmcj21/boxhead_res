@@ -2,13 +2,11 @@
 
 僵尸危机资源大全，这里也是有关僵尸危机的信息的汇总
 
-注意：本仓库所有.swf文件均来源于：https://www.crazymonkeygames.com/
-
 最后更新日期：2022/1/4
 
-Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
+注意：本仓库所有.swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
 
-疯狂猴子网：https://www.crazymonkeygames.com/
+Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
 
 ## 公告：
 

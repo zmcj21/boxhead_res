@@ -1,12 +1,20 @@
 # Boxhead Resources
 
-僵尸危机资源大全，这里也是有关僵尸危机的信息的汇总
+僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
 
 最后更新日期：2022/1/4
 
-注意：本仓库所有.swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
+## 注意：
 
-Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
+1. 本仓库所有.swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
+
+1. 使用FlashPlayer.exe直接打开.swf文件游玩
+
+1. 可以使用[ffdec](https://github.com/jindrapetrik/jpexs-decompiler)反编译.swf文件获取美术/音频/代码资源。
+
+1. Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
+
+1. boxhead nightmare非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。
 
 ## 公告：
 
@@ -14,7 +22,7 @@ Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
 
 我（造梦C君）正在使用unity3D开发僵尸危机续作，有志者可以联系我参与开发或测试：
 
-邮箱：zmcj20plusplus@gmail.com
+邮箱： zmcj20plusplus@gmail.com
 
 ## 介绍：
 
@@ -28,7 +36,7 @@ Boxhead 是由 Sean Cooper 创作并由 Crazy Monkey Games 赞助的一系列游
 
 ## 联系：
 
-邮箱：zmcj20plusplus@gmail.com
+邮箱： zmcj20plusplus@gmail.com
 
 ## 联系肖恩(Sean Cooper)：
 

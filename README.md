@@ -14,7 +14,7 @@
 
 1. Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
 
-1. boxhead nightmare非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。
+1. boxhead nightmare非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。!!!该系列无法直接用ffdec反编译!!!
 
 ## 公告：
 

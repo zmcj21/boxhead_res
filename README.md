@@ -4,6 +4,8 @@
 
 最后更新日期：2022/1/4
 
+![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
+
 ## 注意：
 
 1. 本仓库所有.swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/

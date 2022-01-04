@@ -18,4 +18,6 @@ TIPS:如果当前使用的浏览器无法不支持Flash可以考虑下载[Ruffle
 
 离线版本不能正常游玩，但是能用ffdec反编译一部分内容。
 
-链接：http://forums.xgenstudios.com/t/boxhead-clients-links/1513
+boxheadbh.swf是2014年获取的老版本，无法正常游玩，但是能用ffdec反编译一部分内容。
+
+论坛链接：http://forums.xgenstudios.com/t/boxhead-clients-links/1513

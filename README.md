@@ -2,7 +2,7 @@
 
 僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
 
-最后更新日期：2022/1/4
+最后更新日期：2022/1/5
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 

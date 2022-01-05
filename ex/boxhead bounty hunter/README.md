@@ -20,4 +20,7 @@ TIPS:如果当前使用的浏览器无法不支持Flash可以考虑下载[Ruffle
 
 boxheadbh.swf是2014年获取的老版本，无法正常游玩，但是能用ffdec反编译一部分内容。
 
-论坛链接：http://forums.xgenstudios.com/t/boxhead-clients-links/1513
+XGen论坛链接：http://forums.xgenstudios.com/
+
+!!! assets文件夹中存放的是僵尸危机赏金猎人的万圣节主题独立客户端中提取的.swf文件，无法正常游玩，但是能用ffdec反编译一部分内容。 !!!
+关于这部分讨论的论坛链接：http://forums.xgenstudios.com/t/boxhead-clients-links/1513

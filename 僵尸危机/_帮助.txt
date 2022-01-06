@@ -1,0 +1,34 @@
+资源包整理者：造梦C君
+文档最后更新日期：2022/1/6
+
+僵尸危机(Boxhead)玩家QQ群：828975870
+
+更详细的资源整合：https://github.com/zmcj21/boxhead_res
+
+僵尸危机最新续作：https://github.com/zmcj21/boxhead_dev
+
+1.介绍：
+这个资源包是从疯狂猴子网（https://www.crazymonkeygames.com/）下载的僵尸危机官方资源。
+游戏文件的名字按照4399小游戏当初翻译的名字做了修改。
+*鉴于4399命名的游戏版本号跟官方游戏的版本号有出入，所以这里将译名与官方名做一个对应：
+*按照游戏发布时间先后顺序排序：
+
+Boxhead (a Halloween Special) - 僵尸危机1
+Boxhead: The Rooms - 僵尸危机5
+Boxhead: More Rooms - 僵尸危机4
+Boxhead: 2Play Rooms - 僵尸危机3
+Boxhead: The Zombie Wars - 僵尸危机2/僵尸危机疯狂版
+Boxhead the Nightmare - 僵尸危机6/僵尸危机梦魇
+Boxhead the Christmas Nightmare - 僵尸危机梦魇圣诞版
+Boxhead the Nightmare: Biever and Baby - 僵尸危机梦魇比伯版
+
+整理这个资源包只是为了方便更多人怀旧童年时跟好伙伴在电脑前玩僵尸危机的时光。
+
+2.如何游玩？
+打开Flash播放器.exe，点击文件->打开->浏览(选择.swf路径)并打开即可开始游戏。
+
+3.有任何问题反馈给我：
+邮箱：zmcj20plusplus@gmail.com
+QQ：1669247240
+
+最后感谢大家下载，祝游戏愉快。

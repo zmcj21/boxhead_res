@@ -2,7 +2,7 @@
 
 僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
 
-最后更新日期：2022/1/5
+最后更新日期：2022/1/6
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 
@@ -18,13 +18,15 @@
 
 1. boxhead nightmare非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。!!!该系列无法直接用ffdec反编译出全部内容!!!
 
-1. 对于Chrome浏览器的用户，ruffle跟其他flash player emulator可能无法模拟ActionScript3，所以建议大家下载一个Y8浏览器。
+1. 对于Chrome浏览器的用户，ruffle跟其他flash player emulator可能无法模拟ActionScript3，建议大家下载一个Y8浏览器继续享受Flash内容。
 
 ## 公告：
 
 只要你不停下来，走多慢都无所谓。——孔子
 
 我（造梦C君）正在使用unity3D开发僵尸危机续作，有志者可以联系我参与开发或测试：
+
+网站： https://github.com/zmcj21/boxhead_dev
 
 邮箱： zmcj20plusplus@gmail.com
 
@@ -38,7 +40,7 @@ Boxhead is a series of games created by Sean Cooper and sponsored by Crazy Monke
 
 Boxhead 是由 Sean Cooper 创作并由 Crazy Monkey Games 赞助的一系列游戏。 Boxhead 的游戏明星乔恩·班博（Jon Bambo）的主要兴趣似乎是将僵尸变成血迹并让物品爆炸。极其有趣和令人上瘾的游戏玩法使这些游戏在世界各地的玩家中大受欢迎。每个新版本都会变得越来越好！
 
-## 联系：
+## 联系我(造梦C君)：
 
 邮箱： zmcj20plusplus@gmail.com
 

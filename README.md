@@ -2,7 +2,7 @@
 
 僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
 
-最后更新日期：2022/1/6
+最后更新日期：2022/1/7
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 
@@ -16,7 +16,7 @@
 
 1. Boxhead Series：https://www.crazymonkeygames.com/series/Boxhead-Series.php
 
-1. boxhead nightmare非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。!!!该系列无法直接用ffdec反编译出全部内容!!!
+1. boxhead nightmare为非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。!!!该系列无法直接用ffdec反编译出全部内容!!!
 
 1. 对于Chrome浏览器的用户，ruffle跟其他flash player emulator可能无法模拟ActionScript3，建议大家下载一个Y8浏览器继续享受Flash内容。
 
@@ -30,11 +30,11 @@
 
 邮箱： zmcj20plusplus@gmail.com
 
-## 介绍：
+## 提示：
 
 Flash游戏Boxhead在中国被翻译成僵尸危机，直译应该是盒子头。
 
-## 介绍2：
+## 介绍：
 
 Boxhead is a series of games created by Sean Cooper and sponsored by Crazy Monkey Games. The Boxhead games star Jon Bambo -- a character whose main interests seem to be turning zombies into blood stains and making things explode. The extremely fun and addictive gameplay has made these games a big hit with players all over the world. Each new release just keeps getting better and better!
 

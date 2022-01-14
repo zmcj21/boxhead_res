@@ -2,7 +2,7 @@
 
 僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
 
-最后更新日期：2022/1/12
+最后更新日期：2022/1/14
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 
@@ -19,6 +19,10 @@
 1. boxhead nightmare为非完整版，部分关卡依赖Facebook，但是在Facebook上该游戏已经下架。!!!该系列无法直接用ffdec反编译出全部内容!!!
 
 1. 对于Chrome浏览器的用户，ruffle跟其他flash player emulator可能无法模拟ActionScript3，建议大家下载一个Y8浏览器继续享受Flash内容。
+
+## Boxhead:Immortal官网
+
+https://zmcj21.github.io/
 
 ## 公告：
 

@@ -64,4 +64,6 @@ Youtube：https://www.youtube.com/user/SeanTCooper/videos
 
 ## 更多链接
 
-https://boxhead.fandom.com/wiki/Boxhead_(series)
+Fandom : https://boxhead.fandom.com/wiki/Boxhead_(series)
+
+Flashpoint : https://bluemaxima.org/flashpoint/

@@ -1,0 +1,438 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		devil	devil	enemy	1	1	1	0	0	0	0	
+		1	spawn		zombie	zombie	enemy	10	5	0	0	0	0	0	
+		1	startwait	1											
+		1	complete	alldead											
+		1	fail	dead											
+		1	spawn_items	barrel											
+		1	endwait	5											
+		1	next	2											
+		2	spawn		devil	devil	enemy	2	2	1	0	0	0	0	
+		2	spawn		zombie	zombie	enemy	20	10	0	0	0	0	0	
+		2	next	3											
+		3	spawn		devil	devil	enemy	3	3	0.979166667	0	0	0	0	
+		3	spawn		zombie	zombie1	enemy	30	15	0	0	0	0	0	
+		3	next	4											
+		4	spawn		devil	devil	enemy	4	4	0.958333333	0	0	0	0	
+		4	spawn		zombie	zombie1	enemy	40	20	0.23	0	0	0	0	
+		4	next	5											
+		5	spawn		werewolf	zombie3	enemy	25	25	0	1	1	1	1	
+		5	next	6											
+		6	spawn		devil	devil	enemy	6	6	0.916666667	1	1	1	1	
+		6	spawn		zombie	zombie	enemy	60	30	0	1	1	1	1	
+		6	next	7											
+		7	spawn		devil	devil	enemy	7	7	0.895833333	1	1	1	1	
+		7	spawn		zombie	zombie3	enemy	70	35	0	1	1	1	1	
+		7	next	8											
+		8	spawn		devil	devil	enemy	8	8	0.875	1	1	1	1	
+		8	spawn		zombie	zombie3	enemy	80	40	0	1	1	1	1	
+		8	next	9											
+		9	spawn		devil	devil	enemy	9	9	0.854166667	1	1	1	1	
+		9	spawn		zombie	zombie3	enemy	90	45	0.205	1	1	1	1	
+		9	next	10											
+		10	spawn		lucifer	zombie1	enemy	50	50	0	2	2	2	2	
+		10	next	11											
+		11	spawn		bomber	zombie2	enemy	55	27.5	0.8125	2	2	2	2	
+		11	spawn		devil	devil	enemy	11	11	0.8125	2	2	2	2	
+		11	spawn		zombie	zombie	enemy	110	55	0	2	2	2	2	
+		11	next	12											
+		12	spawn		bomber	zombie2	enemy	60	30	0.791666667	2	2	2	2	
+		12	spawn		devil	devil	enemy	12	12	0.791666667	2	2	2	2	
+		12	spawn		zombie	zombie	enemy	120	60	0	2	2	2	2	
+		12	next	13											
+		13	spawn		bomber	zombie2	enemy	65	32.5	0.770833333	2	2	2	2	
+		13	spawn		devil	devil	enemy	13	13	0.770833333	2	2	2	2	
+		13	spawn		zombie	zombie	enemy	130	65	0	2	2	2	2	
+		13	next	14											
+		14	spawn		bomber	zombie1	enemy	70	35	0.75	2	2	2	2	
+		14	spawn		devil	devil	enemy	14	14	0.75	2	2	2	2	
+		14	spawn		zombie	zombie1	enemy	140	70	0	2	2	2	2	
+		14	next	15											
+		15	spawn		werewolf	zombie2	enemy	75	50	0	3	3	3	3	
+		15	next	16											
+		16	spawn		bomber	zombie1	enemy	80	40	0.708333333	3	3	3	3	
+		16	spawn		devil	devil	enemy	16	16	0.708333333	3	3	3	3	
+		16	spawn		zombie	zombie1	enemy	160	80	0	3	3	3	3	
+		16	next	17											
+		17	spawn		bomber	zombie1	enemy	85	42.5	0.6875	3	3	3	3	
+		17	spawn		devil	devil	enemy	17	17	0.6875	3	3	3	3	
+		17	spawn		zombie	zombie2	enemy	170	85	0	3	3	3	3	
+		17	next	18											
+		18	spawn		bomber	zombie2	enemy	90	45	0.666666667	3	3	3	3	
+		18	spawn		devil	devil	enemy	18	18	0.666666667	3	3	3	3	
+		18	spawn		zombie	zombie1	enemy	180	90	0	3	3	3	3	
+		18	next	19											
+		19	spawn		bomber	zombie2	enemy	95	47.5	0.645833333	3	3	3	3	
+		19	spawn		devil	devil	enemy	19	19	0.645833333	3	3	3	3	
+		19	spawn		zombie	zombie2	enemy	190	95	0	3	3	3	3	
+		19	next	20											
+		20	spawn		lucifer	zombie3	enemy	100	50	0	4	4	4	4	
+		20	next	21											
+		21	spawn		bomber	zombie2	enemy	105	50	0.604166667	4	4	4	4	
+		21	spawn		devil	devil	enemy	21	20	0.604166667	4	4	4	4	
+		21	spawn		zombie	zombie2	enemy	210	100	0	4	4	4	4	
+		21	next	22											
+		22	spawn		bomber	zombie	enemy	110	50	0.583333333	4	4	4	4	
+		22	spawn		devil	devil	enemy	22	20	0.583333333	4	4	4	4	
+		22	spawn		zombie	zombie	enemy	220	100	0	4	4	4	4	
+		22	next	23											
+		23	spawn		bomber	zombie	enemy	115	50	0.5625	4	4	4	4	
+		23	spawn		devil	devil	enemy	23	20	0.5625	4	4	4	4	
+		23	spawn		zombie	zombie2	enemy	230	100	0	4	4	4	4	
+		23	next	24											
+		24	spawn		bomber	zombie	enemy	120	50	0.541666667	4	4	4	4	
+		24	spawn		devil	devil	enemy	24	20	0.541666667	4	4	4	4	
+		24	spawn		zombie	zombie	enemy	240	100	0	4	4	4	4	
+		24	next	25											
+		25	spawn		werewolf	zombie1	enemy	125	50	0	5	5	5	5	
+		25	next	26											
+		26	spawn		bomber	zombie2	enemy	130	50	0.5	5	5	5	5	
+		26	spawn		devil	devil	enemy	26	20	0.5	5	5	5	5	
+		26	spawn		zombie	zombie	enemy	260	100	0	5	5	5	5	
+		26	next	27											
+		27	spawn		bomber	zombie	enemy	135	50	0.479166667	5	5	5	5	
+		27	spawn		devil	devil	enemy	27	20	0.479166667	5	5	5	5	
+		27	spawn		zombie	zombie	enemy	270	100	0	5	5	5	5	
+		27	next	28											
+		28	spawn		bomber	zombie	enemy	140	50	0.458333333	5	5	5	5	
+		28	spawn		devil	devil	enemy	28	20	0.458333333	5	5	5	5	
+		28	spawn		zombie	zombie	enemy	280	100	0	5	5	5	5	
+		28	next	29											
+		29	spawn		bomber	zombie	enemy	145	50	0.4375	5	5	5	5	
+		29	spawn		devil	devil	enemy	29	20	0.4375	5	5	5	5	
+		29	spawn		zombie	zombie	enemy	290	100	0	5	5	5	5	
+		29	next	30											
+		30	spawn		lucifer	zombie1	enemy	150	50	0	6	6	6	6	
+		30	next	31											
+		31	spawn		bomber	zombie1	enemy	155	50	0.395833333	6	6	6	6	
+		31	spawn		devil	devil	enemy	31	20	0.395833333	6	6	6	6	
+		31	spawn		mummy	nearplayer	enemy	155	50	0.395833333	6	6	6	6	
+		31	spawn		zombie	zombie2	enemy	310	100	0	6	6	6	6	
+		31	next	32											
+		32	spawn		bomber	zombie3	enemy	160	50	0.375	6	6	6	6	
+		32	spawn		devil	devil	enemy	32	20	0.375	6	6	6	6	
+		32	spawn		mummy	zombie1	enemy	160	50	0.375	6	6	6	6	
+		32	spawn		zombie	zombie3	enemy	320	100	0	6	6	6	6	
+		32	next	33											
+		33	spawn		bomber	zombie3	enemy	165	50	0.354166667	6	6	6	6	
+		33	spawn		devil	devil	enemy	33	20	0.354166667	6	6	6	6	
+		33	spawn		mummy	zombie1	enemy	165	50	0.354166667	6	6	6	6	
+		33	spawn		zombie	zombie	enemy	330	100	0	6	6	6	6	
+		33	next	34											
+		34	spawn		bomber	zombie3	enemy	170	50	0.333333333	6	6	6	6	
+		34	spawn		devil	devil	enemy	34	20	0.333333333	6	6	6	6	
+		34	spawn		mummy	zombie3	enemy	170	50	0.333333333	6	6	6	6	
+		34	spawn		zombie	zombie	enemy	340	100	0	6	6	6	6	
+		34	next	35											
+		35	spawn		werewolf	zombie1	enemy	350	50	0	7	7	7	7	
+		35	next	36											
+		36	spawn		bomber	zombie1	enemy	180	50	0.291666667	7	7	7	7	
+		36	spawn		devil	devil	enemy	36	20	0.291666667	7	7	7	7	
+		36	spawn		mummy	zombie3	enemy	180	50	0.291666667	7	7	7	7	
+		36	spawn		zombie	zombie1	enemy	360	100	0	7	7	7	7	
+		36	next	37											
+		37	spawn		bomber	zombie3	enemy	185	50	0.270833333	7	7	7	7	
+		37	spawn		devil	devil	enemy	37	20	0.270833333	7	7	7	7	
+		37	spawn		mummy	zombie1	enemy	185	50	0.270833333	7	7	7	7	
+		37	spawn		zombie	zombie3	enemy	370	100	0	7	7	7	7	
+		37	next	38											
+		38	spawn		bomber	zombie2	enemy	190	50	0.25	7	7	7	7	
+		38	spawn		devil	devil	enemy	38	20	0.25	7	7	7	7	
+		38	spawn		mummy	nearplayer	enemy	190	50	0.25	7	7	7	7	
+		38	spawn		zombie	zombie	enemy	380	100	0	7	7	7	7	
+		38	next	39											
+		39	spawn		bomber	zombie2	enemy	195	50	0.229166667	7	7	7	7	
+		39	spawn		devil	devil	enemy	39	20	0.229166667	7	7	7	7	
+		39	spawn		mummy	nearplayer	enemy	195	50	0.229166667	7	7	7	7	
+		39	spawn		zombie	zombie	enemy	390	100	0	7	7	7	7	
+		39	next	40											
+		40	spawn		lucifer	zombie1	enemy	200	50	0	8	8	8	8	
+		40	next	41											
+		41	spawn		bomber	zombie2	enemy	205	50	0.1875	8	8	8	8	
+		41	spawn		devil	devil	enemy	41	20	0.1875	8	8	8	8	
+		41	spawn		mummy	nearplayer	enemy	205	50	0.1875	8	8	8	8	
+		41	spawn		vampire	zombie2	enemy	41	41	0.1875	8	8	8	8	
+		41	spawn		zombie	zombie3	enemy	410	100	0	8	8	8	8	
+		41	next	42											
+		42	spawn		bomber	zombie2	enemy	210	50	0.166666667	8	8	8	8	
+		42	spawn		devil	devil	enemy	42	20	0.166666667	8	8	8	8	
+		42	spawn		mummy	nearplayer	enemy	210	50	0.166666667	8	8	8	8	
+		42	spawn		vampire	zombie2	enemy	42	42	0.166666667	8	8	8	8	
+		42	spawn		zombie	zombie2	enemy	420	100	0	8	8	8	8	
+		42	next	43											
+		43	spawn		bomber	zombie2	enemy	215	50	0.145833333	8	8	8	8	
+		43	spawn		devil	devil	enemy	43	20	0.145833333	8	8	8	8	
+		43	spawn		mummy	nearplayer	enemy	215	50	0.145833333	8	8	8	8	
+		43	spawn		vampire	zombie2	enemy	43	43	0.145833333	8	8	8	8	
+		43	spawn		zombie	zombie3	enemy	430	100	0	8	8	8	8	
+		43	next	44											
+		44	spawn		bomber	zombie2	enemy	220	50	0.125	8	8	8	8	
+		44	spawn		devil	devil	enemy	44	20	0.125	8	8	8	8	
+		44	spawn		mummy	nearplayer	enemy	220	50	0.125	8	8	8	8	
+		44	spawn		vampire	zombie2	enemy	44	44	0.125	8	8	8	8	
+		44	spawn		zombie	zombie2	enemy	440	100	0	8	8	8	8	
+		44	next	45											
+		45	spawn		werewolf	zombie1	enemy	225	50	0	9	9	9	9	
+		45	next	46											
+		46	spawn		bomber	zombie2	enemy	230	50	0.083333333	9	9	9	9	
+		46	spawn		devil	devil	enemy	46	20	0.083333333	9	9	9	9	
+		46	spawn		mummy	nearplayer	enemy	230	50	0.083333333	9	9	9	9	
+		46	spawn		vampire	zombie2	enemy	46	46	0.083333333	9	9	9	9	
+		46	spawn		zombie	zombie1	enemy	460	100	0	9	9	9	9	
+		46	next	47											
+		47	spawn		bomber	zombie2	enemy	235	50	0.0625	9	9	9	9	
+		47	spawn		devil	devil	enemy	47	20	0.0625	9	9	9	9	
+		47	spawn		mummy	nearplayer	enemy	235	50	0.0625	9	9	9	9	
+		47	spawn		vampire	zombie2	enemy	47	47	0.0625	9	9	9	9	
+		47	spawn		zombie	zombie	enemy	470	100	0	9	9	9	9	
+		47	next	48											
+		48	spawn		bomber	zombie2	enemy	240	50	0.041666667	9	9	9	9	
+		48	spawn		devil	devil	enemy	48	20	0.041666667	9	9	9	9	
+		48	spawn		mummy	nearplayer	enemy	240	50	0.041666667	9	9	9	9	
+		48	spawn		vampire	zombie2	enemy	48	48	0.041666667	9	9	9	9	
+		48	spawn		zombie	zombie1	enemy	480	100	0	9	9	9	9	
+		48	next	49											
+		49	spawn		bomber	zombie1	enemy	245	50	0.041666667	9	9	9	9	
+		49	spawn		devil	devil	enemy	49	20	0.041666667	9	9	9	9	
+		49	spawn		mummy	nearplayer	enemy	245	50	0.041666667	9	9	9	9	
+		49	spawn		vampire	zombie2	enemy	49	49	0.041666667	9	9	9	9	
+		49	spawn		zombie	zombie3	enemy	490	100	0	9	9	9	9	
+		49	next	50											
+		50	spawn		lucifer	zombie1	enemy	250	50	0	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	

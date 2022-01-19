@@ -1,0 +1,111 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		2	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		3	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		4	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		5	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		6	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		7	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		8	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		9	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		10	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		11	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		12	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		13	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		14	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		15	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		16	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		17	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		18	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		19	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		20	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		21	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		22	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		23	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		24	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		25	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		26	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		27	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		28	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		29	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		30	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		31	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		32	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		33	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		34	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		35	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		36	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		37	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		38	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		39	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		40	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		41	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		42	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		43	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		44	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		45	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		46	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		47	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		48	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		49	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		50	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		1	complete	alldead											
+		1	endwait	0											
+		1	fail	dead											
+		1	next	2											
+		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barricade,turret_railgun,turret_minigun,turret_rocket,turret_laser,turret_mortar,turret_50calibre"											
+		1	startwait	0											
+		2	next	3											
+		3	next	4											
+		4	next	5											
+		5	next	6											
+		6	next	7											
+		7	next	8											
+		8	next	9											
+		9	next	10											
+		10	next	11											
+		11	next	12											
+		12	next	13											
+		13	next	14											
+		14	next	15											
+		15	next	16											
+		16	next	17											
+		17	next	18											
+		18	next	19											
+		19	next	20											
+		20	next	21											
+		21	next	22											
+		22	next	23											
+		23	next	24											
+		24	next	25											
+		25	next	26											
+		26	next	27											
+		27	next	28											
+		28	next	29											
+		29	next	30											
+		30	next	31											
+		31	next	32											
+		32	next	33											
+		33	next	34											
+		34	next	35											
+		35	next	36											
+		36	next	37											
+		37	next	38											
+		38	next	39											
+		39	next	40											
+		40	next	41											
+		41	next	42											
+		42	next	43											
+		43	next	44											
+		44	next	45											
+		45	next	46											
+		46	next	47											
+		47	next	48											
+		48	next	49											
+		49	next	50											
+		50	next	0											
+															
+h

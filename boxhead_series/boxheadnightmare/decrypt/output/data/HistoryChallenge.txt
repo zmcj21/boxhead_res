@@ -1,0 +1,76 @@
+header						
+id	_title	_reference	_type	_history	_challenge	order
+						
+String	String	String	String	Boolean	Boolean	int
+BATTLEFIELD						
+[battlefield].highscore	Highscore	[battlefield].highscore	Number	FALSE	TRUE	0
+[battlefield].highestHighscore	Highest highscore	[battlefield].highestHighscore	Number	TRUE	TRUE	1
+[battlefield].lastPlayed	Last played	[battlefield].lastPlayed	Time	TRUE	TRUE	2
+[battlefield].playcount	Playcount	[battlefield].playcount	Number	TRUE	TRUE	3
+[battlefield].kills.total	Total kills	[battlefield].kills.total	Number	TRUE	TRUE	4
+[battlefield].kills	Kills	[battlefield].kills	Number	FALSE	TRUE	5
+[battlefield].level	Level	[battlefield].level	Number	FALSE	TRUE	6
+[battlefield].highestLevel	Highest level	[battlefield].highestLevel	Number	TRUE	TRUE	7
+[battlefield].distance	Distance walked	[battlefield].distance	Number	FALSE	TRUE	8
+[battlefield].totalDistance	Total distance walked	[battlefield].totalDistance	Number	TRUE	TRUE	9
+[battlefield].highestMultiplier	Highest multiplier	[battlefield].highestMultiplier	Number	TRUE	TRUE	10
+[battlefield].multiplier	Multiplier	[battlefield].multiplier	Number	FALSE	TRUE	11
+[battlefield].zombie.totalKills	Total zombie kills	[battlefield].zombie.totalKills	Number	TRUE	TRUE	12
+[battlefield].zombie.kills	Zombie kills	[battlefield].zombie.kills	Number	FALSE	TRUE	13
+[battlefield].devel.totalKills	Total devil kills	[battlefield].devel.totalKills	Number	TRUE	TRUE	14
+[battlefield].devil.kills	Devil kills	[battlefield].devil.kills	Number	FALSE	TRUE	15
+[battlefield].bomber.totalKills	Total bomber kills	[battlefield].bomber.totalKills	Number	TRUE	TRUE	16
+[battlefield].bomber.kills	Bomber kills	[battlefield].bomber.kills	Number	FALSE	TRUE	17
+[battlefield].ed206.totalKills	Total ED206 kills	[battlefield].ed206.totalKills	Number	TRUE	TRUE	18
+[battlefield].ed206.kills	ED206 kills	[battlefield].ed206.kills	Number	FALSE	TRUE	19
+[battlefield].lucifer.totalKills	Total Lucifer kills	[battlefield].lucifer.totalKills	Number	TRUE	TRUE	20
+[battlefield].lucifer.kills	Luciferkills	[battlefield].lucifer.kills	Number	FALSE	TRUE	21
+[battlefield].mummy.totalKills	Total mummy kills	[battlefield].mummy.totalKills	Number	TRUE	TRUE	22
+[battlefield].mummy.kills	Mummy kills	[battlefield].mummy.kills	Number	FALSE	TRUE	23
+[battlefield].troll.totalKills	Total troll kills	[battlefield].troll.totalKills	Number	TRUE	TRUE	24
+[battlefield].troll.kills	Troll kills	[battlefield].troll.kills	Number	FALSE	TRUE	25
+[battlefield].vampire.totalKills	Total vampire kills	[battlefield].vampire.totalKills	Number	TRUE	TRUE	26
+[battlefield].vampire.kills	Vampire kills	[battlefield].vampire.kills	Number	FALSE	TRUE	27
+[battlefield].werewolf.totalKills	Total werewolf kills	[battlefield].werewolf.totalKills	Number	TRUE	TRUE	28
+[battlefield].werewolf.kills	Werewolf kills	[battlefield].werewolf.kills	Number	FALSE	TRUE	29
+CHARACTER						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+header								
+id	asset	classes	fadeIn	fadeOut	volume	repeat	type	channe

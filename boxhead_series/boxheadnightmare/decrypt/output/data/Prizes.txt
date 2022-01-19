@@ -1,0 +1,20 @@
+header						
+id	owner	criteria	logical	_prize	_description	order
+						
+String	String	Vector.<String>	String	String	String	int
+bf0001.bambo.barrel	bf0001	bambo.state==owned	and	bambo.barrel	You've won Bambo's Barrels	0
+bf0001.bf0002	bf0001	"bf0001.level==10,bf0001.zombie.kills>=100"	and	bf0002	You've won Bridges	1
+bf0001.killer.hammer	bf0001	bambo.state==owned	and	killer.hammer	You've won the Hammer for Killer	2
+bf0001.bambo.uzi	bf0001	bambo.barrel.kills>=200	and	bambo.uzi	You've won Bambo's Uzi	3
+bf0002.bambo.uzi	bf0002	killer.uzi.kills>=100	and	bambo.uzi	You've won an Bambo's Revolver	4
+bf0002.ninja	bf0002	"bambo.uzi.accuracy.xp==10,bf0003.state==""owned"""	and	ninja	You've won Ninja	5
+bf0002.ninja.crossbow	bf0002	"killer.knife.kills>=200,granny.state==""owned"""	and	ninja.crossbow	You've won Ninja's Crossbow	6
+bf0002.bf0003	bf0002	"bambo.uzi.kills>=200,bambo.uzi.accuracy.state==""owned"""	and	bf0003	You've won Massacre	7
+bf0003.granny.barrel	bf0003	bambo.state==owned	and	granny.barrel	You've won Granny's Barrels	8
+bf0003.killer.revolver	bf0003	"bambo.devil.kills>=50,bambo.uzi.state==""owned"""	and	killer.revolver	You've won Killer's Revolver	9
+bf0003.bambo.grenade	bf0003	"bf0002.state==""owned"",killer.speed.xp==3"	and	bambo.grenade	You've won the Rate upgrade for Bambo's Revolver	10
+bf0003.killer	bf0003	"granny.crossbow==""owned"",bambo.pistol.kills==200"	and	killer	You've won the Speed upgrade for Killer	11
+				
+				
+		ANIMATION			AFFECT					
+id	name	sheet	frameRate	state	rHitFrame	rHitAffect	lHitFrame	lHitAffect	hitEff

@@ -1,0 +1,18 @@
+bambo								
+id	loadid	type	group	itemid	path	ext	uri	symbols
+								
+String	String	String	String	String	String	String	String	Vector.<String>
+bambo_attack_knife	bambo	fl3dsheet	bambo	attack_knife	data/sprites/player/bambo	png	data/sprites/player/bambo/attack_knife.png	
+bambo_dead	bambo	fl3dsheet	bambo	dead	data/sprites/player/bambo	png	data/sprites/player/bambo/dead.png	
+bambo_dying	bambo	fl3dsheet	bambo	dying	data/sprites/player/bambo	png	data/sprites/player/bambo/dying.png	
+bambo_hit	bambo	fl3dsheet	bambo	hit	data/sprites/player/bambo	png	data/sprites/player/bambo/hit.png	
+bambo_walk_barrel	bambo	fl3dsheet	bambo	walk_barrel	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_barrel.png	
+bambo_walk_knife	bambo	fl3dsheet	bambo	walk_knife	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_knife.png	
+bambo_walk_m16	bambo	fl3dsheet	bambo	walk_m16	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_m16.png	
+bambo_walk_pistol	bambo	fl3dsheet	bambo	walk_pistol	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_pistol.png	
+bambo_walk_placement	bambo	fl3dsheet	bambo	walk_placement	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_placement.png	
+bambo_walk_uzi	bambo	fl3dsheet	bambo	walk_uzi	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_uzi.png	
+								
+								
+			AFFECT					
+id	name	type	bl

@@ -1,0 +1,27 @@
+gaga													
+id	loadid	type	group	itemid	path	ext	uri	symbols					
+													
+String	String	String	String	String	String	String	String	Vector.<String>					
+gaga_attack_grenade	gaga	fl3dsheet	gaga	attack_grenade	data/sprites/player/gaga	png	data/sprites/player/gaga/attack_grenade.png						
+gaga_attack_hammer	gaga	fl3dsheet	gaga	attack_hammer	data/sprites/player/gaga	png	data/sprites/player/gaga/attack_hammer.png						
+gaga_attack_handbag	gaga	fl3dsheet	gaga	attack_handbag	data/sprites/player/gaga	png	data/sprites/player/gaga/attack_handbag.png						
+gaga_attack_sword	gaga	fl3dsheet	gaga	attack_sword	data/sprites/player/gaga	png	data/sprites/player/gaga/attack_sword.png						
+gaga_dead	gaga	fl3dsheet	gaga	dead	data/sprites/player/gaga	png	data/sprites/player/gaga/dead.png						
+gaga_dying	gaga	fl3dsheet	gaga	dying	data/sprites/player/gaga	png	data/sprites/player/gaga/dying.png						
+gaga_hit	gaga	fl3dsheet	gaga	hit	data/sprites/player/gaga	png	data/sprites/player/gaga/hit.png						
+gaga_walk	gaga	fl3dsheet	gaga	walk	data/sprites/player/gaga	png	data/sprites/player/gaga/walk.png						
+gaga_walk_airstrike	gaga	fl3dsheet	gaga	walk_airstrike	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_airstrike.png						
+gaga_walk_barrel	gaga	fl3dsheet	gaga	walk_barrel	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_barrel.png						
+gaga_walk_railgun	gaga	fl3dsheet	gaga	walk_railgun	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_railgun.png						
+gaga_walk_bazooka	gaga	fl3dsheet	gaga	walk_bazooka	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_bazooka.png						
+gaga_walk_crossbow	gaga	fl3dsheet	gaga	walk_crossbow	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_crossbow.png						
+gaga_walk_flamethrower	gaga	fl3dsheet	gaga	walk_flamethrower	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_flamethrower.png						
+gaga_walk_grenade	gaga	fl3dsheet	gaga	walk_grenade	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_grenade.png						
+gaga_walk_hammer	gaga	fl3dsheet	gaga	walk_hammer	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_hammer.png						
+gaga_walk_handbag	gaga	fl3dsheet	gaga	walk_handbag	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_handbag.png						
+gaga_walk_placement	gaga	fl3dsheet	gaga	walk_placement	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_placement.png						
+gaga_walk_revolver	gaga	fl3dsheet	gaga	walk_revolver	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_revolver.png						
+gaga_walk_shotgun	gaga	fl3dsheet	gaga	walk_shotgun	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_shotgun.png						
+gaga_walk_sword	gaga	fl3dsheet	gaga	walk_sword	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_sword.png						
+gaga_walk_grenade_launcher	gaga	fl3dsheet	gaga	walk_grenade_launcher	data/sprites/player/gaga	png	data/sprites/player/gaga/walk_grenade_launcher.png						
+													

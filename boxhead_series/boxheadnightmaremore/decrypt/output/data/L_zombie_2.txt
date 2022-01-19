@@ -1,0 +1,119 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE					
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack		
+									at once	seconds	xp	xp	xp	xp		
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int		
+		1	spawn		zombie	zombie1	enemy	50	50	0	0	0	0	0		
+		2	spawn		zombie	zombie	enemy	100	100	0	0	0	0	0		
+		3	spawn		zombie	zombie1	enemy	150	150	0	0	0	0	0		
+		4	spawn		zombie	zombie	enemy	200	200	0	0	0	0	0		
+		5	spawn		zombie	zombie1	enemy	250	200	0	1	1	1	1		
+		5	spawn		vampire	zombie	enemy	25	10	0	1	1	1	1		
+		6	spawn		zombie	zombie	enemy	300	200	0	1	1	1	1		
+		7	spawn		zombie	zombie	enemy	350	200	0	1	1	1	1		
+		8	spawn		zombie	zombie1	enemy	400	200	0	1	1	1	1		
+		9	spawn		zombie	zombie	enemy	450	200	0	1	1	1	1		
+		10	spawn		zombie	zombie1	enemy	500	200	0	2	2	2	2		
+		10	spawn		lucifer	zombie	enemy	25	10	0	2	2	2	2		
+		11	spawn		zombie	zombie	enemy	550	200	0	2	2	2	2		
+		12	spawn		zombie	zombie1	enemy	600	200	0	2	2	2	2		
+		13	spawn		zombie	zombie	enemy	650	200	0	2	2	2	2		
+		14	spawn		zombie	zombie	enemy	700	200	0	2	2	2	2		
+		15	spawn		zombie	zombie1	enemy	750	200	0	3	3	3	3		
+		15	spawn		vampire	zombie	enemy	25	10	0	3	3	3	3		
+		16	spawn		zombie	zombie	enemy	800	200	0	3	3	3	3		
+		17	spawn		zombie	zombie	enemy	850	200	0	3	3	3	3		
+		18	spawn		zombie	zombie	enemy	900	200	0	3	3	3	3		
+		19	spawn		zombie	zombie1	enemy	950	200	0	3	3	3	3		
+		20	spawn		zombie	zombie1	enemy	1000	200	0	4	4	4	4		
+		20	spawn		werewolf	zombie	enemy	25	10	0	4	4	4	4		
+		21	spawn		zombie	zombie	enemy	1050	200	0	4	4	4	4		
+		22	spawn		zombie	zombie1	enemy	1100	200	0	4	4	4	4		
+		23	spawn		zombie	zombie	enemy	1150	200	0	4	4	4	4		
+		24	spawn		zombie	zombie1	enemy	1200	200	0	4	4	4	4		
+		25	spawn		zombie	zombie	enemy	1250	200	0	5	5	5	5		
+		25	spawn		lucifer	zombie	enemy	25	10	0	5	5	5	5		
+		26	spawn		zombie	zombie	enemy	1300	200	0	5	5	5	5		
+		27	spawn		zombie	zombie	enemy	1350	200	0	5	5	5	5		
+		28	spawn		zombie	zombie1	enemy	1400	200	0	5	5	5	5		
+		29	spawn		zombie	zombie	enemy	1450	200	0	5	5	5	5		
+		30	spawn		zombie	zombie1	enemy	1500	200	0	6	6	6	6		
+		30	spawn		lucifer	zombie	enemy	25	10	0	6	6	6	6		
+		31	spawn		zombie	zombie1	enemy	1550	200	0	6	6	6	6		
+		32	spawn		zombie	zombie	enemy	1600	200	0	6	6	6	6		
+		33	spawn		zombie	zombie1	enemy	1650	200	0	6	6	6	6		
+		34	spawn		zombie	zombie1	enemy	1700	200	0	6	6	6	6		
+		35	spawn		zombie	zombie	enemy	1750	200	0	7	7	7	7		
+		35	spawn		lucifer	zombie	enemy	25	10	0	7	7	7	7		
+		36	spawn		zombie	zombie1	enemy	1800	200	0	7	7	7	7		
+		37	spawn		zombie	zombie	enemy	1850	200	0	7	7	7	7		
+		38	spawn		zombie	zombie1	enemy	1900	200	0	7	7	7	7		
+		39	spawn		zombie	zombie1	enemy	1950	200	0	7	7	7	7		
+		40	spawn		zombie	zombie	enemy	2000	200	0	8	8	8	8		
+		40	spawn		vampire	zombie	enemy	25	10	0	8	8	8	8		
+		41	spawn		zombie	zombie1	enemy	2050	200	0	8	8	8	8		
+		42	spawn		zombie	zombie	enemy	2100	200	0	8	8	8	8		
+		43	spawn		zombie	zombie1	enemy	2150	200	0	8	8	8	8		
+		44	spawn		zombie	zombie	enemy	2200	200	0	8	8	8	8		
+		45	spawn		zombie	zombie	enemy	2250	200	0	9	9	9	9		
+		45	spawn		lucifer	zombie	enemy	25	10	0	9	9	9	9		
+		46	spawn		zombie	zombie	enemy	2300	200	0	9	9	9	9		
+		47	spawn		zombie	zombie1	enemy	2350	200	0	9	9	9	9		
+		48	spawn		zombie	zombie	enemy	2400	200	0	9	9	9	9		
+		49	spawn		zombie	zombie1	enemy	2450	200	0	9	9	9	9		
+		50	spawn		zombie	zombie	enemy	2500	200	0	10	10	10	10		
+		50	spawn		vampire	zombie	enemy	25	10	0	10	10	10	10		
+		1	complete	alldead												
+		1	endwait	5												
+		1	fail	dead												
+		1	next	2												
+		1	spawn_items	barrel												
+		1	startwait	1												
+		2	next	3												
+		3	next	4												
+		4	next	5												
+		5	next	6												
+		6	next	7												
+		7	next	8												
+		8	next	9												
+		9	next	10												
+		10	next	11												
+		11	next	12												
+		12	next	13												
+		13	next	14												
+		14	next	15												
+		15	next	16												
+		16	next	17												
+		17	next	18												
+		18	next	19												
+		19	next	20												
+		20	next	21												
+		21	next	22												
+		22	next	23												
+		23	next	24												
+		24	next	25												
+		25	next	26												
+		26	next	27												
+		27	next	28												
+		28	next	29												
+		29	next	30												
+		30	next	31												
+		31	next	32												
+		32	next	33												
+		33	next	34												
+		34	next	35												
+		35	next	36												
+		36	next	37												
+		37	next	38												
+		38	next	39												
+		39	next	40												
+		40	next	41												
+		41	next	42												
+		42	next	43												
+		43	next	44												
+		44	next	45												
+		45	next	46												
+		46	next	47												
+		47	next	48												
+		48	next	49												
+		49	next	50												
+		50	next	0												

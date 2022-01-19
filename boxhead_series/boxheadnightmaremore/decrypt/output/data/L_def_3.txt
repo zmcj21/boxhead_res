@@ -1,0 +1,263 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		zombie	zombie	enemy	60	60	0	0	0	0	0	
+		1	startwait	1											
+		1	complete	alldead											
+		1	fail	dead											
+		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barricade,turret_railgun,turret_minigun,turret_rocket,turret_laser,turret_mortar,turret_50calibre"											
+		1	endwait	5											
+		1	next	2											
+		2	spawn		zombie	zombie	enemy	60	60	0	0	0	0	0	
+		2	next	3											
+		3	spawn		devil	devil	enemy	1	1	0.1	0	0	0	0	
+		3	spawn		zombie	zombie	enemy	60	40	0	0	0	0	0	
+		3	next	4											
+		4	spawn		devil	devil	enemy	1	1	0.1	0	0	0	0	
+		4	spawn		zombie	zombie	enemy	60	50	0	0	0	0	0	
+		4	next	5											
+		5	spawn		devil	devil	enemy	1	1	0.1	1	1	1	1	
+		5	spawn		zombie	zombie	enemy	70	60	0	1	1	1	1	
+		5	next	6											
+		6	spawn		devil	devil	enemy	2	2	0.1	1	1	1	1	
+		6	spawn		zombie	zombie	enemy	80	70	0	1	1	1	1	
+		6	next	7											
+		7	spawn		devil	devil	enemy	2	2	0.1	1	1	1	1	
+		7	spawn		zombie	zombie	enemy	100	80	0	1	1	1	1	
+		7	next	8											
+		8	spawn		devil	devil	enemy	2	2	0.1	1	1	1	1	
+		8	spawn		zombie	zombie	enemy	120	100	0	1	1	1	1	
+		8	next	9											
+		9	spawn		devil	devil	enemy	3	3	0.1	1	1	1	1	
+		9	spawn		zombie	zombie	enemy	126	100	0	1	1	1	1	
+		9	next	10											
+		10	spawn		zombie	zombie	enemy	140	100	0	2	2	2	2	
+		10	spawn		devil	devil	enemy	3	3	0.1	2	2	2	2	
+		10	next	11											
+		11	spawn		devil	devil	enemy	10	5	0	2	2	2	2	
+		11	next	12											
+		12	spawn		zombie	zombie	enemy	168	100	0	2	2	2	2	
+		12	spawn		devil	devil	enemy	4	4	0.1	2	2	2	2	
+		12	next	13											
+		13	spawn		zombie	zombie	enemy	182	100	0	2	2	2	2	
+		13	spawn		devil	devil	enemy	4	4	0.1	2	2	2	2	
+		13	next	14											
+		14	spawn		zombie	zombie	enemy	196	100	0	2	2	2	2	
+		14	spawn		devil	devil	enemy	4	4	0.1	2	2	2	2	
+		14	next	15											
+		15	spawn		zombie	zombie	enemy	210	100	0	3	3	3	3	
+		15	spawn		devil	devil	enemy	5	5	0.1	3	3	3	3	
+		15	next	16											
+		16	spawn		zombie	zombie	enemy	224	100	0	3	3	3	3	
+		16	spawn		devil	devil	enemy	5	5	0.1	3	3	3	3	
+		16	next	17											
+		17	spawn		zombie	zombie	enemy	238	100	0	3	3	3	3	
+		17	spawn		devil	devil	enemy	5	5	0.1	3	3	3	3	
+		17	next	18											
+		18	spawn		zombie	zombie	enemy	252	100	0	3	3	3	3	
+		18	spawn		devil	devil	enemy	6	5	0.1	3	3	3	3	
+		18	next	19											
+		19	spawn		zombie	zombie	enemy	266	100	0	3	3	3	3	
+		19	spawn		devil	devil	enemy	6	5	0.1	3	3	3	3	
+		19	next	20											
+		20	spawn		zombie	zombie	enemy	280	100	0	4	4	4	4	
+		20	spawn		devil	devil	enemy	6	5	0.1	4	4	4	4	
+		20	spawn		vampire	zombie	enemy	40	20	0.1	4	4	4	4	
+		20	next	21											
+		21	spawn		zombie	zombie	enemy	294	100	0	4	4	4	4	
+		21	spawn		devil	devil	enemy	7	5	0.1	4	4	4	4	
+		21	spawn		vampire	zombie	enemy	42	20	0.1	4	4	4	4	
+		21	next	22											
+		22	spawn		zombie	zombie	enemy	308	100	0	4	4	4	4	
+		22	spawn		devil	devil	enemy	7	5	0.1	4	4	4	4	
+		22	spawn		vampire	zombie	enemy	44	20	0.1	4	4	4	4	
+		22	next	23											
+		23	spawn		devil	devil	enemy	20	10	0	4	4	4	4	
+		23	next	24											
+		24	spawn		zombie	zombie	enemy	336	100	0	4	4	4	4	
+		24	spawn		devil	devil	enemy	8	5	0.1	4	4	4	4	
+		24	spawn		vampire	zombie	enemy	48	20	0.1	4	4	4	4	
+		24	next	25											
+		25	spawn		zombie	zombie	enemy	350	100	0	5	5	5	5	
+		25	spawn		devil	devil	enemy	8	5	0.1	5	5	5	5	
+		25	spawn		vampire	zombie	enemy	50	20	0.1	5	5	5	5	
+		25	next	26											
+		26	spawn		zombie	zombie	enemy	364	100	0	5	5	5	5	
+		26	spawn		devil	devil	enemy	8	5	0.1	5	5	5	5	
+		26	spawn		vampire	zombie	enemy	52	20	0.1	5	5	5	5	
+		26	next	27											
+		27	spawn		zombie	zombie	enemy	378	100	0	5	5	5	5	
+		27	spawn		devil	devil	enemy	9	5	0.1	5	5	5	5	
+		27	spawn		vampire	zombie	enemy	54	20	0.1	5	5	5	5	
+		27	next	28											
+		28	spawn		zombie	zombie	enemy	392	100	0	5	5	5	5	
+		28	spawn		devil	devil	enemy	9	5	0.1	5	5	5	5	
+		28	spawn		vampire	zombie	enemy	56	20	0.1	5	5	5	5	
+		28	next	29											
+		29	spawn		zombie	zombie	enemy	406	100	0	5	5	5	5	
+		29	spawn		devil	devil	enemy	9	5	0.1	5	5	5	5	
+		29	spawn		vampire	zombie	enemy	58	20	0.1	5	5	5	5	
+		29	next	30											
+		30	spawn		zombie	zombie	enemy	420	100	0	6	6	6	6	
+		30	spawn		devil	devil	enemy	10	5	0.1	6	6	6	6	
+		30	spawn		vampire	zombie	enemy	60	20	0.1	6	6	6	6	
+		30	next	31											
+		31	spawn		zombie	zombie	enemy	434	100	0	6	6	6	6	
+		31	spawn		devil	devil	enemy	10	5	0.1	6	6	6	6	
+		31	spawn		vampire	zombie	enemy	62	20	0.1	6	6	6	6	
+		31	next	32											
+		32	spawn		zombie	zombie	enemy	448	100	0	6	6	6	6	
+		32	spawn		devil	devil	enemy	10	5	0.1	6	6	6	6	
+		32	spawn		vampire	zombie	enemy	64	20	0.1	6	6	6	6	
+		32	next	33											
+		33	spawn		ed206	troll	enemy	20	10	0	6	6	6	6	
+		33	next	34											
+		34	spawn		zombie	zombie	enemy	476	100	0	6	6	6	6	
+		34	spawn		devil	devil	enemy	11	5	0.1	6	6	6	6	
+		34	spawn		vampire	zombie	enemy	68	20	0.1	6	6	6	6	
+		34	spawn		lucifer	zombie	enemy	34	5	0.1	6	6	6	6	
+		34	next	35											
+		35	spawn		zombie	zombie	enemy	490	100	0	7	7	7	7	
+		35	spawn		devil	devil	enemy	11	5	0.1	7	7	7	7	
+		35	spawn		vampire	zombie	enemy	70	20	0.1	7	7	7	7	
+		35	spawn		lucifer	zombie	enemy	35	5	0.1	7	7	7	7	
+		35	next	36											
+		36	spawn		zombie	zombie	enemy	504	100	0	7	7	7	7	
+		36	spawn		devil	devil	enemy	12	5	0.1	7	7	7	7	
+		36	spawn		vampire	zombie	enemy	72	20	0.1	7	7	7	7	
+		36	spawn		lucifer	zombie	enemy	36	5	0.1	7	7	7	7	
+		36	next	37											
+		37	spawn		zombie	zombie	enemy	518	100	0	7	7	7	7	
+		37	spawn		devil	devil	enemy	12	5	0.1	7	7	7	7	
+		37	spawn		vampire	zombie	enemy	74	20	0.1	7	7	7	7	
+		37	spawn		lucifer	zombie	enemy	37	5	0.1	7	7	7	7	
+		37	next	38											
+		38	spawn		zombie	zombie	enemy	532	100	0	7	7	7	7	
+		38	spawn		devil	devil	enemy	12	5	0.1	7	7	7	7	
+		38	spawn		vampire	zombie	enemy	76	20	0.1	7	7	7	7	
+		38	spawn		lucifer	zombie	enemy	38	5	0.1	7	7	7	7	
+		38	next	39											
+		39	spawn		zombie	zombie	enemy	546	100	0	7	7	7	7	
+		39	spawn		devil	devil	enemy	13	5	0.1	7	7	7	7	
+		39	spawn		vampire	zombie	enemy	78	20	0.1	7	7	7	7	
+		39	spawn		lucifer	zombie	enemy	39	5	0.1	7	7	7	7	
+		39	next	40											
+		40	spawn		zombie	zombie	enemy	560	100	0	8	8	8	8	
+		40	spawn		devil	devil	enemy	13	5	0.1	8	8	8	8	
+		40	spawn		vampire	zombie	enemy	80	20	0.1	8	8	8	8	
+		40	spawn		lucifer	zombie	enemy	40	5	0.1	8	8	8	8	
+		40	next	41											
+		41	spawn		zombie	zombie	enemy	574	100	0	8	8	8	8	
+		41	spawn		devil	devil	enemy	13	5	0.1	8	8	8	8	
+		41	spawn		vampire	zombie	enemy	82	20	0.1	8	8	8	8	
+		41	spawn		lucifer	zombie	enemy	41	5	0.1	8	8	8	8	
+		41	next	42											
+		42	spawn		zombie	zombie	enemy	588	100	0	8	8	8	8	
+		42	spawn		devil	devil	enemy	14	5	0.1	8	8	8	8	
+		42	spawn		vampire	zombie	enemy	84	20	0.1	8	8	8	8	
+		42	spawn		lucifer	zombie	enemy	42	5	0.1	8	8	8	8	
+		42	next	43											
+		43	spawn		ed206	troll	enemy	30	10	0	7	7	7	7	
+		43	next	44											
+		44	spawn		zombie	zombie	enemy	616	100	0	8	8	8	8	
+		44	spawn		devil	devil	enemy	14	5	0.1	8	8	8	8	
+		44	spawn		vampire	zombie	enemy	88	20	0.1	8	8	8	8	
+		44	spawn		lucifer	zombie	enemy	44	5	0.1	8	8	8	8	
+		44	next	45											
+		45	spawn		zombie	zombie	enemy	630	100	0	9	9	9	9	
+		45	spawn		devil	devil	enemy	15	5	0.1	9	9	9	9	
+		45	spawn		vampire	zombie	enemy	90	20	0.1	9	9	9	9	
+		45	spawn		lucifer	zombie	enemy	45	5	0.1	9	9	9	9	
+		45	next	46											
+		46	spawn		zombie	zombie	enemy	644	100	0	9	9	9	9	
+		46	spawn		devil	devil	enemy	15	5	0.1	9	9	9	9	
+		46	spawn		vampire	zombie	enemy	92	20	0.1	9	9	9	9	
+		46	spawn		lucifer	zombie	enemy	46	5	0.1	9	9	9	9	
+		46	next	47											
+		47	spawn		zombie	zombie	enemy	658	100	0	9	9	9	9	
+		47	spawn		devil	devil	enemy	15	5	0.1	9	9	9	9	
+		47	spawn		vampire	zombie	enemy	94	20	0.1	9	9	9	9	
+		47	spawn		lucifer	zombie	enemy	47	5	0.1	9	9	9	9	
+		47	next	48											
+		48	spawn		zombie	zombie	enemy	672	100	0	9	9	9	9	
+		48	spawn		devil	devil	enemy	16	5	0.1	9	9	9	9	
+		48	spawn		vampire	zombie	enemy	96	20	0.1	9	9	9	9	
+		48	spawn		lucifer	zombie	enemy	48	5	0.1	9	9	9	9	
+		48	next	49											
+		49	spawn		zombie	zombie	enemy	686	100	0	9	9	9	9	
+		49	spawn		devil	devil	enemy	16	5	0.1	9	9	9	9	
+		49	spawn		vampire	zombie	enemy	98	20	0.1	9	9	9	9	
+		49	spawn		lucifer	zombie	enemy	49	5	0.1	9	9	9	9	
+		49	next	50											
+		50	spawn		zombie	zombie	enemy	700	100	0	10	10	10	10	
+		50	spawn		devil	devil	enemy	16	5	0.1	10	10	10	10	
+		50	spawn		vampire	zombie	enemy	100	20	0.1	10	10	10	10	
+		50	spawn		lucifer	zombie	enemy	50	5	0.1	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

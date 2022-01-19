@@ -1,0 +1,58 @@
+header								
+id	asset	classes	fadeIn	fadeOut	volume	repeat	type	channels
+								
+String	String	Vector.<String>	int	int	Number	Boolean	String	int
+MISC								
+level_up	soundlib	level_up	0	0	1.00	FALSE	override	8
+pickup_coin	soundlib	pickup_coin	0	0	1.00	FALSE	override	8
+WEAPONS								
+airstrike_place	soundlib	airstrike_place	0	0	1.00	FALSE	normal	8
+ak47_shot	soundlib	ak47_shot	0	0	1.00	FALSE	normal	8
+barrel_place	soundlib	barrel_place	0	0	1.00	FALSE	disturb	8
+baseball_bat	soundlib	baseball_bat	0	0	1.00	FALSE	normal	8
+chainsaw_idle	soundlib	chainsaw_idle	250	250	1.00	TRUE	normal	1
+chainsaw_active	soundlib	chainsaw_active	100	250	1.00	TRUE	normal	1
+lightsaber_idle	soundlib	lightsaber_idle	250	250	1.00	TRUE	normal	1
+lightsaber_active	soundlib	lightsaber_active	100	250	1.00	FALSE	normal	1
+crossbow_shot	soundlib	crossbow_shot	0	0	1.00	FALSE	normal	8
+flamethrower_shot	soundlib	flamethrower_shot	0	250	1.00	TRUE	normal	8
+hammer	soundlib	hammer	0	0	1.00	FALSE	normal	8
+handbag	soundlib	handbag	0	0	1.00	FALSE	normal	8
+knife	soundlib	knife	0	0	1.00	FALSE	normal	8
+m16_shot	soundlib	m16_shot	0	0	1.00	FALSE	normal	8
+mine_place	soundlib	mine_place	0	0	1.00	FALSE	disturb	8
+minigun_idle	soundlib	minigun_idle	100	250	1.00	TRUE	normal	8
+minigun_shot	soundlib	minigun_shot	0	50	1.00	TRUE	normal	8
+pistol_shot	soundlib	pistol_shot	0	0	1.00	FALSE	normal	8
+rocket_shot	soundlib	rocket_shot	0	0	1.00	FALSE	normal	8
+shotgun_shot	soundlib	shotgun_shot	0	0	1.00	FALSE	normal	8
+sword	soundlib	sword	0	0	1.00	FALSE	normal	8
+turret_50calibre_shot	soundlib	turret_50calibre_shot	0	0	1.00	FALSE	normal	8
+turret_flamethrower_shot	soundlib	turret_flamethrower_shot	0	250	1.00	TRUE	normal	8
+turret_laser_shot	soundlib	turret_laser_shot	0	0	1.00	FALSE	normal	8
+turret_minigun_shot	soundlib	turret_minigun_shot	0	0	1.00	FALSE	normal	8
+turret_mortar_shot	soundlib	turret_mortar_shot	0	0	1.00	FALSE	normal	8
+turret_place	soundlib	turret_place	0	0	1.00	FALSE	disturb	8
+turret_railgun_shot	soundlib	turret_railgun_shot	0	0	1.00	FALSE	normal	8
+turret_rocket_shot	soundlib	turret_rocket_shot	0	0	1.00	FALSE	normal	8
+uzi_shot	soundlib	uzi_shot	0	0	1.00	FALSE	normal	8
+wall_place	soundlib	wall_place	0	0	1.00	FALSE	normal	8
+empty	soundlib	empty	0	0	1.00	FALSE	normal	8
+ATTACKS								
+attack_run	soundlib	attack_run	0	0	1.00	FALSE	normal	8
+bomber_detonate	soundlib	bomber_detonate	0	0	1.00	FALSE	normal	8
+bomber_run	soundlib	bomber_run	0	0	1.00	FALSE	normal	8
+devil_attack	soundlib	devil_attack	0	0	1.00	FALSE	normal	8
+ed206_minigun_shot	soundlib	ed206_minigun_shot	0	0	1.00	FALSE	normal	8
+lucifer_run	soundlib	lucifer_run	0	0	1.00	FALSE	normal	8
+lucifer_attack	soundlib	lucifer_attack	0	0	1.00	FALSE	normal	8
+mummy_attack	soundlib	mummy_attack	0	0	1.00	FALSE	normal	8
+troll_attack	soundlib	troll_attack	0	0	1.00	FALSE	normal	8
+troll_run	soundlib	troll_run	0	0	1.00	FALSE	normal	8
+vampire_attack	soundlib	vampire_attack	0	0	1.00	FALSE	normal	8
+vampire_teleport	soundlib	vampire_teleport	0	0	1.00	FALSE	normal	8
+werewolf_attack	soundlib	werewolf_attack	0	0	1.00	FALSE	normal	8
+werewolf_run	soundlib	werewolf_run	0	0	1.00	FALSE	normal	8
+zombie_attack	soundlib	zombie_attack	0	0	1.00	FALSE	normal	8
+EFFECTS								
+explosion	soundlib	"explosion_0,explosion_1,explosion_2,explosion_3"	0	0	1.00	FALSE	normal	8

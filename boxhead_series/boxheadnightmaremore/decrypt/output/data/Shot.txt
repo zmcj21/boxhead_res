@@ -1,0 +1,38 @@
+header	TYPE		DRAW					COLLISION				MOVEMENT					
+id	name	cclass	sheet	smokeTailSize	smokeTailColor	tailEffect	tailFreq	hitObject	hitEffect	hitAffect	radius	speed	range	elasticity	maxSpeed	acceleration	fuse
+											collision	initial	cells				ticks
+String	String	Class	String	Number	uint	DEffect	Number	Boolean	DEffect	DAffect	Number	Number	Number	Number	Number	Number	int
+bullet	bullet	bxhnm.object.ShotBullet		1	0xffffffff				bullet_hit	bullet	0.5	4	30				
+bullet50	bullet50	bxhnm.object.ShotBullet		1	0xffffffff				bullet_hit	bullet50	0.13	4	40				
+arrow	arrow	bxhnm.object.ShotArrow		1	0xff000000					arrow	0.13	2	30				
+flamethrower	flamethrower	bxhnm.object.Shot	flame							flamethrower	0.2	1	10		2	0.3	
+missile	missile	bxhnm.object.Shot		8	0xf3ffffff		1	TRUE	explosion_small	bullet	0.5	1.5	30		3	0.2	
+devil_firewall	devil_firewall	bxhnm.object.ShotWallOfFire				devil_firewall	0.6				0.13	0.3	12		2	0.3	
+laser	laser	bxhnm.object.ShotBullet		2	0xffff0000					laser	0.13	10	50				
+grenade	grenade	bxhnm.object.ShotGrenade	grenade	1	0xffff0000				explosion_small		0.1	0.5		0.5			48
+mortar	mortar	bxhnm.object.ShotMortar	grenade	1	0xffffffff				explosion_small		0.2	0.8					
+railgun	railgun	bxhnm.object.ShotBullet		2	0xff0000ff					railgun	0.13	7	30				
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	

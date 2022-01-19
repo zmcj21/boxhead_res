@@ -1,0 +1,25 @@
+bieber													
+id	loadid	type	group	itemid	path	ext	uri	symbols					
+													
+String	String	String	String	String	String	String	String	Vector.<String>					
+bieber_attack_grenade	bieber	fl3dsheet	bieber	attack_grenade	data/sprites/player/bieber	png	data/sprites/player/bieber/attack_grenade.png						
+bieber_attack_knife	bieber	fl3dsheet	bieber	attack_knife	data/sprites/player/bieber	png	data/sprites/player/bieber/attack_knife.png						
+bieber_dead	bieber	fl3dsheet	bieber	dead	data/sprites/player/bieber	png	data/sprites/player/bieber/dead.png						
+bieber_dying	bieber	fl3dsheet	bieber	dying	data/sprites/player/bieber	png	data/sprites/player/bieber/dying.png						
+bieber_hit	bieber	fl3dsheet	bieber	hit	data/sprites/player/bieber	png	data/sprites/player/bieber/hit.png						
+bieber_walk	bieber	fl3dsheet	bieber	walk	data/sprites/player/bieber	png	data/sprites/player/bieber/walk.png						
+bieber_walk_airstrike	bieber	fl3dsheet	bieber	walk_airstrike	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_airstrike.png						
+bieber_walk_flamethrower	bieber	fl3dsheet	bieber	walk_flamethrower	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_flamethrower.png						
+bieber_walk_grenade	bieber	fl3dsheet	bieber	walk_grenade	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_grenade.png						
+bieber_walk_knife	bieber	fl3dsheet	bieber	walk_knife	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_knife.png						
+bieber_walk_m16	bieber	fl3dsheet	bieber	walk_m16	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_m16.png						
+bieber_walk_mine	bieber	fl3dsheet	bieber	walk_mine	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_mine.png						
+bieber_walk_lasergun	bieber	fl3dsheet	bieber	walk_lasergun	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_lasergun.png						
+bieber_walk_pistol	bieber	fl3dsheet	bieber	walk_pistol	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_pistol.png						
+bieber_walk_placement	bieber	fl3dsheet	bieber	walk_placement	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_placement.png						
+bieber_walk_rocket_launcher	bieber	fl3dsheet	bieber	walk_rocket_launcher	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_rocket_launcher.png						
+bieber_walk_rpg	bieber	fl3dsheet	bieber	walk_rpg	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_rpg.png						
+bieber_walk_uzi	bieber	fl3dsheet	bieber	walk_uzi	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_uzi.png						
+bieber_walk_uzi2	bieber	fl3dsheet	bieber	walk_uzi2	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_uzi2.png						
+bieber_walk_grenade_launcher	bieber	fl3dsheet	bieber	walk_grenade_launcher	data/sprites/player/bieber	png	data/sprites/player/bieber/walk_grenade_launcher.png						
+													

@@ -1,0 +1,339 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		zombie	zombie	enemy	200	200	0	0	0	0	0	
+		1	startwait	1											
+		1	complete	alldead											
+		1	fail	dead											
+		1	spawn_items	barrel											
+		1	endwait	5											
+		1	next	2											
+		2	spawn		bomber	zombie	enemy	50	20	0	0	0	0	0	
+		2	next	3											
+		3	spawn		devil	devil	enemy	20	5	0	0	0	0	0	
+		3	next	4											
+		4	spawn		vampire	zombie1	enemy	50	20	0	0	0	0	0	
+		4	next	5											
+		5	spawn		mummy	nearplayer	enemy	50	20	0	1	1	1	1	
+		5	next	6											
+		6	spawn		werewolf	zombie1	enemy	50	20	0	1	1	1	1	
+		6	next	7											
+		7	spawn		lucifer	zombie	enemy	50	20	0	1	1	1	1	
+		7	next	8											
+		8	spawn		troll	troll	enemy	8	8	0	1	1	1	1	
+		8	next	9											
+		9	spawn		ed206	troll	enemy	5	5	0	1	1	1	1	
+		9	next	10											
+		10	spawn		zombie	zombie	enemy	500	250	0	2	2	2	2	
+		10	next	11											
+		11	spawn		bomber	zombie	enemy	55	20	0	2	2	2	2	
+		11	next	12											
+		12	spawn		devil	devil	enemy	40	10	0	2	2	2	2	
+		12	next	13											
+		13	spawn		vampire	zombie1	enemy	65	20	0	2	2	2	2	
+		13	next	14											
+		14	spawn		bomber	zombie	enemy	70	20	0	2	2	2	2	
+		14	next	15											
+		15	spawn		ed206	troll	enemy	7	7	0	3	3	3	3	
+		15	next	16											
+		16	spawn		lucifer	zombie1	enemy	80	20	0	3	3	3	3	
+		16	next	17											
+		17	spawn		troll	troll	enemy	17	17	0	3	3	3	3	
+		17	next	18											
+		18	spawn		ed206	troll	enemy	8	8	0	3	3	3	3	
+		18	next	19											
+		19	spawn		werewolf	zombie1	enemy	95	20	0	3	3	3	3	
+		19	next	20											
+		20	spawn		zombie	zombie	enemy	1000	250	0	4	4	4	4	
+		20	next	21											
+		21	spawn		bomber	zombie	enemy	105	20	0	4	4	4	4	
+		21	next	22											
+		22	spawn		lucifer	zombie	enemy	110	20	0	4	4	4	4	
+		22	next	23											
+		23	spawn		troll	troll	enemy	23	20	0	4	4	4	4	
+		23	next	24											
+		24	spawn		werewolf	zombie1	enemy	120	20	0	4	4	4	4	
+		24	next	25											
+		25	spawn		vampire	zombie1	enemy	125	20	0	5	5	5	5	
+		25	next	26											
+		26	spawn		ed206	troll	enemy	8	8	0	5	5	5	5	
+		26	next	27											
+		27	spawn		lucifer	zombie	enemy	135	20	0	5	5	5	5	
+		27	next	28											
+		28	spawn		werewolf	nearplayer	enemy	140	20	0	5	5	5	5	
+		28	next	29											
+		29	spawn		bomber	zombie	enemy	145	20	0	5	5	5	5	
+		29	next	30											
+		30	spawn		zombie	zombie	enemy	1500	250	0	6	6	6	6	
+		30	next	31											
+		31	spawn		lucifer	zombie	enemy	155	20	0	6	6	6	6	
+		31	next	32											
+		32	spawn		vampire	zombie1	enemy	160	20	0	6	6	6	6	
+		32	next	33											
+		33	spawn		werewolf	zombie1	enemy	165	20	0	6	6	6	6	
+		33	next	34											
+		34	spawn		troll	troll	enemy	34	20	0	6	6	6	6	
+		34	next	35											
+		35	spawn		bomber	zombie	enemy	175	20	0	7	7	7	7	
+		35	next	36											
+		36	spawn		lucifer	zombie	enemy	360	20	0	7	7	7	7	
+		36	next	37											
+		37	spawn		werewolf	zombie1	enemy	185	20	0	7	7	7	7	
+		37	next	38											
+		38	spawn		ed206	troll	enemy	10	10	0	7	7	7	7	
+		38	next	39											
+		39	spawn		vampire	zombie1	enemy	195	20	0	7	7	7	7	
+		39	next	40											
+		40	spawn		zombie	zombie	enemy	2000	250	0	8	8	8	8	
+		40	next	41											
+		41	spawn		bomber	zombie	enemy	205	20	0	8	8	8	8	
+		41	next	42											
+		42	spawn		ed206	troll	enemy	20	10	0	8	8	8	8	
+		42	next	43											
+		43	spawn		troll	troll	enemy	43	20	0	8	8	8	8	
+		43	next	44											
+		44	spawn		werewolf	zombie1	enemy	220	20	0	8	8	8	8	
+		44	next	45											
+		45	spawn		lucifer	zombie	enemy	225	20	0	9	9	9	9	
+		45	next	46											
+		46	spawn		vampire	zombie1	enemy	230	20	0	9	9	9	9	
+		46	next	47											
+		47	spawn		bomber	zombie	enemy	235	20	0	9	9	9	9	
+		47	next	48											
+		48	spawn		ed206	troll	enemy	25	10	0	9	9	9	9	
+		48	next	49											
+		49	spawn		troll	troll	enemy	49	20	0	9	9	9	9	
+		49	next	50											
+		50	spawn		zombie	zombie	enemy	3000	250	0	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

@@ -1,0 +1,75 @@
+						
+id	value	seed	usedInMetric			
+						
+String	*	int				
+						
+[battlefield].lowestTimeTaken	0	0	TRUE			
+[battlefield].totalKills	0	0	TRUE			
+[battlefield].totalDistance	0	0	TRUE			
+[battlefield].highestLevel	0	0	TRUE			
+[battlefield].highestMultiplier	0	0	TRUE			
+[battlefield].highestScore	0	0	TRUE			
+[battlefield].successCount	0	0	FALSE			
+[battlefield].failedCount	0	0	FALSE			
+[battlefield]._state	locked	0	FALSE			
+[battlefield].[award]._state	locked	0	FALSE			
+[battlefield].startLevel	1	0	FALSE			
+[battlefield].selected	FALSE	0	FALSE			
+[battlefield].gameStarted	FALSE	0	FALSE			
+[battlefield].saveData		0	FALSE			
+[battlefield].checkPointData		0	FALSE			
+[battlefield].checkPointLevel	1		FALSE			
+						
+[character]._state	locked	0	TRUE			
+[character].totalDistance	0	0	TRUE			
+[character].totalTime	0	0	TRUE			
+[character].totalKills	0	0	TRUE			
+[character].highestScore	0	0	TRUE			
+[character].highestMultiplier	0	0	TRUE			
+[character].[upgrade].xp	0	0	FALSE			
+[character].[upgrade]._state	locked	0	FALSE			
+[character].[upgrade]._upgradedTime	-1	0	FALSE			
+[character].[upgrade].finished	FALSE	0	FALSE			
+[character].[enemy].totalKills	0	0	TRUE			
+[character].[weapon]._slot	0	0	TRUE			
+[character].[weapon]._state	locked	0	TRUE			
+[character].[weapon].totalKills	0	0	TRUE			
+[character].[weapon]._ammo	0	0	FALSE			
+[character].[weapon].selected	FALSE	0	FALSE			
+[character].[weapon].[upgrade].xp	0	0	FALSE			
+[character].[weapon].[upgrade]._state	locked	0	FALSE			
+[character].[weapon].[upgrade]._upgradedTime	-1	0	FALSE			
+[character].[weapon].[upgrade].finished	FALSE	0	FALSE			
+[character].lives	2	0	FALSE			
+[character].health	200	0	FALSE			
+[character].[award]._state	locked	0	FALSE			
+[character].selected	FALSE	0	FALSE			
+						
+controller.mouse	TRUE	0	FALSE			
+controller.keyUp 	W	0	FALSE			
+controller.keyDown 	S	0	FALSE			
+controller.keyLeft 	A	0	FALSE			
+controller.keyRight 	D	0	FALSE			
+controller.keyNext 	E	0	FALSE			
+controller.keyPrev 	Q	0	FALSE			
+controller.keyFire 	ENTER	0	FALSE			
+config.sound	FALSE	0	FALSE			
+config.music	FALSE	0	FALSE			
+						
+player.time	0	0	FALSE			
+player.totalKills	0	0	FALSE			
+player.dayInARowRewardDay	0	0	FALSE			
+player.playerName	Player1	0	FALSE			
+player.totalDeaths	0	0	FALSE			
+player.totalPlayDaysInARow	0	0	FALSE			
+player.totalPlayDaysInARowReward	0	0	FALSE			
+player.rewardReceived	0	0	FALSE			
+player.daysTransfered	FALSE	0	FALSE			
+player.maxEnergy	20	0	FALSE			
+player.energy	20	0	FALSE			
+player.lastLoginTime	0	0	FALSE			
+player._xpLevel	0	0	FALSE			
+player.tutorialComplete	TRUE	0	FALSE			
+player.xpSet	FALSE	0	FALSE			
+						
+						

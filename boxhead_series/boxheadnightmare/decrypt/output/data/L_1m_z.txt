@@ -116,5 +116,3 @@ String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int
 		48	next	49												
 		49	next	50												
 		50	next	0												
-SYSTEM			COMMAND		SPAWN						UPGRADE				
-id	Name	level	command

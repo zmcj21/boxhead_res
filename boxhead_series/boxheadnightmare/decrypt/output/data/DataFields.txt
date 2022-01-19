@@ -57,7 +57,3 @@ player.dayInARowRewardDay	0	0	FALSE
 player.playerName	Player1	0	FALSE			
 player.totalDeaths	0	0	FALSE			
 						
-					APPEARANCE				AUDIO	AFFECT
-id	name	cclass	subeffect	size	sheet	groundSheet	decal	animate	sampleid	affect
-										
-Strin

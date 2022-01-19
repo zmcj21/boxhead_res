@@ -81,12 +81,3 @@ zombie_dying	global	fl3dsheet	zombie	dying	data/sprites/enemy/zombie	png	data/sp
 zombie_hit	global	fl3dsheet	zombie	hit	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/hit.png									
 zombie_stand	global	fl3dsheet	zombie	stand	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/stand.png									
 zombie_walk	global	fl3dsheet	zombie	walk	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/walk.png									
-SYSTEM			COMMAND		SPAWN						UPGRADE				
-id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
-									at once	seconds	xp	xp	xp	xp	
-String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
-		1	startwait	1											
-		1	complete	alldead											
-		1	spawn_items	barrel											
-		1	fail	dead											
-		1	spawn		troll

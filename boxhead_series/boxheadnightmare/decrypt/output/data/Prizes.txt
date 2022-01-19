@@ -16,5 +16,3 @@ bf0003.bambo.grenade	bf0003	"bf0002.state==""owned"",killer.speed.xp==3"	and	bam
 bf0003.killer	bf0003	"granny.crossbow==""owned"",bambo.pistol.kills==200"	and	killer	You've won the Speed upgrade for Killer	11
 				
 				
-		ANIMATION			AFFECT					
-id	name	sheet	frameRate	state	rHitFrame	rHitAffect	lHitFrame	lHitAffect	hitEff

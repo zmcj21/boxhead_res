@@ -23,7 +23,3 @@ airstrike_napalm	airstrike_napalm	bxhnm.object.EffectExplosionNapalm	fire	1
 airstrike_carpet	airstrike_carpet	bxhnm.object.EffectExplosionCarpet	explosion_air	1						
 airstrike_cluster	airstrike_cluster	bxhnm.object.EffectExplosionCluster	explosion_air	1						
 airstrike_nuke	airstrike_nuke	bxhnm.object.EffectExplosionNuke	explosion_air	1						
-header	TYPE		DRAW					COLLISION				MOVEMENT					
-id	name	cclass	sheet	smokeTailSize	smokeTailColor	tailEffect	tailFreq	hitObject	hitEffect	hitAffect	radius	speed	range	elasticity	maxSpeed	acceleration	fuse
-											collision	initial	cells				ticks
-String	Stri

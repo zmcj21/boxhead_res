@@ -73,11 +73,3 @@ troll_run	troll_run	proximity		press						attack_run			0	0	0	20					1							trol
 vampire_teleport	vampire_teleport	proximity	TRUE	press						teleport			0	0	5	20				0.5	1	5						vampire_teleport											
 vampire_attack	vampire_attack	h2h		press						vampire_attack			0	0	0	1.5					1	1.25						vampire_attack											
 attack_run	attack_run	proximity		press						attack_run			0	0	0	15					1							attack_run											
-‰PNG
-
-   IHDR     h   !7CP  bÒIDATxÚí½1«6Ë•üÂ;ÜøbP$èâ@bÌgn&n"˜@]Æ[Ã8J„øFƒ¤Dn 9˜›˜	„Qà@8ì`'óÄø8s6Ì8ß»Î<ëÜuö©ê®ê®]]Õ½šsÞó>ÏÚU««öÚµ«ºëÝ»Êò'ò'Oï•ÿçßþéÓû÷ïÿãhXwh£iï‚ëÝÅÊLíÂ}E¿ó¸¿ÑÞñÚîÝï=mxã?Ec§¿ok9hË‹Ÿ}\;dî»üÜÑÁès“v½jß^‡ùøþS+gÔïníM8î'à'Áë2!~ðS7nÚñDgºv5dÍH*ÅºCu­\‹moI‡VžÜ.œ·«¨Mk÷ºÄQìØÖxwko)æ³66Öúä(øÁOYP´fÃ%ºX»k<¬B[äÜJ¿G‡=ÎTí*j²=å$[
-lk¼»µ·¶ÍÞ~»V(¼ñƒŸ¶š°;ØØã\k<¬šŽƒ=9¡ÜÓSu;g–vÕŠ¡mS*¨¨ÅÚØ–xwkoMùÃßþüé?ýùgUÙÂüÿó?ÿëÓÿ÷ÿþûM|mÏHøwãçˆ©–ö¬±°jì÷ÿâó§?ýW?™Á}:g†ví¹ïÄAÛX‡ÿñßÿÛ‹Ø§”À¶Ä»[{d¬²³DÝ´×oüùgÿn|/~¸Qzv~jñÑnI4pýö—?*Ïf ào~ú—MDˆÑÚˆXWocm§ùåþÃÓ÷>ú('”O;÷©5ÎžÁ0z»(668X»Wøù‹÷ïã»tp-0±ë…w—öîbæ6:âÿL¤ÎÙ%-‹_zÏöâ{ó3býKñáÇJëÏAü¡'è‡EÙÂŠP`‡utVzDpÙQ½p®Ø.´Iƒ‚µAþH}¾ˆ¡
-¢w@Qã|¶ð®ÔÞ-<uà%¸øý¾gÓÍÀ¶Ë{ðQgÜ‹ü’™í|o~Fª>mèØYÃÇõå¯EMYÖ6Â¿š¶¡À:+7+ÕŽag¥vpXÁM}¯Fpâ\®]DÔ•õM98&¦Áÿøû/^úŠ8Œd@±æ”T`uFÕõÍáÝÞ­úµâœmæï¹&ƒ
-üûçýWO©5b
-DNì´Àæç,>ƒ—5ü'Gð{óÓºþ=øßÂV||–ÆÚ¤óåÿ8å@SÇºvå­K£®‘°fl£(v6þ´ã‡Ÿ~ýÕ²ÈšàÒqÛ‡-+‚{çªíÒ¬†
-£uVÄb?‘`qÑƒXÚ”À‚/ÅÛl­Û^¼Û»Ïf‰Rx¶¯°S_úÅ¥…µ,Ô>Ç¹=‚Ï> þˆã±¾7?¼oðæ¼ë_Ë¿õ3Ö¿¤¸ÑàhKü_e Ì@{uÔ:`‚Ø´%XÖ‘§^rÖÌmD=±ñÃ:ÙÛ†@‡¦ŽëOÿÍ¿~ÃÅZ]~òù·_R¢8µíÆèí²Ë9±µb£}Å:‘”ÃÐkK`ÿ·ôÀ»z{sÁË¦œ‰Åu\ÛŠ¿Ù5]‹où´)gâ£ï*>7Îaö|&¾åsª?´âiò‘ùÉ ê×ˆLÙ—ßüÆ“Õ“Ô„óÍÞ Û™·œš2ì®Î½XvsÇ(X³´?S›	sÂ”K)YÁÝ]ü«F£ìØ­p®Ø®Ô¾Š :5pƒOé#…)cà’ØÞxWmo*S”

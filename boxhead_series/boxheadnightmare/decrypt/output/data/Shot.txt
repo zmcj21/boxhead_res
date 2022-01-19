@@ -36,7 +36,3 @@ railgun	railgun	bxhnm.object.ShotBullet		2	0xff0000ff					railgun	0.13	7	30
 																	
 																	
 																	
-header									
-id	owner	_title	_reference	_type	order	_displayEmpty			
-									
-String	String	String	String	String	int	Boolea

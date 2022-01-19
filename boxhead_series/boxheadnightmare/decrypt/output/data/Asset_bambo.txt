@@ -14,5 +14,3 @@ bambo_walk_placement	bambo	fl3dsheet	bambo	walk_placement	data/sprites/player/ba
 bambo_walk_uzi	bambo	fl3dsheet	bambo	walk_uzi	data/sprites/player/bambo	png	data/sprites/player/bambo/walk_uzi.png	
 								
 								
-			AFFECT					
-id	name	type	bl

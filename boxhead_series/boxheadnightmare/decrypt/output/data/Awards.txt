@@ -188,20 +188,3 @@ award54	[character]	[character].werewolf.totalKills>=50000	[character].werewolf.
 											
 											
 											
-SYSTEM			COMMAND		SPAWN						UPGRADE				
-id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
-									at once	seconds	xp	xp	xp	xp	
-String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
-		1	spawn		devil	devil	enemy	1	1	1	0	0	0	0	
-		1	spawn		zombie	zombie	enemy	10	5	0	0	0	0	0	
-		1	startwait	1											
-		1	complete	alldead											
-		1	fail	dead											
-		1	spawn_items	barrel											
-		1	endwait	5											
-		1	next	2											
-		2	spawn		devil	devil	enemy	2	2	1	0	0	0	0	
-		2	spawn		zombie	zombie	enemy	20	10	0	0	0	0	0	
-		2	next	3											
-		3	spawn		devil	devil	enemy	3	3	0.979166667	0	0	0	0	
-		3	spawn		zom

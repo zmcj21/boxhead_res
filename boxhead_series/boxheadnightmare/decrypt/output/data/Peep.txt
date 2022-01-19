@@ -22,12 +22,3 @@ troll	troll	enemy	bxhnm.object.PeepEnemy	troll	enter	dying	"5,000"	200	0xffff000
 zombie	zombie	enemy	bxhnm.object.PeepEnemy	zombie	enter	dying	200	20	0xffff0000		onfire		0.15	"lucifer_attack:0,zombie_attack:0,mummy_attack:0,vampire_attack:0,werewolf_attack:0"	0.45	2	1	0.05		1	9	1			zombie_attack		Zombie											
 																																						
 																																						
-header																
-id	loadid	type	group	itemid	path	ext	uri	symbols								
-																
-String	String	String	String	String	String	String	String	Vector.<String>								
-soundlib	global	swf	sound			swf	data/audio/samples.swf									
-music	global	swf	sound			swf	data/audio/track_1.swf	track_0								
-hud	global	swf	hud	hud	data/hud	swf	data/hud/hud.swf	hud								
-																
-decal_blood	global	swfsheet	decal	decal_blood	data/fx	swf	data/fx/decals.swf	"blood_00,blood_01,bloo

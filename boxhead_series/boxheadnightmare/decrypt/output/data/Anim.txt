@@ -27,5 +27,3 @@ zombie_attack	zombie_attack	_attack	0.08	weapon_attack	0.6	zombie_attack
 										
 										
 										
-terrorist													
-id	lo

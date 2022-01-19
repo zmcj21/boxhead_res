@@ -433,6 +433,3 @@ String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int
 															
 															
 															
-SYSTEM			COMMAND		SPAWN						UPGRADE				
-id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
-									at once	seconds	xp	xp	xp	

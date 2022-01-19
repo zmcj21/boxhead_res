@@ -72,5 +72,3 @@ CHARACTER
 						
 						
 						
-header								
-id	asset	classes	fadeIn	fadeOut	volume	repeat	type	channe

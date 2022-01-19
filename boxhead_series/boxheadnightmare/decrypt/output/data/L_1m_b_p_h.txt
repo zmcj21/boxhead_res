@@ -425,12 +425,3 @@ String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int
 															
 															
 															
-SYSTEM			COMMAND		SPAWN						UPGRADE				
-id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
-									at once	seconds	xp	xp	xp	xp	
-String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
-		1	spawn		zombie	zombie	enemy	40	10	0	0	0	0	0	
-		1	startwait	15											
-		1	complete	alldead											
-		1	fail	dead											
-		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barric

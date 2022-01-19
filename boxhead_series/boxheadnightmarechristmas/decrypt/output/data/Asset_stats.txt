@@ -1,0 +1,15 @@
+header													
+id	loadid	type	group	itemid	path	ext	uri	symbols					
+													
+String	String	String	String	String	String	String	String	Vector.<String>					
+Affect		stats	stats	Affect	data	txt	data/Affect.txt						
+Anim		stats	stats	Anim	data	txt	data/Anim.txt						
+App		stats	stats	App	data	txt	data/App.txt						
+Battlefield		stats	stats	Battlefield	data	txt	data/Battlefield.txt						
+Effect		stats	stats	Effect	data	txt	data/Effect.txt						
+Item		stats	stats	Item	data	txt	data/Item.txt						
+Peep		stats	stats	Peep	data	txt	data/Peep.txt						
+Sample		stats	stats	Sample	data	txt	data/Sample.txt						
+Upgrade		stats	stats	Upgrade	data	txt	data/Upgrade.txt						
+Shot		stats	stats	Shot	data	txt	data/Shot.txt						
+Weapon		stats	stats	Weapon	data	txt	data/Weapon.txt						

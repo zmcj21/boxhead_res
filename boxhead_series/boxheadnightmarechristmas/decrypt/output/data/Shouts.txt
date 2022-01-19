@@ -1,0 +1,26 @@
+header									
+id	owner	_title	_reference	_type	order	_displayEmpty			
+									
+String	String	String	String	String	int	Boolean			
+BATTLEFIELD									
+[battlefield].totalKills	[battlefield]	total kills	[battlefield].totalKills	Kills	1	TRUE			
+[battlefield].totalDistance	[battlefield]	travelled distance	[battlefield].totalDistance	Distance	4	TRUE			
+[battlefield].highestLevel	[battlefield]	highest level	[battlefield].highestLevel	Number	3	TRUE			
+[battlefield].highestMultiplier	[battlefield]	highest multiplier	[battlefield].highestMultiplier	Number	5	TRUE			
+[battlefield].highestScore	[battlefield]	highest score	[battlefield].highestScore	Score	0	TRUE			
+CHARACTER									
+[character].totalDistance	[character]	travelled distance	[character].totalDistance	Distance	2	TRUE			
+[character].totalKills	[character]	total kills	[character].totalKills	Number	1	TRUE			
+[character].highestScore	[character]	highest score	[character].highestScore	Score	0	TRUE			
+[character].highestMultiplier	[character]	highest multiplier	[character].highestMultiplier	Number	3	TRUE			
+[character].[enemy].totalKills	[character]	<field>[character].[enemy].title</field> kills	[character].[enemy].totalKills	Kills	4	TRUE			
+[character].[weapon].totalKills	[character]	<field>[character].[weapon].title</field> kills	[character].[weapon].totalKills	Kills	50	TRUE			
+PLAYER									
+player.friends	player	Total Friends	player.friends	Number	0	TRUE			
+player.time	player	Total playtime	player.time	Time	1	TRUE			
+player.playDaysInRow	player	Total days played in a row	player.playDaysInRow	Number	2	TRUE			
+player.invited	player	Total Friends invited	player.invited	Number	4	TRUE			
+									
+									
+									
+									

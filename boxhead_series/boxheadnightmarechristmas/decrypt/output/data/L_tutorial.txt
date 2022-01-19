@@ -1,0 +1,110 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		zombie	zombie	enemy	1	1	0	1	1	1	1	
+		2	spawn		zombie	zombie	enemy	10	1	0	1	1	1	1	
+		1	complete	alldead											
+		1	endwait	0											
+		1	fail	dead											
+		1	next	2											
+		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barricade,turret_railgun,turret_minigun,turret_rocket,turret_laser,turret_mortar,turret_50calibre"											
+		1	startwait	0											
+		2	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

@@ -1,0 +1,371 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		zombie	zombie	enemy	40	40	0.1	0	0	0	0	
+		1	startwait	15											
+		1	complete	alldead											
+		1	fail	dead											
+		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barricade,turret_railgun,turret_minigun,turret_rocket,turret_laser,turret_mortar,turret_50calibre"											
+		1	endwait	5											
+		1	next	2											
+		2	spawn		zombie	zombie	enemy	40	40	0.1	0	0	0	0	
+		2	spawn		rudolf	nearplayer	enemy	4	4	1	0	0	0	0	
+		2	spawn		bomber	zombie	enemy	4	4	1	0	0	0	0	
+		2	spawn		devil	devil	enemy	2	2	1	0	0	0	0	
+		2	spawn		yeti	troll	enemy	2	2	1	0	0	0	0	
+		2	next	3											
+		3	spawn		zombie	zombie	enemy	60	60	0.1	0	0	0	0	
+		3	spawn		rudolf	nearplayer	enemy	6	6	1	0	0	0	0	
+		3	spawn		bomber	zombie	enemy	6	6	1	0	0	0	0	
+		3	spawn		devil	devil	enemy	3	3	1	0	0	0	0	
+		3	spawn		yeti	troll	enemy	3	3	1	0	0	0	0	
+		3	next	4											
+		4	spawn		zombie	zombie	enemy	80	80	0.1	0	0	0	0	
+		4	spawn		rudolf	nearplayer	enemy	8	8	1	0	0	0	0	
+		4	spawn		bomber	zombie	enemy	8	8	1	0	0	0	0	
+		4	spawn		devil	devil	enemy	4	4	1	0	0	0	0	
+		4	spawn		yeti	troll	enemy	4	4	1	0	0	0	0	
+		4	next	5											
+		5	spawn		zombie	zombie	enemy	100	100	0.1	1	1	1	1	
+		5	spawn		rudolf	nearplayer	enemy	10	10	1	1	1	1	1	
+		5	spawn		bomber	zombie	enemy	10	10	1	1	1	1	1	
+		5	spawn		devil	devil	enemy	5	5	1	1	1	1	1	
+		5	spawn		yeti	troll	enemy	5	5	1	1	1	1	1	
+		5	next	6											
+		6	spawn		zombie	zombie	enemy	120	100	0.1	1	1	1	1	
+		6	spawn		rudolf	zombie	enemy	12	10	1	1	1	1	1	
+		6	spawn		bomber	nearplayer	enemy	12	10	1	1	1	1	1	
+		6	spawn		devil	devil	enemy	6	5	1	1	1	1	1	
+		6	spawn		yeti	troll	enemy	6	5	1	1	1	1	1	
+		6	next	7											
+		7	spawn		zombie	zombie	enemy	140	100	0.1	1	1	1	1	
+		7	spawn		rudolf	zombie	enemy	14	10	1	1	1	1	1	
+		7	spawn		bomber	zombie	enemy	14	10	1	1	1	1	1	
+		7	spawn		devil	devil	enemy	7	5	1	1	1	1	1	
+		7	spawn		yeti	troll	enemy	7	5	1	1	1	1	1	
+		7	next	8											
+		8	spawn		zombie	zombie	enemy	160	100	0.1	1	1	1	1	
+		8	spawn		rudolf	nearplayer	enemy	16	10	1	1	1	1	1	
+		8	spawn		bomber	zombie	enemy	16	10	1	1	1	1	1	
+		8	spawn		devil	devil	enemy	8	5	1	1	1	1	1	
+		8	spawn		yeti	troll	enemy	8	5	1	1	1	1	1	
+		8	next	9											
+		9	spawn		zombie	zombie	enemy	180	100	0.1	1	1	1	1	
+		9	spawn		rudolf	zombie	enemy	18	10	1	1	1	1	1	
+		9	spawn		bomber	nearplayer	enemy	18	10	1	1	1	1	1	
+		9	spawn		devil	devil	enemy	9	5	1	1	1	1	1	
+		9	spawn		yeti	troll	enemy	9	5	1	1	1	1	1	
+		9	next	10											
+		10	spawn		zombie	zombie	enemy	200	100	0.1	2	2	2	2	
+		10	spawn		rudolf	zombie	enemy	20	10	1	2	2	2	2	
+		10	spawn		bomber	zombie	enemy	20	10	1	2	2	2	2	
+		10	spawn		devil	devil	enemy	10	5	1	2	2	2	2	
+		10	spawn		yeti	troll	enemy	10	5	1	2	2	2	2	
+		10	next	11											
+		11	spawn		zombie	zombie	enemy	220	100	0.1	2	2	2	2	
+		11	spawn		rudolf	nearplayer	enemy	22	10	1	2	2	2	2	
+		11	spawn		bomber	zombie	enemy	22	10	1	2	2	2	2	
+		11	spawn		devil	devil	enemy	11	5	1	2	2	2	2	
+		11	spawn		yeti	troll	enemy	11	5	1	2	2	2	2	
+		11	next	12											
+		12	spawn		zombie	zombie	enemy	240	100	0.1	2	2	2	2	
+		12	spawn		rudolf	zombie	enemy	24	10	1	2	2	2	2	
+		12	spawn		bomber	nearplayer	enemy	24	10	1	2	2	2	2	
+		12	spawn		devil	devil	enemy	12	5	1	2	2	2	2	
+		12	spawn		yeti	troll	enemy	12	5	1	2	2	2	2	
+		12	next	13											
+		13	spawn		zombie	zombie	enemy	260	100	0.1	2	2	2	2	
+		13	spawn		rudolf	zombie	enemy	26	10	1	2	2	2	2	
+		13	spawn		bomber	zombie	enemy	26	10	1	2	2	2	2	
+		13	spawn		devil	devil	enemy	13	5	1	2	2	2	2	
+		13	spawn		yeti	troll	enemy	13	5	1	2	2	2	2	
+		13	next	14											
+		14	spawn		zombie	zombie	enemy	280	100	0.1	2	2	2	2	
+		14	spawn		rudolf	nearplayer	enemy	28	10	1	2	2	2	2	
+		14	spawn		bomber	zombie	enemy	28	10	1	2	2	2	2	
+		14	spawn		devil	devil	enemy	14	5	1	2	2	2	2	
+		14	spawn		yeti	troll	enemy	14	5	1	2	2	2	2	
+		14	next	15											
+		15	spawn		zombie	zombie	enemy	300	100	0.1	3	3	3	3	
+		15	spawn		rudolf	zombie	enemy	30	10	1	3	3	3	3	
+		15	spawn		bomber	nearplayer	enemy	30	10	1	3	3	3	3	
+		15	spawn		devil	devil	enemy	15	5	1	3	3	3	3	
+		15	spawn		yeti	troll	enemy	15	5	1	3	3	3	3	
+		15	next	16											
+		16	spawn		zombie	zombie	enemy	320	100	0.1	3	3	3	3	
+		16	spawn		rudolf	zombie	enemy	32	10	1	3	3	3	3	
+		16	spawn		bomber	zombie	enemy	32	10	1	3	3	3	3	
+		16	spawn		devil	devil	enemy	16	5	1	3	3	3	3	
+		16	spawn		yeti	troll	enemy	16	5	1	3	3	3	3	
+		16	next	17											
+		17	spawn		zombie	zombie	enemy	340	100	0.1	3	3	3	3	
+		17	spawn		rudolf	nearplayer	enemy	34	10	1	3	3	3	3	
+		17	spawn		bomber	zombie	enemy	34	10	1	3	3	3	3	
+		17	spawn		devil	devil	enemy	17	5	1	3	3	3	3	
+		17	spawn		yeti	troll	enemy	17	5	1	3	3	3	3	
+		17	next	18											
+		18	spawn		zombie	zombie	enemy	360	100	0.1	3	3	3	3	
+		18	spawn		rudolf	zombie	enemy	36	10	1	3	3	3	3	
+		18	spawn		bomber	nearplayer	enemy	36	10	1	3	3	3	3	
+		18	spawn		devil	devil	enemy	18	5	1	3	3	3	3	
+		18	spawn		yeti	troll	enemy	18	5	1	3	3	3	3	
+		18	next	19											
+		19	spawn		zombie	zombie	enemy	380	100	0.1	3	3	3	3	
+		19	spawn		rudolf	zombie	enemy	38	10	1	3	3	3	3	
+		19	spawn		bomber	zombie	enemy	38	10	1	3	3	3	3	
+		19	spawn		devil	devil	enemy	19	5	1	3	3	3	3	
+		19	spawn		yeti	troll	enemy	19	5	1	3	3	3	3	
+		19	next	20											
+		20	spawn		zombie	zombie	enemy	400	100	0.1	4	4	4	4	
+		20	spawn		rudolf	nearplayer	enemy	40	10	1	4	4	4	4	
+		20	spawn		bomber	zombie	enemy	40	10	1	4	4	4	4	
+		20	spawn		devil	devil	enemy	20	5	1	4	4	4	4	
+		20	spawn		yeti	troll	enemy	20	5	1	4	4	4	4	
+		20	next	21											
+		21	spawn		zombie	zombie	enemy	420	100	0.1	4	4	4	4	
+		21	spawn		rudolf	zombie	enemy	42	10	1	4	4	4	4	
+		21	spawn		bomber	nearplayer	enemy	42	10	1	4	4	4	4	
+		21	spawn		devil	devil	enemy	21	5	1	4	4	4	4	
+		21	spawn		yeti	troll	enemy	21	5	1	4	4	4	4	
+		21	next	22											
+		22	spawn		zombie	zombie	enemy	440	100	0.1	4	4	4	4	
+		22	spawn		rudolf	zombie	enemy	44	10	1	4	4	4	4	
+		22	spawn		bomber	zombie	enemy	44	10	1	4	4	4	4	
+		22	spawn		devil	devil	enemy	22	5	1	4	4	4	4	
+		22	spawn		yeti	troll	enemy	22	5	1	4	4	4	4	
+		22	next	23											
+		23	spawn		zombie	zombie	enemy	460	100	0.1	4	4	4	4	
+		23	spawn		rudolf	nearplayer	enemy	46	10	1	4	4	4	4	
+		23	spawn		bomber	zombie	enemy	46	10	1	4	4	4	4	
+		23	spawn		devil	devil	enemy	23	5	1	4	4	4	4	
+		23	spawn		yeti	troll	enemy	23	5	1	4	4	4	4	
+		23	next	24											
+		24	spawn		zombie	zombie	enemy	480	100	0.1	4	4	4	4	
+		24	spawn		rudolf	zombie	enemy	48	10	1	4	4	4	4	
+		24	spawn		bomber	nearplayer	enemy	48	10	1	4	4	4	4	
+		24	spawn		devil	devil	enemy	24	5	1	4	4	4	4	
+		24	spawn		yeti	troll	enemy	24	5	1	4	4	4	4	
+		24	next	25											
+		25	spawn		zombie	zombie	enemy	500	100	0.1	5	5	5	5	
+		25	spawn		rudolf	zombie	enemy	50	10	1	5	5	5	5	
+		25	spawn		bomber	zombie	enemy	50	10	1	5	5	5	5	
+		25	spawn		devil	devil	enemy	25	5	1	5	5	5	5	
+		25	spawn		yeti	troll	enemy	25	5	1	5	5	5	5	
+		25	next	26											
+		26	spawn		zombie	zombie	enemy	520	100	0.1	5	5	5	5	
+		26	spawn		rudolf	nearplayer	enemy	52	10	1	5	5	5	5	
+		26	spawn		bomber	zombie	enemy	52	10	1	5	5	5	5	
+		26	spawn		devil	devil	enemy	26	5	1	5	5	5	5	
+		26	spawn		yeti	troll	enemy	26	5	1	5	5	5	5	
+		26	next	27											
+		27	spawn		zombie	zombie	enemy	540	100	0.1	5	5	5	5	
+		27	spawn		rudolf	zombie	enemy	54	10	1	5	5	5	5	
+		27	spawn		bomber	nearplayer	enemy	54	10	1	5	5	5	5	
+		27	spawn		devil	devil	enemy	27	5	1	5	5	5	5	
+		27	spawn		yeti	troll	enemy	27	5	1	5	5	5	5	
+		27	next	28											
+		28	spawn		zombie	zombie	enemy	560	100	0.1	5	5	5	5	
+		28	spawn		rudolf	zombie	enemy	56	10	1	5	5	5	5	
+		28	spawn		bomber	zombie	enemy	56	10	1	5	5	5	5	
+		28	spawn		devil	devil	enemy	28	5	1	5	5	5	5	
+		28	spawn		yeti	troll	enemy	28	5	1	5	5	5	5	
+		28	next	29											
+		29	spawn		zombie	zombie	enemy	580	100	0.1	5	5	5	5	
+		29	spawn		rudolf	nearplayer	enemy	58	10	1	5	5	5	5	
+		29	spawn		bomber	zombie	enemy	58	10	1	5	5	5	5	
+		29	spawn		devil	devil	enemy	29	5	1	5	5	5	5	
+		29	spawn		yeti	troll	enemy	29	5	1	5	5	5	5	
+		29	next	30											
+		30	spawn		zombie	zombie	enemy	600	100	0.1	6	6	6	6	
+		30	spawn		rudolf	zombie	enemy	60	10	1	6	6	6	6	
+		30	spawn		bomber	nearplayer	enemy	60	10	1	6	6	6	6	
+		30	spawn		devil	devil	enemy	30	5	1	6	6	6	6	
+		30	spawn		yeti	troll	enemy	30	5	1	6	6	6	6	
+		30	next	31											
+		31	spawn		zombie	zombie	enemy	620	100	0.1	6	6	6	6	
+		31	spawn		rudolf	zombie	enemy	62	10	1	6	6	6	6	
+		31	spawn		bomber	zombie	enemy	62	10	1	6	6	6	6	
+		31	spawn		devil	devil	enemy	31	5	1	6	6	6	6	
+		31	spawn		yeti	troll	enemy	31	5	1	6	6	6	6	
+		31	next	32											
+		32	spawn		zombie	zombie	enemy	640	100	0.1	6	6	6	6	
+		32	spawn		rudolf	nearplayer	enemy	64	10	1	6	6	6	6	
+		32	spawn		bomber	zombie	enemy	64	10	1	6	6	6	6	
+		32	spawn		devil	devil	enemy	32	5	1	6	6	6	6	
+		32	spawn		yeti	troll	enemy	32	5	1	6	6	6	6	
+		32	next	33											
+		33	spawn		zombie	zombie	enemy	660	100	0.1	6	6	6	6	
+		33	spawn		rudolf	zombie	enemy	66	10	1	6	6	6	6	
+		33	spawn		bomber	nearplayer	enemy	66	10	1	6	6	6	6	
+		33	spawn		devil	devil	enemy	33	5	1	6	6	6	6	
+		33	spawn		yeti	troll	enemy	33	5	1	6	6	6	6	
+		33	next	34											
+		34	spawn		zombie	zombie	enemy	680	100	0.1	6	6	6	6	
+		34	spawn		rudolf	zombie	enemy	68	10	1	6	6	6	6	
+		34	spawn		bomber	zombie	enemy	68	10	1	6	6	6	6	
+		34	spawn		devil	devil	enemy	34	5	1	6	6	6	6	
+		34	spawn		yeti	troll	enemy	34	5	1	6	6	6	6	
+		34	next	35											
+		35	spawn		zombie	zombie	enemy	700	100	0.1	7	7	7	7	
+		35	spawn		rudolf	nearplayer	enemy	70	10	1	7	7	7	7	
+		35	spawn		bomber	zombie	enemy	70	10	1	7	7	7	7	
+		35	spawn		devil	devil	enemy	35	5	1	7	7	7	7	
+		35	spawn		yeti	troll	enemy	35	5	1	7	7	7	7	
+		35	next	36											
+		36	spawn		zombie	zombie	enemy	720	100	0.1	7	7	7	7	
+		36	spawn		rudolf	zombie	enemy	72	10	1	7	7	7	7	
+		36	spawn		bomber	nearplayer	enemy	72	10	1	7	7	7	7	
+		36	spawn		devil	devil	enemy	36	5	1	7	7	7	7	
+		36	spawn		yeti	troll	enemy	36	5	1	7	7	7	7	
+		36	next	37											
+		37	spawn		zombie	zombie	enemy	740	100	0.1	7	7	7	7	
+		37	spawn		rudolf	zombie	enemy	74	10	1	7	7	7	7	
+		37	spawn		bomber	zombie	enemy	74	10	1	7	7	7	7	
+		37	spawn		devil	devil	enemy	37	5	1	7	7	7	7	
+		37	spawn		yeti	troll	enemy	37	5	1	7	7	7	7	
+		37	next	38											
+		38	spawn		zombie	zombie	enemy	760	100	0.1	7	7	7	7	
+		38	spawn		rudolf	nearplayer	enemy	76	10	1	7	7	7	7	
+		38	spawn		bomber	zombie	enemy	76	10	1	7	7	7	7	
+		38	spawn		devil	devil	enemy	38	5	1	7	7	7	7	
+		38	spawn		yeti	troll	enemy	38	5	1	7	7	7	7	
+		38	next	39											
+		39	spawn		zombie	zombie	enemy	780	100	0.1	7	7	7	7	
+		39	spawn		rudolf	zombie	enemy	78	10	1	7	7	7	7	
+		39	spawn		bomber	nearplayer	enemy	78	10	1	7	7	7	7	
+		39	spawn		devil	devil	enemy	39	5	1	7	7	7	7	
+		39	spawn		yeti	troll	enemy	39	5	1	7	7	7	7	
+		39	next	40											
+		40	spawn		zombie	zombie	enemy	800	100	0.1	8	8	8	8	
+		40	spawn		rudolf	zombie	enemy	80	10	1	8	8	8	8	
+		40	spawn		bomber	zombie	enemy	80	10	1	8	8	8	8	
+		40	spawn		devil	devil	enemy	40	5	1	8	8	8	8	
+		40	spawn		yeti	troll	enemy	40	5	1	8	8	8	8	
+		40	next	41											
+		41	spawn		zombie	zombie	enemy	820	100	0.1	8	8	8	8	
+		41	spawn		rudolf	nearplayer	enemy	82	10	1	8	8	8	8	
+		41	spawn		bomber	zombie	enemy	82	10	1	8	8	8	8	
+		41	spawn		devil	devil	enemy	41	5	1	8	8	8	8	
+		41	spawn		yeti	troll	enemy	41	5	1	8	8	8	8	
+		41	next	42											
+		42	spawn		zombie	zombie	enemy	840	100	0.1	8	8	8	8	
+		42	spawn		rudolf	zombie	enemy	84	10	1	8	8	8	8	
+		42	spawn		bomber	nearplayer	enemy	84	10	1	8	8	8	8	
+		42	spawn		devil	devil	enemy	42	5	1	8	8	8	8	
+		42	spawn		yeti	troll	enemy	42	5	1	8	8	8	8	
+		42	next	43											
+		43	spawn		zombie	zombie	enemy	860	100	0.1	8	8	8	8	
+		43	spawn		rudolf	zombie	enemy	86	10	1	8	8	8	8	
+		43	spawn		bomber	zombie	enemy	86	10	1	8	8	8	8	
+		43	spawn		devil	devil	enemy	43	5	1	8	8	8	8	
+		43	spawn		yeti	troll	enemy	43	5	1	8	8	8	8	
+		43	next	44											
+		44	spawn		zombie	zombie	enemy	880	100	0.1	8	8	8	8	
+		44	spawn		rudolf	nearplayer	enemy	88	10	1	8	8	8	8	
+		44	spawn		bomber	zombie	enemy	88	10	1	8	8	8	8	
+		44	spawn		devil	devil	enemy	44	5	1	8	8	8	8	
+		44	spawn		yeti	troll	enemy	44	5	1	8	8	8	8	
+		44	next	45											
+		45	spawn		zombie	zombie	enemy	900	100	0.1	9	9	9	9	
+		45	spawn		rudolf	zombie	enemy	90	10	1	9	9	9	9	
+		45	spawn		bomber	nearplayer	enemy	90	10	1	9	9	9	9	
+		45	spawn		devil	devil	enemy	45	5	1	9	9	9	9	
+		45	spawn		yeti	troll	enemy	45	5	1	9	9	9	9	
+		45	next	46											
+		46	spawn		zombie	zombie	enemy	920	100	0.1	9	9	9	9	
+		46	spawn		rudolf	zombie	enemy	92	10	1	9	9	9	9	
+		46	spawn		bomber	zombie	enemy	92	10	1	9	9	9	9	
+		46	spawn		devil	devil	enemy	46	5	1	9	9	9	9	
+		46	spawn		yeti	troll	enemy	46	5	1	9	9	9	9	
+		46	next	47											
+		47	spawn		zombie	zombie	enemy	940	100	0.1	9	9	9	9	
+		47	spawn		rudolf	nearplayer	enemy	94	10	1	9	9	9	9	
+		47	spawn		bomber	zombie	enemy	94	10	1	9	9	9	9	
+		47	spawn		devil	devil	enemy	47	5	1	9	9	9	9	
+		47	spawn		yeti	troll	enemy	47	5	1	9	9	9	9	
+		47	next	48											
+		48	spawn		zombie	zombie	enemy	960	100	0.1	9	9	9	9	
+		48	spawn		rudolf	zombie	enemy	96	10	1	9	9	9	9	
+		48	spawn		bomber	nearplayer	enemy	96	10	1	9	9	9	9	
+		48	spawn		devil	devil	enemy	48	5	1	9	9	9	9	
+		48	spawn		yeti	troll	enemy	48	5	1	9	9	9	9	
+		48	next	49											
+		49	spawn		zombie	zombie	enemy	980	100	0.1	9	9	9	9	
+		49	spawn		rudolf	zombie	enemy	98	10	1	9	9	9	9	
+		49	spawn		bomber	zombie	enemy	98	10	1	9	9	9	9	
+		49	spawn		devil	devil	enemy	49	5	1	9	9	9	9	
+		49	spawn		yeti	troll	enemy	49	5	1	9	9	9	9	
+		49	next	50											
+		50	spawn		zombie	zombie	enemy	1000	100	0.1	10	10	10	10	
+		50	spawn		rudolf	zombie	enemy	100	10	1	10	10	10	10	
+		50	spawn		bomber	zombie	enemy	100	10	1	10	10	10	10	
+		50	spawn		devil	devil	enemy	50	5	1	10	10	10	10	
+		50	spawn		yeti	troll	enemy	50	5	1	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

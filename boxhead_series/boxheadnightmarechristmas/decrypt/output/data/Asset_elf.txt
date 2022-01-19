@@ -1,0 +1,23 @@
+elf													
+id	loadid	type	group	itemid	path	ext	uri	symbols					
+													
+String	String	String	String	String	String	String	String	Vector.<String>					
+elf_attack_sword	elf	fl3dsheet	elf	attack_sword	data/sprites/player/elf	png	data/sprites/player/elf/attack_sword.png						
+elf_attack_hammer	elf	fl3dsheet	elf	attack_hammer	data/sprites/player/elf	png	data/sprites/player/elf/attack_hammer.png						
+elf_dead	elf	fl3dsheet	elf	dead	data/sprites/player/elf	png	data/sprites/player/elf/dead.png						
+elf_dying	elf	fl3dsheet	elf	dying	data/sprites/player/elf	png	data/sprites/player/elf/dying.png						
+elf_hit	elf	fl3dsheet	elf	hit	data/sprites/player/elf	png	data/sprites/player/elf/hit.png						
+elf_walk_airstrike	elf	fl3dsheet	elf	walk_airstrike	data/sprites/player/elf	png	data/sprites/player/elf/walk_airstrike.png						
+elf_walk_mine	elf	fl3dsheet	elf	walk_mine	data/sprites/player/elf	png	data/sprites/player/elf/walk_mine.png						
+elf_walk_barrel	elf	fl3dsheet	elf	walk_barrel	data/sprites/player/elf	png	data/sprites/player/elf/walk_barrel.png						
+elf_walk_hammer	elf	fl3dsheet	elf	walk_hammer	data/sprites/player/elf	png	data/sprites/player/elf/walk_hammer.png						
+elf_walk_uzi	elf	fl3dsheet	elf	walk_uzi	data/sprites/player/elf	png	data/sprites/player/elf/walk_uzi.png						
+elf_walk_revolver2	elf	fl3dsheet	elf	walk_revolver2	data/sprites/player/elf	png	data/sprites/player/elf/walk_revolver2.png						
+elf_walk_sword	elf	fl3dsheet	elf	walk_sword	data/sprites/player/elf	png	data/sprites/player/elf/walk_sword.png						
+elf_walk_minigun	elf	fl3dsheet	elf	walk_minigun	data/sprites/player/elf	png	data/sprites/player/elf/walk_minigun.png						
+elf_walk_placement	elf	fl3dsheet	elf	walk_placement	data/sprites/player/elf	png	data/sprites/player/elf/walk_placement.png						
+elf_walk_rocket_launcher	elf	fl3dsheet	elf	walk_rocket_launcher	data/sprites/player/elf	png	data/sprites/player/elf/walk_rocket_launcher.png						
+elf_walk_crossbow	elf	fl3dsheet	elf	walk_crossbow	data/sprites/player/elf	png	data/sprites/player/elf/walk_crossbow.png						
+elf_walk_m16_2	elf	fl3dsheet	elf	walk_m16_2	data/sprites/player/elf	png	data/sprites/player/elf/walk_m16_2.png						
+elf_walk_flamethrower	elf	fl3dsheet	elf	walk_flamethrower	data/sprites/player/elf	png	data/sprites/player/elf/walk_flamethrower.png						
+elf_walk_chainsaw	elf	fl3dsheet	elf	walk_chainsaw	data/sprites/player/elf	png	data/sprites/player/elf/walk_chainsaw.png						

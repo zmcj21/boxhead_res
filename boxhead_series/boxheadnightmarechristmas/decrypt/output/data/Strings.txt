@@ -1,0 +1,142 @@
+header	
+id	text
+tt_ = tooltip	
+String	String
+tt_close	Close
+tt_pause	Pause play
+tt_resume	Resume play
+tt_toolbar_close	Exit the battlefield
+tt_config	"Options and configuration<br>Sound controls, fullscreen & controller"
+tt_addBollars	Add more bollars!!!
+tt_unlock	Click to unlock now!!!
+tt_replays	REPLAYS<br>Coming soon!!!
+	
+tt_buy_unlock	Unlock selected items now!!!
+tt_buy_close	Close and do not unlock anything
+tt_config_close	Close & Save
+tt_config_mouse	Toggle mouse control<br>Direction & shoot with mouse
+tt_muteSound	Mute/Unmute sound fx
+tt_muteMusic	Mute/Unmute music
+tt_fullscreen	Toggle full screen
+tt_addLife	Add an additional life
+tt_challenge	CHALLENGES<br />Coming soon!!!
+tt_shout	Shout that your the best!!
+tt_fullyupgraded	Fully upgraded
+tt_upgraded	Upgraded
+tt_awardthumb	Click to see your great award again
+tt_scorethumb	Click to see your great score again
+tt_spendfinal	Spend your final earned boins!
+tt_reset_controls	Reset all controls to the default!
+tt_backbattlefield	Back to battlefield selection
+tt_boinsspend	This is the amount of boins you can spend
+tt_bollarsspend	This is the amount of bollars you can spend
+tt_timeLeftUpgrade	Upgraded <br> Time left till next upgrade possibility
+tt_currentLevel	Current level of the battlefield
+tt_remainingKills	Number of kills remaining until completion
+tt_timeTaken	Time taken to complete this level
+tt_totalTime	Total time you have played and 10% of your friends paying time
+tt_fullyLoaded	Fully loaded!
+tt_facebookonly	Facebook only
+tt_boinsCollected	The amount of boins you've collected
+tt_totalTimeS	Total time you have played
+tt_retry	Retry the last battlefield
+tt_highscores	Check out all the highscores
+tt_awards	Check out your awards
+tt_visitfacebook	Visit www.facebook.com/boxheadnightmare to play
+tt_availableIn	Time till item is available
+	
+exitWindow	Are you sure you want to quit ?
+back	Back
+toHome	to home
+select	Select
+character	character
+selectCharacter	Select your character
+beginner	beginner
+intermediate	intermediate
+expert	expert
+nightmare	nightmare
+startAt	Start at
+continueWhereLeft	Continue where you left
+continue	Continue
+level	Level
+continueOn	Continue on
+play	Play
+theGame	Start
+backBattlefield	Go back to battlefield selection
+enterHellStart	Enter hell and start the battle!
+battlefield	Battlefield
+noHistory	No History
+noHistoryAvail	available <br> item is locked
+choose	Choose
+customize	Customize
+weaponCharacter	Character/Weapon
+changeYour	Change your
+settings	Settings
+startOver	"Start over, begin at level 1"
+loading	loading
+pleasewait	Please wait....
+objective	objective
+unlocks	unlocks
+history	history
+weapons	weapons
+current	current
+kills	kills
+time	time
+taken	taken
+dragdrop	DRAG & DROP YOUR WEAPONS ON TO THESE SLOTS 1 to 6
+start	Start
+backTo	Back to
+enterHell	Enter HELL!!!!
+backToHell	Back to hell and continue the battle!
+continueBattle	Continue the battle!
+weaponsSlot	Weapons must be on the slots 1 to 6!!!
+notEnough	NOT ENOUGH
+boins	Boins
+reloadBoinBollar	You don't have enough boins to reload. Do you want to reload for 
+reloadBoinUpgrade	You don't have enough boins to upgrade the 
+reloadToNextLevel	 to the next level. Do you want to upgrade for 
+reloadHealth	You don't have enough boins to recharge your health. Do you want to recharge for 
+reloadLive	You don't have enough boins to add a live. Do you want to add a live for 
+charTraing	CHARACTER TRAINING
+chalShouts	CHALLENGES & SHOUTS
+reloadWeapon	Reload weapon
+cost	Cost
+timeLeft	time left
+noAwards	no awards <br> & <br> no unlocks
+awardsUnlocks	AWARDS & UNLOCKS
+finishNow	Do you want to finish this upgrade step now for
+finish	finish
+now	Now
+finishNowCost	COST:
+achieved	Awards
+awards	Section
+dayInRow1	You've earned
+dayInRow2	for coming back
+dayInRow3	day(s) in a row! <br>Come back tomorrow to get even more.
+dayInRowTitle	Daily
+dayInRowSubtitle	Bonus
+dayInRow4	day(s) in a row!
+youhaveto	You have to
+trialended	Your trial has ended<br>To keep the item click the button below!
+action1	This is your action bar. Every 3 minutes a new action is added.
+action2	<br>New action added in: 
+unlockclick	or Click to Unlock with Bollars
+next	next
+moreEnergyTitle	Get More Energy
+moreEnergyDesc	"You're out of energy instead of waiting, why not get energy potion!"
+moreBoinsTitle	Get More Boins
+moreBoinsDesc	"You're out of boins, why not treat yourself a boins treasury!"
+	
+tutBF01	Battlefield selection:<FONT SIZE='-10' COLOR='#000000'><br>Select a Battlefield.</font>
+tutBF02	Battlefield selection:<FONT SIZE='-10' COLOR='#000000'><br>Now click next to choose a character.</FONT>
+tutCHAR01	Character selection:<FONT SIZE='-10' COLOR='#000000'><br>Select a character.</FONT>
+tutCHAR02	Character selection:<FONT SIZE='-10' COLOR='#000000'><br>now click next to equip you<br>character with weapons.</FONT>
+tutCUST01	Weapon training:<FONT SIZE='-10' COLOR='#000000'><br>These are your active weapons.<br>You can carry 6 at a time.</FONT>
+tutCUST02	Weapon training:<FONT SIZE='-10' COLOR='#000000'><br>These are your inactive weapons.</FONT>
+tutCUST03	Drag and Drop:<FONT SIZE='-10' COLOR='#000000'><br>Drag the Barrel from the<br>inactive weapons to your active<br>weapon number 6.</FONT>
+tutCUST04	Weapon reload:<FONT SIZE='-10' COLOR='#000000'><br>Select a weapon.</FONT>
+tutCUST05	Weapon reload:<FONT SIZE='-10' COLOR='#000000'><br>Select a weapon.<br>Click reload to reload the weapon ammo.</FONT>
+tutCUST06	Weapon upgrade:<FONT SIZE='-10' COLOR='#000000'><br>Click upgrade to upgrade the Accuracy.</FONT>
+tutCUST07	Character:<FONT SIZE='-10' COLOR='#000000'><br>Click ADD LIFE to add an additional life.</FONT>
+tutCUST08	Character upgrade:<FONT SIZE='-10' COLOR='#000000'><br>Click upgrade to upgrade your<br>characters Accuracy.</FONT>
+tutCUST09	Good job!<FONT SIZE='-10' COLOR='#000000'><br>Now you're equipped to go into battle!<br>Click to play.</FONT>

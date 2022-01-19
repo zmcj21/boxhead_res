@@ -1,0 +1,428 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		troll	troll	enemy	4	2	0	0	0	0	0	
+		1	spawn		vampire	nearplayer	enemy	12	6	1	0	0	0	0	
+		1	spawn		werewolf	zombie	enemy	12	6	0	0	0	0	0	
+		1	startwait	5											
+		1	complete	alldead											
+		1	fail	dead											
+		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barricade,turret_railgun,turret_minigun,turret_rocket,turret_laser,turret_mortar,turret_50calibre"											
+		1	endwait	5											
+		1	next	2											
+		2	spawn		troll	troll	enemy	8	4	0	0	0	0	0	
+		2	spawn		vampire	nearplayer	enemy	24	10	1	0	0	0	0	
+		2	spawn		werewolf	zombie	enemy	24	12	0	0	0	0	0	
+		2	next	3											
+		3	spawn		troll	troll	enemy	8	4	0	0	0	0	0	
+		3	spawn		vampire	nearplayer	enemy	24	10	1	0	0	0	0	
+		3	spawn		werewolf	zombie	enemy	24	12	0	0	0	0	0	
+		3	next	4											
+		4	spawn		troll	troll	enemy	8	4	0	0	0	0	0	
+		4	spawn		vampire	nearplayer	enemy	32	10	1	0	0	0	0	
+		4	spawn		werewolf	zombie	enemy	32	16	0	0	0	0	0	
+		4	next	5											
+		5	spawn		troll	troll	enemy	10	5	0	1	1	1	1	
+		5	spawn		vampire	nearplayer	enemy	34	10	1	1	1	1	1	
+		5	spawn		werewolf	zombie	enemy	34	17	0	1	1	1	1	
+		5	next	6											
+		6	spawn		troll	troll	enemy	12	6	0	1	1	1	1	
+		6	spawn		vampire	nearplayer	enemy	36	10	1	1	1	1	1	
+		6	spawn		werewolf	zombie	enemy	36	18	0	1	1	1	1	
+		6	next	7											
+		7	spawn		troll	troll	enemy	14	7	0	1	1	1	1	
+		7	spawn		vampire	nearplayer	enemy	42	10	1	1	1	1	1	
+		7	spawn		werewolf	zombie	enemy	42	20	0	1	1	1	1	
+		7	next	8											
+		8	spawn		troll	troll	enemy	16	8	0	1	1	1	1	
+		8	spawn		vampire	nearplayer	enemy	48	10	1	1	1	1	1	
+		8	spawn		werewolf	zombie	enemy	48	20	0	1	1	1	1	
+		8	next	9											
+		9	spawn		troll	troll	enemy	18	9	0	1	1	1	1	
+		9	spawn		vampire	nearplayer	enemy	54	10	1	1	1	1	1	
+		9	spawn		werewolf	zombie	enemy	54	20	0	1	1	1	1	
+		9	next	10											
+		10	spawn		troll	troll	enemy	20	10	0	2	2	2	2	
+		10	spawn		vampire	nearplayer	enemy	60	10	1	2	2	2	2	
+		10	spawn		werewolf	zombie	enemy	60	20	0	2	2	2	2	
+		10	next	11											
+		11	spawn		troll	troll	enemy	22	11	0	2	2	2	2	
+		11	spawn		vampire	nearplayer	enemy	66	10	1	2	2	2	2	
+		11	spawn		werewolf	zombie	enemy	66	20	0	2	2	2	2	
+		11	next	12											
+		12	spawn		troll	troll	enemy	24	12	0	2	2	2	2	
+		12	spawn		vampire	nearplayer	enemy	72	10	1	2	2	2	2	
+		12	spawn		werewolf	zombie	enemy	72	20	0	2	2	2	2	
+		12	next	13											
+		13	spawn		troll	troll	enemy	26	13	0	2	2	2	2	
+		13	spawn		vampire	nearplayer	enemy	78	10	1	2	2	2	2	
+		13	spawn		werewolf	zombie	enemy	78	20	0	2	2	2	2	
+		13	next	14											
+		14	spawn		troll	troll	enemy	28	14	0	2	2	2	2	
+		14	spawn		vampire	nearplayer	enemy	84	10	1	2	2	2	2	
+		14	spawn		werewolf	zombie	enemy	84	20	0	2	2	2	2	
+		14	next	15											
+		15	spawn		troll	troll	enemy	30	15	0	3	3	3	3	
+		15	spawn		vampire	nearplayer	enemy	90	10	1	3	3	3	3	
+		15	spawn		werewolf	zombie	enemy	90	20	0	3	3	3	3	
+		15	next	16											
+		16	spawn		troll	troll	enemy	32	16	0	3	3	3	3	
+		16	spawn		vampire	nearplayer	enemy	96	10	1	3	3	3	3	
+		16	spawn		werewolf	zombie	enemy	96	20	0	3	3	3	3	
+		16	next	17											
+		17	spawn		troll	troll	enemy	34	17	0	3	3	3	3	
+		17	spawn		vampire	nearplayer	enemy	102	10	1	3	3	3	3	
+		17	spawn		werewolf	zombie	enemy	102	20	0	3	3	3	3	
+		17	next	18											
+		18	spawn		troll	troll	enemy	36	18	0	3	3	3	3	
+		18	spawn		vampire	nearplayer	enemy	108	10	1	3	3	3	3	
+		18	spawn		werewolf	zombie	enemy	108	20	0	3	3	3	3	
+		18	next	19											
+		19	spawn		troll	troll	enemy	38	19	0	3	3	3	3	
+		19	spawn		vampire	nearplayer	enemy	114	10	1	3	3	3	3	
+		19	spawn		werewolf	zombie	enemy	114	20	0	3	3	3	3	
+		19	next	20											
+		20	spawn		lucifer	zombie	enemy	100	20	0	4	4	4	4	
+		20	next	21											
+		21	spawn		troll	troll	enemy	42	20	0	4	4	4	4	
+		21	spawn		vampire	nearplayer	enemy	126	10	1	4	4	4	4	
+		21	spawn		werewolf	zombie	enemy	126	20	0	4	4	4	4	
+		21	next	22											
+		22	spawn		troll	troll	enemy	44	20	0	4	4	4	4	
+		22	spawn		vampire	nearplayer	enemy	132	10	1	4	4	4	4	
+		22	spawn		werewolf	zombie	enemy	132	20	0	4	4	4	4	
+		22	next	23											
+		23	spawn		troll	troll	enemy	46	20	0	4	4	4	4	
+		23	spawn		vampire	nearplayer	enemy	138	10	1	4	4	4	4	
+		23	spawn		werewolf	zombie	enemy	138	20	0	4	4	4	4	
+		23	next	24											
+		24	spawn		troll	troll	enemy	48	20	0	4	4	4	4	
+		24	spawn		vampire	nearplayer	enemy	144	10	1	4	4	4	4	
+		24	spawn		werewolf	zombie	enemy	144	20	0	4	4	4	4	
+		24	next	25											
+		25	spawn		troll	troll	enemy	50	20	0	5	5	5	5	
+		25	spawn		vampire	nearplayer	enemy	150	10	1	5	5	5	5	
+		25	spawn		werewolf	zombie	enemy	150	20	0	5	5	5	5	
+		25	next	26											
+		26	spawn		troll	troll	enemy	52	20	0	5	5	5	5	
+		26	spawn		vampire	nearplayer	enemy	156	10	1	5	5	5	5	
+		26	spawn		werewolf	zombie	enemy	156	20	0	5	5	5	5	
+		26	next	27											
+		27	spawn		troll	troll	enemy	54	20	0	5	5	5	5	
+		27	spawn		vampire	nearplayer	enemy	162	10	1	5	5	5	5	
+		27	spawn		werewolf	zombie	enemy	162	20	0	5	5	5	5	
+		27	next	28											
+		28	spawn		troll	troll	enemy	56	20	0	5	5	5	5	
+		28	spawn		vampire	nearplayer	enemy	168	10	1	5	5	5	5	
+		28	spawn		werewolf	zombie	enemy	168	20	0	5	5	5	5	
+		28	next	29											
+		29	spawn		troll	troll	enemy	58	20	0	5	5	5	5	
+		29	spawn		vampire	nearplayer	enemy	174	10	1	5	5	5	5	
+		29	spawn		werewolf	zombie	enemy	174	20	0	5	5	5	5	
+		29	next	30											
+		30	spawn		ed206	troll	enemy	50	15	1	6	6	6	6	
+		30	next	31											
+		31	spawn		troll	troll	enemy	62	20	0	6	6	6	6	
+		31	spawn		vampire	nearplayer	enemy	186	10	1	6	6	6	6	
+		31	spawn		werewolf	zombie	enemy	186	20	0	6	6	6	6	
+		31	next	32											
+		32	spawn		troll	troll	enemy	64	20	0	6	6	6	6	
+		32	spawn		vampire	nearplayer	enemy	192	10	1	6	6	6	6	
+		32	spawn		werewolf	zombie	enemy	192	20	0	6	6	6	6	
+		32	next	33											
+		33	spawn		troll	troll	enemy	66	20	0	6	6	6	6	
+		33	spawn		vampire	nearplayer	enemy	198	10	1	6	6	6	6	
+		33	spawn		werewolf	zombie	enemy	198	20	0	6	6	6	6	
+		33	next	34											
+		34	spawn		troll	troll	enemy	68	20	0	6	6	6	6	
+		34	spawn		vampire	nearplayer	enemy	204	10	1	6	6	6	6	
+		34	spawn		werewolf	zombie	enemy	204	20	0	6	6	6	6	
+		34	next	35											
+		35	spawn		troll	troll	enemy	70	20	0	7	7	7	7	
+		35	spawn		vampire	nearplayer	enemy	210	10	1	7	7	7	7	
+		35	spawn		werewolf	zombie	enemy	210	20	0	7	7	7	7	
+		35	next	36											
+		36	spawn		troll	troll	enemy	72	20	0	7	7	7	7	
+		36	spawn		vampire	nearplayer	enemy	216	10	1	7	7	7	7	
+		36	spawn		werewolf	zombie	enemy	216	20	0	7	7	7	7	
+		36	next	37											
+		37	spawn		troll	troll	enemy	74	20	0	7	7	7	7	
+		37	spawn		vampire	nearplayer	enemy	222	10	1	7	7	7	7	
+		37	spawn		werewolf	zombie	enemy	222	20	0	7	7	7	7	
+		37	next	38											
+		38	spawn		troll	troll	enemy	76	20	0	7	7	7	7	
+		38	spawn		vampire	nearplayer	enemy	228	10	1	7	7	7	7	
+		38	spawn		werewolf	zombie	enemy	228	20	0	7	7	7	7	
+		38	next	39											
+		39	spawn		troll	troll	enemy	78	20	0	7	7	7	7	
+		39	spawn		vampire	nearplayer	enemy	234	10	1	7	7	7	7	
+		39	spawn		werewolf	zombie	enemy	234	20	0	7	7	7	7	
+		39	next	40											
+		40	spawn		troll	troll	enemy	80	20	0	8	8	8	8	
+		40	spawn		vampire	nearplayer	enemy	240	10	1	8	8	8	8	
+		40	spawn		werewolf	zombie	enemy	240	20	0	8	8	8	8	
+		40	spawn		lucifer	zombie	enemy	80	20	1	8	8	8	8	
+		40	next	41											
+		41	spawn		troll	troll	enemy	82	20	0	8	8	8	8	
+		41	spawn		vampire	nearplayer	enemy	246	10	1	8	8	8	8	
+		41	spawn		werewolf	zombie	enemy	246	20	0	8	8	8	8	
+		41	next	42											
+		42	spawn		troll	troll	enemy	84	20	0	8	8	8	8	
+		42	spawn		vampire	nearplayer	enemy	252	10	1	8	8	8	8	
+		42	spawn		werewolf	zombie	enemy	252	20	0	8	8	8	8	
+		42	next	43											
+		43	spawn		troll	troll	enemy	86	20	0	8	8	8	8	
+		43	spawn		vampire	nearplayer	enemy	258	10	1	8	8	8	8	
+		43	spawn		werewolf	zombie	enemy	258	20	0	8	8	8	8	
+		43	next	44											
+		44	spawn		troll	troll	enemy	88	20	0	8	8	8	8	
+		44	spawn		vampire	nearplayer	enemy	264	10	1	8	8	8	8	
+		44	spawn		werewolf	zombie	enemy	264	20	0	8	8	8	8	
+		44	next	45											
+		45	spawn		troll	troll	enemy	90	20	0	9	9	9	9	
+		45	spawn		vampire	nearplayer	enemy	270	10	1	9	9	9	9	
+		45	spawn		werewolf	zombie	enemy	270	20	0	9	9	9	9	
+		45	next	46											
+		46	spawn		troll	troll	enemy	92	20	0	9	9	9	9	
+		46	spawn		vampire	nearplayer	enemy	276	10	1	9	9	9	9	
+		46	spawn		werewolf	zombie	enemy	276	20	0	9	9	9	9	
+		46	next	47											
+		47	spawn		troll	troll	enemy	94	20	0	9	9	9	9	
+		47	spawn		vampire	nearplayer	enemy	282	10	1	9	9	9	9	
+		47	spawn		werewolf	zombie	enemy	282	20	0	9	9	9	9	
+		47	next	48											
+		48	spawn		troll	troll	enemy	96	20	0	9	9	9	9	
+		48	spawn		vampire	nearplayer	enemy	288	10	1	9	9	9	9	
+		48	spawn		werewolf	zombie	enemy	288	20	0	9	9	9	9	
+		48	next	49											
+		49	spawn		troll	troll	enemy	98	20	0	9	9	9	9	
+		49	spawn		vampire	nearplayer	enemy	294	10	1	9	9	9	9	
+		49	spawn		werewolf	zombie	enemy	294	20	0	9	9	9	9	
+		49	next	50											
+		50	spawn		troll	troll	enemy	100	20	0	10	10	10	10	
+		50	spawn		vampire	nearplayer	enemy	300	10	1	10	10	10	10	
+		50	spawn		lucifer	nearplayer	enemy	100	10	1	10	10	10	10	
+		50	spawn		werewolf	zombie	enemy	300	20	0	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

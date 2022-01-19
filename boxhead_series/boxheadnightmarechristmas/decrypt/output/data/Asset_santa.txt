@@ -1,0 +1,24 @@
+santa													
+id	loadid	type	group	itemid	path	ext	uri	symbols					
+													
+String	String	String	String	String	String	String	String	Vector.<String>					
+santa_attack_lightsaber	santa	fl3dsheet	santa	attack_lightsaber	data/sprites/player/santa	png	data/sprites/player/santa/attack_lightsaber.png						
+santa_attack_hammer	santa	fl3dsheet	santa	attack_hammer	data/sprites/player/santa	png	data/sprites/player/santa/attack_hammer.png						
+santa_attack_grenade	santa	fl3dsheet	santa	attack_grenade	data/sprites/player/santa	png	data/sprites/player/santa/attack_grenade.png						
+santa_dead	santa	fl3dsheet	santa	dead	data/sprites/player/santa	png	data/sprites/player/santa/dead.png						
+santa_dying	santa	fl3dsheet	santa	dying	data/sprites/player/santa	png	data/sprites/player/santa/dying.png						
+santa_hit	santa	fl3dsheet	santa	hit	data/sprites/player/santa	png	data/sprites/player/santa/hit.png						
+santa_walk_airstrike	santa	fl3dsheet	santa	walk_airstrike	data/sprites/player/santa	png	data/sprites/player/santa/walk_airstrike.png						
+santa_walk_grenade	santa	fl3dsheet	santa	walk_grenade	data/sprites/player/santa	png	data/sprites/player/santa/walk_grenade.png						
+santa_walk_barrel	santa	fl3dsheet	santa	walk_barrel	data/sprites/player/santa	png	data/sprites/player/santa/walk_barrel.png						
+santa_walk_hammer	santa	fl3dsheet	santa	walk_hammer	data/sprites/player/santa	png	data/sprites/player/santa/walk_hammer.png						
+santa_walk_pistol2	santa	fl3dsheet	santa	walk_pistol2	data/sprites/player/santa	png	data/sprites/player/santa/walk_pistol2.png						
+santa_walk_lightsaber	santa	fl3dsheet	santa	walk_lightsaber	data/sprites/player/santa	png	data/sprites/player/santa/walk_lightsaber.png						
+santa_walk_minigun	santa	fl3dsheet	santa	walk_minigun	data/sprites/player/santa	png	data/sprites/player/santa/walk_minigun.png						
+santa_walk_placement	santa	fl3dsheet	santa	walk_placement	data/sprites/player/santa	png	data/sprites/player/santa/walk_placement.png						
+santa_walk_shotgun2	santa	fl3dsheet	santa	walk_shotgun2	data/sprites/player/santa	png	data/sprites/player/santa/walk_shotgun2.png						
+santa_walk_crossbow	santa	fl3dsheet	santa	walk_crossbow	data/sprites/player/santa	png	data/sprites/player/santa/walk_crossbow.png						
+santa_walk_m16_2	santa	fl3dsheet	santa	walk_m16_2	data/sprites/player/santa	png	data/sprites/player/santa/walk_m16_2.png						
+santa_walk_lasergun2	santa	fl3dsheet	santa	walk_lasergun2	data/sprites/player/santa	png	data/sprites/player/santa/walk_lasergun2.png						
+santa_walk_shotgun	santa	fl3dsheet	santa	walk_shotgun	data/sprites/player/santa	png	data/sprites/player/santa/walk_shotgun.png						
+santa_walk_chainsaw	santa	fl3dsheet	santa	walk_chainsaw	data/sprites/player/santa	png	data/sprites/player/santa/walk_chainsaw.png						

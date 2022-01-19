@@ -1,0 +1,312 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	startwait	5											
+		1	complete	alldead											
+		1	spawn_items	barrel											
+		1	fail	dead											
+		1	spawn		troll	troll	enemy	2	1	0.245	0	0	0	0	
+		1	endwait	5											
+		1	next	2											
+		2	spawn		troll	troll	enemy	4	2	0.24	0	0	0	0	
+		2	next	3											
+		3	spawn		troll	troll	enemy	6	3	0.235	0	0	0	0	
+		3	next	4											
+		4	spawn		troll	troll	enemy	8	4	0.23	0	0	0	0	
+		4	next	5											
+		5	spawn		troll	troll	enemy	10	5	0.225	1	1	1	1	
+		5	next	6											
+		6	spawn		troll	troll	enemy	12	6	0.22	1	1	1	1	
+		6	next	7											
+		7	spawn		troll	troll	enemy	14	7	0.215	1	1	1	1	
+		7	next	8											
+		8	spawn		troll	troll	enemy	16	8	0.21	1	1	1	1	
+		8	next	9											
+		9	spawn		troll	troll	enemy	18	9	0.205	1	1	1	1	
+		9	next	10											
+		10	spawn		troll	troll	enemy	20	10	0.2	2	2	2	2	
+		10	next	11											
+		11	spawn		troll	troll	enemy	22	11	0.195	2	2	2	2	
+		11	next	12											
+		12	spawn		troll	troll	enemy	24	12	0.19	2	2	2	2	
+		12	next	13											
+		13	spawn		troll	troll	enemy	26	13	0.185	2	2	2	2	
+		13	next	14											
+		14	spawn		troll	troll	enemy	28	14	0.18	2	2	2	2	
+		14	next	15											
+		15	spawn		troll	troll	enemy	30	15	0.175	3	3	3	3	
+		15	next	16											
+		16	spawn		troll	troll	enemy	32	16	0.17	3	3	3	3	
+		16	next	17											
+		17	spawn		troll	troll	enemy	34	17	0.165	3	3	3	3	
+		17	next	18											
+		18	spawn		troll	troll	enemy	36	18	0.16	3	3	3	3	
+		18	next	19											
+		19	spawn		troll	troll	enemy	38	19	0.155	3	3	3	3	
+		19	next	20											
+		20	spawn		troll	troll	enemy	40	20	0.15	4	4	4	4	
+		20	next	21											
+		21	spawn		troll	troll	enemy	42	21	0.145	4	4	4	4	
+		21	next	22											
+		22	spawn		troll	troll	enemy	44	22	0.14	4	4	4	4	
+		22	next	23											
+		23	spawn		troll	troll	enemy	46	23	0.135	4	4	4	4	
+		23	next	24											
+		24	spawn		troll	troll	enemy	48	24	0.13	4	4	4	4	
+		24	next	25											
+		25	spawn		troll	troll	enemy	50	25	0.125	5	5	5	5	
+		25	next	26											
+		26	spawn		troll	troll	enemy	52	26	0.12	5	5	5	5	
+		26	next	27											
+		27	spawn		troll	troll	enemy	54	27	0.115	5	5	5	5	
+		27	next	28											
+		28	spawn		troll	troll	enemy	56	28	0.11	5	5	5	5	
+		28	next	29											
+		29	spawn		troll	troll	enemy	58	29	0.105	5	5	5	5	
+		29	next	30											
+		30	spawn		troll	troll	enemy	60	30	0.1	6	6	6	6	
+		30	next	31											
+		31	spawn		troll	troll	enemy	62	31	0.095	6	6	6	6	
+		31	next	32											
+		32	spawn		troll	troll	enemy	64	32	0.09	6	6	6	6	
+		32	next	33											
+		33	spawn		troll	troll	enemy	66	33	0.085	6	6	6	6	
+		33	next	34											
+		34	spawn		troll	troll	enemy	68	34	0.08	6	6	6	6	
+		34	next	35											
+		35	spawn		troll	troll	enemy	70	35	0.075	7	7	7	7	
+		35	next	36											
+		36	spawn		troll	troll	enemy	72	36	0.07	7	7	7	7	
+		36	next	37											
+		37	spawn		troll	troll	enemy	74	37	0.065	7	7	7	7	
+		37	next	38											
+		38	spawn		troll	troll	enemy	76	38	0.06	7	7	7	7	
+		38	next	39											
+		39	spawn		troll	troll	enemy	78	39	0.055	7	7	7	7	
+		39	next	40											
+		40	spawn		troll	troll	enemy	80	40	0.05	8	8	8	8	
+		40	next	41											
+		41	spawn		troll	troll	enemy	82	41	0.045	8	8	8	8	
+		41	next	42											
+		42	spawn		troll	troll	enemy	84	42	0.041666667	8	8	8	8	
+		42	next	43											
+		43	spawn		troll	troll	enemy	86	43	0.041666667	8	8	8	8	
+		43	next	44											
+		44	spawn		troll	troll	enemy	88	44	0.041666667	8	8	8	8	
+		44	next	45											
+		45	spawn		troll	troll	enemy	90	45	0.041666667	9	9	9	9	
+		45	next	46											
+		46	spawn		troll	troll	enemy	92	46	0.041666667	9	9	9	9	
+		46	next	47											
+		47	spawn		troll	troll	enemy	94	47	0.041666667	9	9	9	9	
+		47	next	48											
+		48	spawn		troll	troll	enemy	96	48	0.041666667	9	9	9	9	
+		48	next	49											
+		49	spawn		troll	troll	enemy	98	49	0.041666667	9	9	9	9	
+		49	next	50											
+		50	spawn		troll	troll	enemy	100	50	0.041666667	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

@@ -1,0 +1,85 @@
+header																
+id	loadid	type	group	itemid	path	ext	uri	symbols								
+																
+String	String	String	String	String	String	String	String	Vector.<String>								
+soundlib	global	swf	sound			swf	data/audio/samples.swf									
+music	global	swf	sound			swf	data/audio/track_1.swf	track_0								
+hud	global	swf	hud	hud	data/hud	swf	data/hud/hud.swf	hud								
+																
+decal_blood	global	swfsheet	decal	decal_blood	data/fx	swf	data/fx/decals.swf	"blood_00,blood_01,blood_02,blood_03,blood_04,blood_05,blood_06"								
+decal_scorch	global	swfsheet	decal	decal_scorch	data/fx	swf	data/fx/decals.swf	"scorch_00,scorch_01,scorch_02,scorch_03"								
+																
+minigun_muzzleflash	global	swf	fx	minigun_muzzleflash	data/fx	swf	data/fx/fx.swf	minigun_muzzleflash								
+pistol_muzzleflash	global	swf	fx	pistol_muzzleflash	data/fx	swf	data/fx/fx.swf	pistol_muzzleflash								
+uzi_muzzleflash	global	swf	fx	uzi_muzzleflash	data/fx	swf	data/fx/fx.swf	uzi_muzzleflash								
+rocket_muzzleflash	global	swf	fx	rocket_muzzleflash	data/fx	swf	data/fx/fx.swf	rocket_muzzleflash								
+blood_explosion	global	swfsheet	fx	blood_explosion	data/fx	swf	data/fx/fx.swf	"blood_explosion_00,blood_explosion_01"								
+default_bullet_hit	global	swfsheet	fx	default_bullet_hit	data/fx	swf	data/fx/fx.swf	default_bullet_hit								
+explosion	global	swfsheet	fx	explosion	data/fx	swf	data/fx/fx.swf	"explosion_00,explosion_01,explosion_02"								
+devil_firewall	global	swfsheet	fx	devil_firewall	data/fx	swf	data/fx/fx.swf	"wall_of_fire_00,wall_of_fire_01,wall_of_fire_02"								
+flame	global	swfsheet	fx	flame	data/fx	swf	data/fx/fx.swf	flame_00								
+onfire	global	swfsheet	fx	onfire	data/fx	swf	data/fx/fx.swf	"onfire_00,onfire_01"								
+onfire_big	global	swfsheet	fx	onfire_big	data/fx	swf	data/fx/fx.swf	"onfire_big_00,onfire_big_01"								
+rocket_flare	global	swfsheet	fx	rocket_flare	data/fx	swf	data/fx/fx.swf	rocket_flare								
+smoke	global	swfsheet	fx	smoke	data/fx	swf	data/fx/fx.swf	"smoke_00,smoke_01"								
+																
+barrel	global	fl3dsheet	other	barrel	data/sprites/items/other	png	data/sprites/items/other/barrel.png									
+grenade	global	fl3dsheet	other	grenade	data/sprites/items/other	png	data/sprites/items/other/grenade.png									
+mine	global	swfsheet	other	items	data/sprites/items/other	swf	data/sprites/items/other/items.swf	mine								
+airstrike	global	swfsheet	other	items	data/sprites/items/other	swf	data/sprites/items/other/items.swf	airstrike								
+shell_bullet	global	fl3dsheet	other	shell_bullet	data/sprites/items/other	png	data/sprites/items/other/shell_bullet.png									
+tree	global	fl3dsheet	other	tree	data/sprites/items/other	png	data/sprites/items/other/tree.png									
+																
+turret_minigun	global	fl3dsheet	turret	minigun	data/sprites/items/turret	png	data/sprites/items/turret/minigun.png									
+turret_flamethrower	global	fl3dsheet	turret	flamethrower	data/sprites/items/turret	png	data/sprites/items/turret/flamethrower.png									
+turret_laser	global	fl3dsheet	turret	laser	data/sprites/items/turret	png	data/sprites/items/turret/laser.png									
+turret_mortar	global	fl3dsheet	turret	mortar	data/sprites/items/turret	png	data/sprites/items/turret/mortar.png									
+turret_50calibre	global	fl3dsheet	turret	50calibre	data/sprites/items/turret	png	data/sprites/items/turret/50calibre.png									
+turret_railgun	global	fl3dsheet	turret	railgun	data/sprites/items/turret	png	data/sprites/items/turret/railgun.png									
+turret_rocket	global	fl3dsheet	turret	rocket	data/sprites/items/turret	png	data/sprites/items/turret/rocket.png									
+																
+wall_tire	global	fl3dsheet	wall	tire	data/sprites/items/wall	png	data/sprites/items/wall/tire.png									
+wall_crate	global	fl3dsheet	wall	crate	data/sprites/items/wall	png	data/sprites/items/wall/crate.png									
+wall_sandbag	global	fl3dsheet	wall	sandbag	data/sprites/items/wall	png	data/sprites/items/wall/sandbag.png									
+wall_barricade	global	fl3dsheet	wall	barricade	data/sprites/items/wall	png	data/sprites/items/wall/barricade.png									
+																
+coin_bronze	global	fl3dsheet	pickup	coin_bronze	data/sprites/items/pickup	png	data/sprites/items/pickup/coin_bronze.png									
+coin_gold	global	fl3dsheet	pickup	coin_gold	data/sprites/items/pickup	png	data/sprites/items/pickup/coin_gold.png									
+coin_silver	global	fl3dsheet	pickup	coin_silver	data/sprites/items/pickup	png	data/sprites/items/pickup/coin_silver.png									
+																
+bomber_attack	global	fl3dsheet	bomber	attack	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/attack.png									
+bomber_dead	global	fl3dsheet	bomber	dead	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/dead.png									
+bomber_dying	global	fl3dsheet	bomber	dying	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/dying.png									
+bomber_hit	global	fl3dsheet	bomber	hit	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/hit.png									
+bomber_run	global	fl3dsheet	bomber	run	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/run.png									
+bomber_stand	global	fl3dsheet	bomber	stand	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/stand.png									
+bomber_walk	global	fl3dsheet	bomber	walk	data/sprites/enemy/bomber	png	data/sprites/enemy/bomber/walk.png									
+																
+devil_attack	global	fl3dsheet	devil	attack	data/sprites/enemy/devil	png	data/sprites/enemy/devil/attack.png									
+devil_dead	global	fl3dsheet	devil	dead	data/sprites/enemy/devil	png	data/sprites/enemy/devil/dead.png									
+devil_dying	global	fl3dsheet	devil	dying	data/sprites/enemy/devil	png	data/sprites/enemy/devil/dying.png									
+devil_hit	global	fl3dsheet	devil	hit	data/sprites/enemy/devil	png	data/sprites/enemy/devil/hit.png									
+devil_stand	global	fl3dsheet	devil	stand	data/sprites/enemy/devil	png	data/sprites/enemy/devil/stand.png									
+devil_walk	global	fl3dsheet	devil	walk	data/sprites/enemy/devil	png	data/sprites/enemy/devil/walk.png									
+																
+zombie_attack	global	fl3dsheet	zombie	attack	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/attack.png									
+zombie_dead	global	fl3dsheet	zombie	dead	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/dead.png									
+zombie_dying	global	fl3dsheet	zombie	dying	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/dying.png									
+zombie_hit	global	fl3dsheet	zombie	hit	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/hit.png									
+zombie_stand	global	fl3dsheet	zombie	stand	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/stand.png									
+zombie_walk	global	fl3dsheet	zombie	walk	data/sprites/enemy/zombie	png	data/sprites/enemy/zombie/walk.png									
+																
+yeti_attack	global	fl3dsheet	yeti	attack	data/sprites/enemy/yeti	png	data/sprites/enemy/yeti/attack.png									
+yeti_run	global	fl3dsheet	yeti	run	data/sprites/enemy/yeti	png	data/sprites/enemy/yeti/run.png									
+yeti_dead	global	fl3dsheet	yeti	dead	data/sprites/enemy/yeti	png	data/sprites/enemy/yeti/dead.png									
+yeti_dying	global	fl3dsheet	yeti	dying	data/sprites/enemy/yeti	png	data/sprites/enemy/yeti/dying.png									
+yeti_stand	global	fl3dsheet	yeti	stand	data/sprites/enemy/yeti	png	data/sprites/enemy/yeti/stand.png									
+yeti_walk	global	fl3dsheet	yeti	walk	data/sprites/enemy/yeti	png	data/sprites/enemy/yeti/walk.png									
+																
+rudolf_attack	global	fl3dsheet	rudolf	attack	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/attack.png									
+rudolf_dead	global	fl3dsheet	rudolf	dead	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/dead.png									
+rudolf_dying	global	fl3dsheet	rudolf	dying	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/dying.png									
+rudolf_hit	global	fl3dsheet	rudolf	hit	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/hit.png									
+rudolf_run	global	fl3dsheet	rudolf	run	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/run.png									
+rudolf_stand	global	fl3dsheet	rudolf	stand	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/stand.png									
+rudolf_walk	global	fl3dsheet	rudolf	walk	data/sprites/enemy/rudolf	png	data/sprites/enemy/rudolf/walk.png									

@@ -1,0 +1,479 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	spawn		ed206	troll	enemy	4	2	0	0	0	0	0	
+		1	spawn		mummy	nearplayer	enemy	12	6	1	0	0	0	0	
+		1	spawn		bomber	zombie	enemy	12	6	0	0	0	0	0	
+		1	startwait	5											
+		1	complete	alldead											
+		1	fail	dead											
+		1	spawn_items	"barrel,wall_crate,wall_tire,wall_sandbag,wall_barricade,turret_railgun,turret_minigun,turret_rocket,turret_laser,turret_mortar,turret_50calibre"											
+		1	endwait	5											
+		1	next	2											
+		2	spawn		ed206	troll	enemy	8	4	0	0	0	0	0	
+		2	spawn		mummy	nearplayer	enemy	24	10	1	0	0	0	0	
+		2	spawn		bomber	zombie1	enemy	24	12	0	0	0	0	0	
+		2	spawn		lucifer	zombie	enemy	12	6	0	0	0	0	0	
+		2	next	3											
+		3	spawn		ed206	troll	enemy	8	4	0	0	0	0	0	
+		3	spawn		mummy	nearplayer	enemy	24	10	1	0	0	0	0	
+		3	spawn		bomber	zombie	enemy	24	12	0	0	0	0	0	
+		3	spawn		lucifer	zombie1	enemy	18	9	0	0	0	0	0	
+		3	next	4											
+		4	spawn		ed206	troll	enemy	8	4	0	0	0	0	0	
+		4	spawn		mummy	nearplayer	enemy	32	10	1	0	0	0	0	
+		4	spawn		bomber	zombie	enemy	32	16	0	0	0	0	0	
+		4	spawn		lucifer	zombie1	enemy	24	12	0	0	0	0	0	
+		4	next	5											
+		5	spawn		ed206	troll	enemy	10	5	0	1	1	1	1	
+		5	spawn		mummy	nearplayer	enemy	34	10	1	1	1	1	1	
+		5	spawn		bomber	zombie1	enemy	34	17	0	1	1	1	1	
+		5	spawn		lucifer	zombie	enemy	30	15	0	1	1	1	1	
+		5	next	6											
+		6	spawn		ed206	troll	enemy	10	5	0	1	1	1	1	
+		6	spawn		mummy	nearplayer	enemy	36	10	1	1	1	1	1	
+		6	spawn		bomber	zombie	enemy	36	18	0	1	1	1	1	
+		6	spawn		lucifer	zombie1	enemy	36	18	0	1	1	1	1	
+		6	next	7											
+		7	spawn		ed206	troll	enemy	10	5	0	1	1	1	1	
+		7	spawn		mummy	nearplayer	enemy	42	10	1	1	1	1	1	
+		7	spawn		bomber	zombie1	enemy	42	20	0	1	1	1	1	
+		7	spawn		lucifer	zombie	enemy	42	20	0	1	1	1	1	
+		7	next	8											
+		8	spawn		ed206	troll	enemy	10	5	0	1	1	1	1	
+		8	spawn		mummy	nearplayer	enemy	48	10	1	1	1	1	1	
+		8	spawn		bomber	zombie1	enemy	48	20	0	1	1	1	1	
+		8	spawn		lucifer	zombie	enemy	48	20	0	1	1	1	1	
+		8	next	9											
+		9	spawn		ed206	troll	enemy	10	5	0	1	1	1	1	
+		9	spawn		mummy	nearplayer	enemy	54	10	1	1	1	1	1	
+		9	spawn		bomber	zombie1	enemy	54	20	0	1	1	1	1	
+		9	spawn		lucifer	zombie	enemy	54	20	0	1	1	1	1	
+		9	next	10											
+		10	spawn		ed206	troll	enemy	10	5	0	2	2	2	2	
+		10	spawn		mummy	nearplayer	enemy	60	10	1	2	2	2	2	
+		10	spawn		bomber	zombie1	enemy	60	20	0	2	2	2	2	
+		10	spawn		lucifer	zombie	enemy	60	20	0	2	2	2	2	
+		10	next	11											
+		11	spawn		ed206	troll	enemy	10	5	0	2	2	2	2	
+		11	spawn		mummy	nearplayer	enemy	66	10	1	2	2	2	2	
+		11	spawn		bomber	zombie	enemy	66	20	0	2	2	2	2	
+		11	spawn		lucifer	zombie1	enemy	66	20	0	2	2	2	2	
+		11	next	12											
+		12	spawn		ed206	troll	enemy	10	5	0	2	2	2	2	
+		12	spawn		mummy	nearplayer	enemy	72	10	1	2	2	2	2	
+		12	spawn		bomber	zombie1	enemy	72	20	0	2	2	2	2	
+		12	spawn		lucifer	zombie	enemy	72	20	0	2	2	2	2	
+		12	next	13											
+		13	spawn		ed206	troll	enemy	10	5	0	2	2	2	2	
+		13	spawn		mummy	nearplayer	enemy	78	10	1	2	2	2	2	
+		13	spawn		bomber	zombie	enemy	78	20	0	2	2	2	2	
+		13	spawn		lucifer	zombie1	enemy	78	20	0	2	2	2	2	
+		13	next	14											
+		14	spawn		ed206	troll	enemy	10	5	0	2	2	2	2	
+		14	spawn		mummy	nearplayer	enemy	84	10	1	2	2	2	2	
+		14	spawn		bomber	zombie1	enemy	84	20	0	2	2	2	2	
+		14	spawn		lucifer	zombie	enemy	84	20	0	2	2	2	2	
+		14	next	15											
+		15	spawn		ed206	troll	enemy	10	5	0	3	3	3	3	
+		15	spawn		mummy	nearplayer	enemy	90	10	1	3	3	3	3	
+		15	spawn		bomber	zombie1	enemy	90	20	0	3	3	3	3	
+		15	spawn		lucifer	zombie	enemy	90	20	0	3	3	3	3	
+		15	next	16											
+		16	spawn		ed206	troll	enemy	10	5	0	3	3	3	3	
+		16	spawn		mummy	nearplayer	enemy	96	10	1	3	3	3	3	
+		16	spawn		bomber	zombie	enemy	96	20	0	3	3	3	3	
+		16	spawn		lucifer	zombie1	enemy	96	20	0	3	3	3	3	
+		16	next	17											
+		17	spawn		ed206	troll	enemy	10	5	0	3	3	3	3	
+		17	spawn		mummy	nearplayer	enemy	102	10	1	3	3	3	3	
+		17	spawn		bomber	zombie1	enemy	102	20	0	3	3	3	3	
+		17	spawn		lucifer	zombie	enemy	102	20	0	3	3	3	3	
+		17	next	18											
+		18	spawn		ed206	troll	enemy	10	5	0	3	3	3	3	
+		18	spawn		mummy	nearplayer	enemy	108	10	1	3	3	3	3	
+		18	spawn		bomber	zombie1	enemy	108	20	0	3	3	3	3	
+		18	spawn		lucifer	zombie	enemy	108	20	0	3	3	3	3	
+		18	next	19											
+		19	spawn		ed206	troll	enemy	10	5	0	3	3	3	3	
+		19	spawn		mummy	nearplayer	enemy	114	10	1	3	3	3	3	
+		19	spawn		bomber	zombie1	enemy	114	20	0	3	3	3	3	
+		19	spawn		lucifer	zombie	enemy	114	20	0	3	3	3	3	
+		19	next	20											
+		19	spawn		ed206	troll	enemy	10	5	0	3	3	3	3	
+		19	spawn		mummy	nearplayer	enemy	114	10	1	3	3	3	3	
+		19	spawn		bomber	zombie1	enemy	114	20	0	3	3	3	3	
+		19	spawn		lucifer	zombie	enemy	114	20	0	3	3	3	3	
+		20	next	21											
+		21	spawn		ed206	troll	enemy	10	5	0	4	4	4	4	
+		21	spawn		mummy	nearplayer	enemy	126	10	1	4	4	4	4	
+		21	spawn		bomber	zombie	enemy	126	20	0	4	4	4	4	
+		21	spawn		lucifer	zombie1	enemy	126	20	0	4	4	4	4	
+		21	next	22											
+		22	spawn		ed206	troll	enemy	10	5	0	4	4	4	4	
+		22	spawn		mummy	nearplayer	enemy	132	10	1	4	4	4	4	
+		22	spawn		bomber	zombie1	enemy	132	20	0	4	4	4	4	
+		22	spawn		lucifer	zombie	enemy	132	20	0	4	4	4	4	
+		22	next	23											
+		23	spawn		ed206	troll	enemy	10	5	0	4	4	4	4	
+		23	spawn		mummy	nearplayer	enemy	138	10	1	4	4	4	4	
+		23	spawn		bomber	zombie1	enemy	138	20	0	4	4	4	4	
+		23	spawn		lucifer	zombie	enemy	138	20	0	4	4	4	4	
+		23	next	24											
+		24	spawn		ed206	troll	enemy	10	5	0	4	4	4	4	
+		24	spawn		mummy	nearplayer	enemy	144	10	1	4	4	4	4	
+		24	spawn		bomber	zombie1	enemy	144	20	0	4	4	4	4	
+		24	spawn		lucifer	zombie	enemy	144	20	0	4	4	4	4	
+		24	next	25											
+		25	spawn		ed206	troll	enemy	10	5	0	5	5	5	5	
+		25	spawn		mummy	nearplayer	enemy	150	10	1	5	5	5	5	
+		25	spawn		bomber	zombie	enemy	150	20	0	5	5	5	5	
+		25	spawn		lucifer	zombie1	enemy	150	20	0	5	5	5	5	
+		25	next	26											
+		26	spawn		ed206	troll	enemy	10	5	0	5	5	5	5	
+		26	spawn		mummy	nearplayer	enemy	156	10	1	5	5	5	5	
+		26	spawn		bomber	zombie	enemy	156	20	0	5	5	5	5	
+		26	spawn		lucifer	zombie1	enemy	156	20	0	5	5	5	5	
+		26	next	27											
+		27	spawn		ed206	troll	enemy	10	5	0	5	5	5	5	
+		27	spawn		mummy	nearplayer	enemy	162	10	1	5	5	5	5	
+		27	spawn		bomber	zombie1	enemy	162	20	0	5	5	5	5	
+		27	spawn		lucifer	zombie	enemy	162	20	0	5	5	5	5	
+		27	next	28											
+		28	spawn		ed206	troll	enemy	10	5	0	5	5	5	5	
+		28	spawn		mummy	nearplayer	enemy	168	10	1	5	5	5	5	
+		28	spawn		bomber	zombie1	enemy	168	20	0	5	5	5	5	
+		28	spawn		lucifer	zombie	enemy	168	20	0	5	5	5	5	
+		28	next	29											
+		29	spawn		ed206	troll	enemy	10	5	0	5	5	5	5	
+		29	spawn		mummy	nearplayer	enemy	174	10	1	5	5	5	5	
+		29	spawn		bomber	zombie	enemy	174	20	0	5	5	5	5	
+		29	spawn		lucifer	zombie1	enemy	174	20	0	5	5	5	5	
+		29	next	30											
+		30	spawn		ed206	troll	enemy	10	5	0	6	6	6	6	
+		30	spawn		mummy	nearplayer	enemy	180	10	1	6	6	6	6	
+		30	spawn		bomber	zombie1	enemy	180	20	0	6	6	6	6	
+		30	spawn		lucifer	zombie	enemy	180	20	0	6	6	6	6	
+		30	next	31											
+		31	spawn		ed206	troll	enemy	10	5	0	6	6	6	6	
+		31	spawn		mummy	nearplayer	enemy	186	10	1	6	6	6	6	
+		31	spawn		bomber	zombie	enemy	186	20	0	6	6	6	6	
+		31	spawn		lucifer	zombie1	enemy	186	20	0	6	6	6	6	
+		31	next	32											
+		32	spawn		ed206	troll	enemy	10	5	0	6	6	6	6	
+		32	spawn		mummy	nearplayer	enemy	192	10	1	6	6	6	6	
+		32	spawn		bomber	zombie1	enemy	192	20	0	6	6	6	6	
+		32	spawn		lucifer	zombie	enemy	192	20	0	6	6	6	6	
+		32	next	33											
+		33	spawn		ed206	troll	enemy	10	5	0	6	6	6	6	
+		33	spawn		mummy	nearplayer	enemy	198	10	1	6	6	6	6	
+		33	spawn		bomber	zombie	enemy	198	20	0	6	6	6	6	
+		33	spawn		lucifer	zombie1	enemy	198	20	0	6	6	6	6	
+		33	next	34											
+		34	spawn		ed206	troll	enemy	10	5	0	6	6	6	6	
+		34	spawn		mummy	nearplayer	enemy	204	10	1	6	6	6	6	
+		34	spawn		bomber	zombie	enemy	204	20	0	6	6	6	6	
+		34	spawn		lucifer	zombie1	enemy	204	20	0	6	6	6	6	
+		34	next	35											
+		35	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		35	spawn		mummy	nearplayer	enemy	210	10	1	7	7	7	7	
+		35	spawn		bomber	zombie1	enemy	210	20	0	7	7	7	7	
+		35	spawn		lucifer	zombie	enemy	210	20	0	7	7	7	7	
+		35	next	36											
+		36	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		36	spawn		mummy	nearplayer	enemy	216	10	1	7	7	7	7	
+		36	spawn		bomber	zombie1	enemy	216	20	0	7	7	7	7	
+		36	spawn		lucifer	zombie	enemy	216	20	0	7	7	7	7	
+		36	next	37											
+		37	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		37	spawn		mummy	nearplayer	enemy	222	10	1	7	7	7	7	
+		37	spawn		bomber	zombie1	enemy	222	20	0	7	7	7	7	
+		37	spawn		lucifer	zombie	enemy	222	20	0	7	7	7	7	
+		37	next	38											
+		38	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		38	spawn		mummy	nearplayer	enemy	228	10	1	7	7	7	7	
+		38	spawn		bomber	zombie	enemy	228	20	0	7	7	7	7	
+		38	spawn		lucifer	zombie1	enemy	228	20	0	7	7	7	7	
+		38	next	39											
+		39	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		39	spawn		mummy	nearplayer	enemy	234	10	1	7	7	7	7	
+		39	spawn		bomber	zombie	enemy	234	20	0	7	7	7	7	
+		39	spawn		lucifer	zombie1	enemy	234	20	0	7	7	7	7	
+		39	next	40											
+		40	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		40	spawn		mummy	nearplayer	enemy	240	10	1	8	8	8	8	
+		40	spawn		bomber	zombie1	enemy	240	20	0	8	8	8	8	
+		40	spawn		lucifer	zombie	enemy	240	20	0	8	8	8	8	
+		40	next	41											
+		41	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		41	spawn		mummy	nearplayer	enemy	246	10	1	8	8	8	8	
+		41	spawn		bomber	zombie1	enemy	246	20	0	8	8	8	8	
+		41	spawn		lucifer	zombie	enemy	246	20	0	8	8	8	8	
+		41	next	42											
+		42	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		42	spawn		mummy	nearplayer	enemy	252	10	1	8	8	8	8	
+		42	spawn		bomber	zombie	enemy	252	20	0	8	8	8	8	
+		42	spawn		lucifer	zombie1	enemy	252	20	0	8	8	8	8	
+		42	next	43											
+		43	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		43	spawn		mummy	nearplayer	enemy	258	10	1	8	8	8	8	
+		43	spawn		bomber	zombie	enemy	258	20	0	8	8	8	8	
+		43	spawn		lucifer	zombie1	enemy	258	20	0	8	8	8	8	
+		43	next	44											
+		44	spawn		ed206	troll	enemy	10	5	0	7	7	7	7	
+		44	spawn		mummy	nearplayer	enemy	264	10	1	8	8	8	8	
+		44	spawn		bomber	zombie	enemy	264	20	0	8	8	8	8	
+		44	spawn		lucifer	zombie1	enemy	264	20	0	8	8	8	8	
+		44	next	45											
+		45	spawn		ed206	troll	enemy	10	5	0	9	9	9	9	
+		45	spawn		mummy	nearplayer	enemy	270	10	1	9	9	9	9	
+		45	spawn		bomber	zombie1	enemy	270	20	0	9	9	9	9	
+		45	spawn		lucifer	zombie	enemy	270	20	0	9	9	9	9	
+		45	next	46											
+		46	spawn		ed206	troll	enemy	10	5	0	9	9	9	9	
+		46	spawn		mummy	nearplayer	enemy	276	10	1	9	9	9	9	
+		46	spawn		bomber	zombie	enemy	276	20	0	9	9	9	9	
+		46	spawn		lucifer	zombie1	enemy	276	20	0	9	9	9	9	
+		46	next	47											
+		47	spawn		ed206	troll	enemy	10	5	0	9	9	9	9	
+		47	spawn		mummy	nearplayer	enemy	282	10	1	9	9	9	9	
+		47	spawn		bomber	zombie1	enemy	282	20	0	9	9	9	9	
+		47	spawn		lucifer	zombie	enemy	282	20	0	9	9	9	9	
+		47	next	48											
+		48	spawn		ed206	troll	enemy	10	5	0	9	9	9	9	
+		48	spawn		mummy	nearplayer	enemy	288	10	1	9	9	9	9	
+		48	spawn		bomber	zombie	enemy	288	20	0	9	9	9	9	
+		48	spawn		lucifer	zombie1	enemy	288	20	0	9	9	9	9	
+		48	next	49											
+		49	spawn		ed206	troll	enemy	10	5	0	9	9	9	9	
+		49	spawn		mummy	nearplayer	enemy	294	10	1	9	9	9	9	
+		49	spawn		bomber	zombie1	enemy	294	20	0	9	9	9	9	
+		49	spawn		lucifer	zombie	enemy	294	20	0	9	9	9	9	
+		49	next	50											
+		50	spawn		ed206	troll	enemy	10	5	0	10	10	10	10	
+		50	spawn		mummy	nearplayer	enemy	300	10	1	10	10	10	10	
+		50	spawn		lucifer	nearplayer	enemy	100	10	1	10	10	10	10	
+		50	spawn		bomber	zombie	enemy	300	20	0	10	10	10	10	
+		50	next	0											
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															

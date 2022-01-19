@@ -1,0 +1,662 @@
+header				CRITERIA 1			CRITERIA 2			CRITERIA 3					bxhnms1				bxhnms2			
+id	_associate	owner	criteria	_criteria1	__operator1	__value1	_criteria2	__operator2	__value2	_criteria3	__operator3	__value3	logical	_descriptions	_criteria_bxhnms1	_descriptions_bxhnms1	_lockdesc_bxhnms1	_associate_bxhnms1	_criteria_bxhnms2	_descriptions_bxhnms2	_lockdesc_bxhnms2	_associate_bxhnms2
+														prefix: You have to		prefix: You have to	prefix: You have to	prefix: You have to		prefix: You have to	prefix: You have to	prefix: You have to
+String	String	String	Vector.<String>	String			String			String			String	Vector.<String>	String	String	String	String	String	String	String	String
+WEAPONS																						
+[character].weapon4		[character].weapon4	[character].weapon3.totalKills>=2999	[character].weapon3.totalKills	>=	2999							and	kill <number>3000</number> baddies with the <field>[character].weapon3.title</field>	[character].weapon3.totalKills>=1999	kill <number>2000</number> baddies with the <field>[character].weapon3.title</field>	[character].weapon3.totalKills		[character].weapon3.totalKills>=999	kill <number>1000</number> baddies with the <field>[character].weapon3.title</field>	[character].weapon3.totalKills	
+[character].weapon5		[character].weapon5	"[character].highestMultiplier>=499,player.totalKills>=9999"	[character].highestMultiplier	>=	499	player.totalKills	>=	9999				and	"get your multiplier to reach 500,kill <number>10000</number> baddies"	player.totalKills>=4999	kill <number>5000</number> baddies	player.totalKills		player.totalKills>=499	kill <number>500</number> baddies	player.totalKills	
+[character].weapon6		[character].weapon6	"[character].weapon5.totalKills>=4999,player.friends>=8"	[character].weapon5.totalKills	>=	4999	player.friends	>=	8				and	"kill <number>5000</number> baddies with the <field>[character].weapon5.title</field>,have 8 friends playing the game"	[character].weapon5.totalKills>=2499	kill <number>2500</number> baddies with the <field>[character].weapon5.title</field>	[character].weapon5.totalKills		[character].weapon5.totalKills>=1499	kill <number>1500</number> baddies with the <field>[character].weapon5.title</field>	[character].weapon5.totalKills	
+[character].weapon7		[character].weapon7	"[character].weapon6.totalKills>=7999,player.highestScore>=10000000"	[character].weapon6.totalKills	>=	7999	player.highestScore	>=	10000000				and	"kill <number>8000 baddies with the <field>[character].weapon6.title</field>, get an high score of <number>10000000</number>"					[character].weapon6.totalKills>=1999	kill <number>2000</number> baddies with the <field>[character].weapon6.title</field>	[character].weapon6.totalKills	
+[character].weapon8		[character].weapon8	"[character].weapon7.totalKills>=14999,player.friends>=15"	[character].weapon7.totalKills	>=	14999	player.friends	>=	15				and	"kill <number>15000</number> baddies with the <field>[character].weapon7.title</field>, have 15 friends playing the game"					[character].weapon7.totalKills>=3999	kill <number>4000</number> baddies with the <field>[character].weapon7.title</field>	[character].weapon7.totalKills	
+[character].weapon9		[character].weapon9	"[character].weapon8.totalKills>=14999,player.totalTime>=36000"	[character].weapon8.totalKills	>=	14999	player.totalTime	>=	36000				and	"kill <number>15000</number> baddies with the <field>[character].weapon8.title</field>,  play for <time>36000</time>"	[character].weapon5.totalKills>=4999	kill <number>5000</number> baddies with the <field>[character].weapon5.title</field>	[character].weapon5.totalKills		[character].weapon8.totalKills>=4999	kill <number>5000</number> baddies with the <field>[character].weapon8.title</field>	[character].weapon8.totalKills	
+[character].weapon10		[character].weapon10	"[character].weapon9.totalKills>=14999,player.totalKills>=19999"	[character].weapon9.totalKills	>=	14999	player.totalKills	>=	19999				and	"kill <number>15000</number> baddies with the <field>[character].weapon9.title</field>, kill <number>20000</number> baddies"					[character].weapon9.totalKills>=4999	kill <number>5000</number> baddies with the <field>[character].weapon9.title</field>	[character].weapon9.totalKills	
+[character].weapon11		[character].weapon11	"[character].weapon10.totalKills>=19999,player.highestScore>=100000000"	[character].weapon10.totalKills	>=	19999	player.highestScore	>=	100000000				and	"kill <number>20000</number> baddies with the <field>[character].weapon10.title</field>, get a high score of <number>100000000</number>"					[character].weapon10.totalKills>=4999	kill <number>5000</number> baddies with the <field>[character].weapon10.title</field>	[character].weapon10.totalKills	
+[character].weapon12		[character].weapon12	"[character].weapon11.totalKills>=19999,player.totalKills>=999999,player.totalTime>=72000"	[character].weapon11.totalKills	>=	19999	player.totalKills	>=	999999	player.totalTime	>=	72000	and	"kill <number>20000</number> baddies with the <field>[character].weapon11.title</field>, kill <number>1000000</number> baddies,  play for <time>72000</time>"					[character].weapon11.totalKills>=4999	kill <number>5000</number> baddies with the <field>[character].weapon11.title</field>	[character].weapon11.totalKills	
+[character].weapon13		[character].weapon13	[character].weapon12.totalKills>=100000	[character].weapon12.totalKills	>=	100000								Mystery lock					[character].weapon12.totalKills>=15999	Mystery lock		
+[character].weapon14		[character].weapon14	[character].weapon13.totalKills>=100000	[character].weapon13.totalKills	>=	100000								Mystery lock					[character].weapon13.totalKills>=15999	Mystery lock		
+[character].weapon15		[character].weapon15	[character].weapon14.totalKills>=100000	[character].weapon14.totalKills	>=	100000								Mystery lock					[character].weapon14.totalKills>=15999	Mystery lock		
+[character].weapon16		[character].weapon16	[character].weapon15.totalKills>=100000	[character].weapon15.totalKills	>=	100000								Mystery lock					[character].weapon15.totalKills>=15999	Mystery lock		
+WEAPON UPGRADES																						
+[character].barrel.biggerExplosion		[character].barrel.biggerExplosion											and		[character].barrel.state==owned				[character].barrel.state==owned			
+[character].barrel.maxAmmo		[character].barrel.maxAmmo	[character].barrel.biggerExplosion.xp>=2	[character].barrel.biggerExplosion.xp	>=	2							and	upgrade <field>[character].barrel.biggerExplosion.title</field> to level 3	[character].barrel.biggerExplosion.xp>=2	upgrade <field>[character].barrel.biggerExplosion.title</field> to level 3	[character].barrel.biggerExplosion.xp		[character].barrel.biggerExplosion.xp>=2	upgrade <field>[character].barrel.biggerExplosion.title</field> to level 3	[character].barrel.biggerExplosion.xp	
+[character].barrel.trigger		[character].barrel.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock	[character].barrel.maxAmmo.xp>=8	upgrade <field>[character].barrel.maxAmmo.title</field> to level 9	[character].barrel.maxAmmo.xp		[character].barrel.maxAmmo.xp>=8	upgrade <field>[character].barrel.maxAmmo.title</field> to level 9	[character].barrel.maxAmmo.xp	
+[character].mine.biggerExplosion		[character].mine.biggerExplosion											and									
+[character].mine.maxAmmo		[character].mine.maxAmmo	[character].mine.biggerExplosion.xp>=2	[character].mine.biggerExplosion.xp	>=	2							and	upgrade <field>[character].mine.biggerExplosion.title</field> to level 3								
+[character].mine.trigger		[character].mine.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].hammer.damage		[character].hammer.damage											and						[character].hammer.state==owned			
+[character].hammer.trigger		[character].hammer.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].hammer.damage.xp>=8	upgrade <field>[character].hammer.damage.title</field> to level 9	[character].hammer.damage.xp	
+[character].knife.damage		[character].knife.damage											and		[character].knife.state==owned							
+[character].knife.trigger		[character].knife.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock	[character].knife.damage.xp>=8	upgrade <field>[character].knife.damage.title</field> to level 9	[character].knife.damage.xp					
+[character].sword.damage		[character].sword.damage											and						[character].sword.state==owned			
+[character].sword.trigger		[character].sword.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].sword.damage.xp>=8	upgrade <field>[character].sword.damage.title</field> to level 9	[character].sword.damage.xp	
+[character].lightsaber.damage		[character].lightsaber.damage											and						[character].lightsaber.state==owned			
+[character].lightsaber.trigger		[character].lightsaber.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].lightsaber.damage.xp>=8	upgrade <field>[character].lightsaber.damage.title</field> to level 9	[character].lightsaber.damage.xp	
+[character].baseball_bat.trigger		[character].baseball_bat.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].baseball_bat.damage		[character].baseball_bat.damage											and									
+[character].handbag.trigger		[character].handbag.trigger	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].handbag.damage		[character].handbag.damage											and									
+[character].chainsaw.damage		[character].chainsaw.damage											and						[character].chainsaw.state==owned			
+[character].wall_tire.maxAmmo		[character].wall_tire.maxAmmo	[character].wall_tire.health.xp>=2	[character].wall_tire.health.xp	>=	2							and	upgrade <field>[character].wall_tire.health.title</field> to level 3								
+[character].wall_tire.health		[character].wall_tire.health											and									
+[character].wall_crate.maxAmmo		[character].wall_crate.maxAmmo	[character].wall_crate.health.xp>=2	[character].wall_crate.health.xp	>=	2							and	upgrade <field>[character].wall_crate.health.title</field> to level 3					[character].wall_crate.health.xp>=3	upgrade <field>[character].wall_crate.health.title</field> to level 4	[character].wall_crate.health.xp	
+[character].wall_crate.health		[character].wall_crate.health											and						[character].wall_crate.state==owned			
+[character].wall_sandbag.maxAmmo		[character].wall_sandbag.maxAmmo	[character].wall_sandbag.health.xp>=2	[character].wall_sandbag.health.xp	>=	2							and	upgrade <field>[character].wall_sandbag.health.title</field> to level 3								
+[character].wall_sandbag.health		[character].wall_sandbag.health											and									
+[character].wall_barricade.maxAmmo		[character].wall_barricade.maxAmmo	[character].wall_barricade.health.xp>=2	[character].wall_barricade.health.xp	>=	2							and	upgrade <field>[character].wall_barricade.health.title</field> to level 3	[character].wall_barricade.health.xp>=3	upgrade <field>[character].wall_barricade.health.title</field> to level 4	[character].wall_barricade.health.xp					
+[character].wall_barricade.health		[character].wall_barricade.health											and		[character].wall_barricade.state==owned							
+[character].airstrike_napalm.maxAmmo		[character].airstrike_napalm.maxAmmo	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].airstrike_napalm.biggerExplosion.xp>=3	upgrade <field>[character].airstrike_napalm.biggerExplosion.title</field> to level 4	[character].airstrike_napalm.biggerExplosion.xp	
+[character].airstrike_napalm.biggerExplosion		[character].airstrike_napalm.biggerExplosion	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].airstrike_napalm.state==owned			
+[character].airstrike_carpet.maxAmmo		[character].airstrike_carpet.maxAmmo	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].airstrike_carpet.biggerExplosion		[character].airstrike_carpet.biggerExplosion	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].airstrike_cluster.maxAmmo		[character].airstrike_cluster.maxAmmo	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].airstrike_cluster.biggerExplosion		[character].airstrike_cluster.biggerExplosion	player.friends>=9999	player.friends	>=	9999							and	Mystery lock								
+[character].airstrike_nuke.maxAmmo		[character].airstrike_nuke.maxAmmo	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].airstrike_nuke.biggerExplosion.xp>=3	upgrade <field>[character].airstrike_nuke.biggerExplosion.title</field> to level 4	[character].airstrike_nuke.biggerExplosion.xp	
+[character].airstrike_nuke.biggerExplosion		[character].airstrike_nuke.biggerExplosion	player.friends>=9999	player.friends	>=	9999							and	Mystery lock					[character].airstrike_nuke.state==owned			
+[character].pistol.accuracy		[character].pistol.accuracy											and		[character].pistol.state==owned							
+[character].pistol.trigger		[character].pistol.trigger	[character].pistol.accuracy.xp>=3	[character].pistol.accuracy.xp	>=	3							and	upgrade <field>[character].pistol.accuracy.title</field> to level 4	[character].pistol.accuracy.xp>=3	upgrade <field>[character].pistol.accuracy.title</field> to level 4	[character].pistol.accuracy.xp					
+[character].pistol.fireRate		[character].pistol.fireRate	[character].pistol.trigger.xp>=1	[character].pistol.trigger.xp	>=	1							and	upgrade <field>[character].pistol.trigger.title</field> to level 2	[character].pistol.trigger.xp>=1	upgrade <field>[character].pistol.trigger.title</field> to level 2	[character].pistol.trigger.xp					
+[character].pistol.range		[character].pistol.range	"[character].pistol.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].pistol.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].pistol.fireRate.title</field> to level 5,  play 7 days in a row"	[character].pistol.fireRate.xp>=4	upgrade <field>[character].pistol.fireRate.title</field> to level 5	[character].pistol.fireRate.xp					
+[character].pistol.damage		[character].pistol.damage	"player.friends>=4,player.totalTime>=3600"	player.friends	>=	4	player.totalTime	>=	3600				and	"have 4 friends playing the game, have 1 hours playtime"	[character].pistol.range.xp>=8	upgrade <field>[character].pistol.range.title</field> to level 9	[character].pistol.range.xp					
+[character].pistol.piercing		[character].pistol.piercing	"player.friends>=6,player.totalTime>=7200"	player.friends	>=	6	player.totalTime	>=	7200				and	"have 6 friends playing the game, have 2 hours playtime"	[character].pistol.damage.xp>=4	upgrade <field>[character].pistol.damage.title</field> to level 5	[character].pistol.damage.xp					
+[character].pistol.maxAmmo		[character].pistol.maxAmmo	"player.friends>=8,player.totalTime>=10800"	player.friends	>=	8	player.totalTime	>=	10800				and	"have 8 friends playing the game, have 3 hours playtime"	[character].pistol.piercing.xp>=4	upgrade <field>[character].pistol.piercing.title</field> to level 5	[character].pistol.piercing.xp					
+[character].pistol2.accuracy		[character].pistol2.accuracy											and		[character].pistol2.state==owned				[character].pistol2.state==owned			
+[character].pistol2.trigger		[character].pistol2.trigger	[character].pistol2.accuracy.xp>=3	[character].pistol2.accuracy.xp	>=	3							and	upgrade <field>[character].pistol2.accuracy.title</field> to level 4	[character].pistol2.accuracy.xp>=3	upgrade <field>[character].pistol2.accuracy.title</field> to level 4	[character].pistol2.accuracy.xp		[character].pistol2.accuracy.xp>=3	upgrade <field>[character].pistol2.accuracy.title</field> to level 4	[character].pistol2.accuracy.xp	
+[character].pistol2.fireRate		[character].pistol2.fireRate	[character].pistol2.trigger.xp>=1	[character].pistol2.trigger.xp	>=	1							and	upgrade <field>[character].pistol2.trigger.title</field> to level 2	[character].pistol2.trigger.xp>=1	upgrade <field>[character].pistol2.trigger.title</field> to level 2	[character].pistol2.trigger.xp		[character].pistol2.trigger.xp>=1	upgrade <field>[character].pistol2.trigger.title</field> to level 2	[character].pistol2.trigger.xp	
+[character].pistol2.range		[character].pistol2.range	"[character].pistol2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].pistol2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].pistol2.fireRate.title</field> to level 5,  play 7 days in a row"	[character].pistol2.fireRate.xp>=4	upgrade <field>[character].pistol2.fireRate.title</field> to level 5	[character].pistol2.fireRate.xp		[character].pistol2.fireRate.xp>=4	upgrade <field>[character].pistol2.fireRate.title</field> to level 5	[character].pistol2.fireRate.xp	
+[character].pistol2.damage		[character].pistol2.damage	"player.friends>=4,player.totalTime>=3600"	player.friends	>=	4	player.totalTime	>=	3600				and	"have 4 friends playing the game, have 1 hours playtime"	[character].pistol2.range.xp>=8	upgrade <field>[character].pistol2.range.title</field> to level 9	[character].pistol2.range.xp		[character].pistol2.range.xp>=4	upgrade <field>[character].pistol2.range.title</field> to level 5	[character].pistol2.range.xp	
+[character].pistol2.piercing		[character].pistol2.piercing	"player.friends>=6,player.totalTime>=7200"	player.friends	>=	6	player.totalTime	>=	7200				and	"have 6 friends playing the game, have 2 hours playtime"	[character].pistol2.damage.xp>=4	upgrade <field>[character].pistol2.damage.title</field> to level 5	[character].pistol2.damage.xp		[character].pistol2.damage.xp>=4	upgrade <field>[character].pistol2.damage.title</field> to level 5	[character].pistol2.damage.xp	
+[character].pistol2.maxAmmo		[character].pistol2.maxAmmo	"player.friends>=8,player.totalTime>=10800"	player.friends	>=	8	player.totalTime	>=	10800				and	"have 8 friends playing the game, have 3 hours playtime"	[character].pistol2.piercing.xp>=4	upgrade <field>[character].pistol2.piercing.title</field> to level 5	[character].pistol2.piercing.xp		[character].pistol2.piercing.xp>=4	upgrade <field>[character].pistol2.piercing.title</field> to level 5	[character].pistol2.piercing.xp	
+[character].revolver.accuracy		[character].revolver.accuracy											and		[character].revolver.state==owned							
+[character].revolver.trigger		[character].revolver.trigger	[character].revolver.accuracy.xp>=3	[character].revolver.accuracy.xp	>=	3							and	upgrade <field>[character].revolver.accuracy.title</field> to level 4	[character].revolver.accuracy.xp>=3	upgrade <field>[character].revolver.accuracy.title</field> to level 4	[character].revolver.accuracy.xp					
+[character].revolver.fireRate		[character].revolver.fireRate	[character].revolver.trigger.xp>=1	[character].revolver.trigger.xp	>=	1							and	upgrade <field>[character].revolver.trigger.title</field> to level 2	[character].revolver.trigger.xp>=1	upgrade <field>[character].revolver.trigger.title</field> to level 2	[character].revolver.trigger.xp					
+[character].revolver.range		[character].revolver.range	"[character].revolver.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].revolver.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].revolver.fireRate.title</field> to level 5,  play 7 days in a row"	[character].revolver.fireRate.xp>=4	upgrade <field>[character].revolver.fireRate.title</field> to level 5	[character].revolver.fireRate.xp					
+[character].revolver.damage		[character].revolver.damage	"player.friends>=4,player.totalTime>=3600"	player.friends	>=	4	player.totalTime	>=	3600				and	"have 4 friends playing the game, have 1 hours playtime"	[character].revolver.range.xp>=8	upgrade <field>[character].revolver.range.title</field> to level 9	[character].revolver.range.xp					
+[character].revolver.piercing		[character].revolver.piercing	"player.friends>=6,player.totalTime>=7200"	player.friends	>=	6	player.totalTime	>=	7200				and	"have 6 friends playing the game, have 2 hours playtime"	[character].revolver.damage.xp>=4	upgrade <field>[character].revolver.damage.title</field> to level 5	[character].revolver.damage.xp					
+[character].revolver.maxAmmo		[character].revolver.maxAmmo	"player.friends>=8,player.totalTime>=10800"	player.friends	>=	8	player.totalTime	>=	10800				and	"have 8 friends playing the game, have 3 hours playtime"	[character].revolver.piercing.xp>=4	upgrade <field>[character].revolver.piercing.title</field> to level 5	[character].revolver.piercing.xp					
+[character].revolver2.accuracy		[character].revolver2.accuracy											and		[character].revolver2.state==owned				[character].revolver2.state==owned			
+[character].revolver2.trigger		[character].revolver2.trigger	[character].revolver2.accuracy.xp>=3	[character].revolver2.accuracy.xp	>=	3							and	upgrade <field>[character].revolver2.accuracy.title</field> to level 4	[character].revolver2.accuracy.xp>=3	upgrade <field>[character].revolver2.accuracy.title</field> to level 4	[character].revolver2.accuracy.xp		[character].revolver2.accuracy.xp>=3	upgrade <field>[character].revolver2.accuracy.title</field> to level 4	[character].revolver2.accuracy.xp	
+[character].revolver2.fireRate		[character].revolver2.fireRate	[character].revolver2.trigger.xp>=1	[character].revolver2.trigger.xp	>=	1							and	upgrade <field>[character].revolver2.trigger.title</field> to level 2	[character].revolver2.trigger.xp>=1	upgrade <field>[character].revolver2.trigger.title</field> to level 2	[character].revolver2.trigger.xp		[character].revolver2.trigger.xp>=1	upgrade <field>[character].revolver2.trigger.title</field> to level 2	[character].revolver2.trigger.xp	
+[character].revolver2.range		[character].revolver2.range	"[character].revolver2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].revolver2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].revolver2.fireRate.title</field> to level 5,  play 7 days in a row"	[character].revolver2.fireRate.xp>=4	upgrade <field>[character].revolver2.fireRate.title</field> to level 5	[character].revolver2.fireRate.xp		[character].revolver2.fireRate.xp>=4	upgrade <field>[character].revolver2.fireRate.title</field> to level 5	[character].revolver2.fireRate.xp	
+[character].revolver2.damage		[character].revolver2.damage	"player.friends>=4,player.totalTime>=3600"	player.friends	>=	4	player.totalTime	>=	3600				and	"have 4 friends playing the game, have 1 hours playtime"	[character].revolver2.range.xp>=8	upgrade <field>[character].revolver2.range.title</field> to level 9	[character].revolver2.range.xp		[character].revolver2.range.xp>=4	upgrade <field>[character].revolver2.range.title</field> to level 5	[character].revolver2.range.xp	
+[character].revolver2.piercing		[character].revolver2.piercing	"player.friends>=6,player.totalTime>=7200"	player.friends	>=	6	player.totalTime	>=	7200				and	"have 6 friends playing the game, have 2 hours playtime"	[character].revolver2.damage.xp>=4	upgrade <field>[character].revolver2.damage.title</field> to level 5	[character].revolver2.damage.xp		[character].revolver2.damage.xp>=4	upgrade <field>[character].revolver2.damage.title</field> to level 5	[character].revolver2.damage.xp	
+[character].revolver2.maxAmmo		[character].revolver2.maxAmmo	"player.friends>=8,player.totalTime>=10800"	player.friends	>=	8	player.totalTime	>=	10800				and	"have 8 friends playing the game, have 3 hours playtime"	[character].revolver2.piercing.xp>=4	upgrade <field>[character].revolver2.piercing.title</field> to level 5	[character].revolver2.piercing.xp		[character].revolver2.piercing.xp>=4	upgrade <field>[character].revolver2.piercing.title</field> to level 5	[character].revolver2.piercing.xp	
+[character].shotgun.spread		[character].shotgun.spread											and		[character].shotgun.state==owned				[character].shotgun.state==owned			
+[character].shotgun.trigger		[character].shotgun.trigger	[character].shotgun.spread.xp>=3	[character].shotgun.spread.xp	>=	3							and	upgrade <field>[character].shotgun.spread.title</field> to level 4	[character].shotgun.spread.xp>=3	upgrade <field>[character].shotgun.spread.title</field> to level 4	[character].shotgun.spread.xp		[character].shotgun.spread.xp>=3	upgrade <field>[character].shotgun.spread.title</field> to level 4	[character].shotgun.spread.xp	
+[character].shotgun.fireRate		[character].shotgun.fireRate	"player.friends>=4,player.totalTime>=3600"	player.friends	>=	4	player.totalTime	>=	3600				and	"have 4 friends playing the game, have 1 hours playtime"	[character].shotgun.trigger.xp>=1	upgrade <field>[character].shotgun.trigger.title</field> to level 2	[character].shotgun.trigger.xp		[character].shotgun.trigger.xp>=1	upgrade <field>[character].shotgun.trigger.title</field> to level 2	[character].shotgun.trigger.xp	
+[character].shotgun.range		[character].shotgun.range	"[character].shotgun.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].shotgun.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].shotgun.fireRate.title</field> to level 5,  play 7 days in a row"	[character].shotgun.fireRate.xp>=4	upgrade <field>[character].shotgun.fireRate.title</field> to level 5	[character].shotgun.fireRate.xp		[character].shotgun.fireRate.xp>=4	upgrade <field>[character].shotgun.fireRate.title</field> to level 5	[character].shotgun.fireRate.xp	
+[character].shotgun.damage		[character].shotgun.damage	"[character].shotgun.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].shotgun.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].shotgun.fireRate.title</field> to level 5,  play 7 days in a row"	[character].shotgun.range.xp>=8	upgrade <field>[character].shotgun.range.title</field> to level 9	[character].shotgun.range.xp		[character].shotgun.range.xp>=4	upgrade <field>[character].shotgun.range.title</field> to level 5	[character].shotgun.range.xp	
+[character].shotgun.piercing		[character].shotgun.piercing	"player.friends>=6,player.totalTime>=7200"	player.friends	>=	6	player.totalTime	>=	7200				and	"have 6 friends playing the game, have 2 hours playtime"	[character].shotgun.damage.xp>=4	upgrade <field>[character].shotgun.damage.title</field> to level 5	[character].shotgun.damage.xp		[character].shotgun.damage.xp>=4	upgrade <field>[character].shotgun.damage.title</field> to level 5	[character].shotgun.damage.xp	
+[character].shotgun.maxAmmo		[character].shotgun.maxAmmo	"player.friends>=8,player.totalTime>=10800"	player.friends	>=	8	player.totalTime	>=	10800				and	"have 8 friends playing the game, have 3 hours playtime"	[character].shotgun.piercing.xp>=4	upgrade <field>[character].shotgun.piercing.title</field> to level 5	[character].shotgun.piercing.xp		[character].shotgun.piercing.xp>=4	upgrade <field>[character].shotgun.piercing.title</field> to level 5	[character].shotgun.piercing.xp	
+[character].shotgun2.spread		[character].shotgun2.spread											and		[character].shotgun2.state==owned				[character].shotgun2.state==owned			
+[character].shotgun2.trigger		[character].shotgun2.trigger	[character].shotgun2.spread.xp>=3	[character].shotgun2.spread.xp	>=	3							and	upgrade <field>[character].shotgun2.spread.title</field> to level 4	[character].shotgun2.spread.xp>=3	upgrade <field>[character].shotgun2.spread.title</field> to level 4	[character].shotgun2.spread.xp		[character].shotgun2.spread.xp>=3	upgrade <field>[character].shotgun2.spread.title</field> to level 4	[character].shotgun2.spread.xp	
+[character].shotgun2.fireRate		[character].shotgun2.fireRate	"player.friends>=4,player.totalTime>=3600"	player.friends	>=	4	player.totalTime	>=	3600				and	"have 4 friends playing the game, have 1 hours playtime"	[character].shotgun2.trigger.xp>=1	upgrade <field>[character].shotgun2.trigger.title</field> to level 2	[character].shotgun2.trigger.xp		[character].shotgun2.trigger.xp>=1	upgrade <field>[character].shotgun2.trigger.title</field> to level 2	[character].shotgun2.trigger.xp	
+[character].shotgun2.range		[character].shotgun2.range	"[character].shotgun2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].shotgun2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].shotgun2.fireRate.title</field> to level 5,  play 7 days in a row"	[character].shotgun2.fireRate.xp>=4	upgrade <field>[character].shotgun2.fireRate.title</field> to level 5	[character].shotgun2.fireRate.xp		[character].shotgun2.fireRate.xp>=4	upgrade <field>[character].shotgun2.fireRate.title</field> to level 5	[character].shotgun2.fireRate.xp	
+[character].shotgun2.damage		[character].shotgun2.damage	"[character].shotgun2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].shotgun2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].shotgun2.fireRate.title</field> to level 5,  play 7 days in a row"	[character].shotgun2.range.xp>=8	upgrade <field>[character].shotgun2.range.title</field> to level 9	[character].shotgun2.range.xp		[character].shotgun2.range.xp>=4	upgrade <field>[character].shotgun2.range.title</field> to level 5	[character].shotgun2.range.xp	
+[character].shotgun2.piercing		[character].shotgun2.piercing	"player.friends>=6,player.totalTime>=7200"	player.friends	>=	6	player.totalTime	>=	7200				and	"have 6 friends playing the game, have 2 hours playtime"	[character].shotgun2.damage.xp>=4	upgrade <field>[character].shotgun2.damage.title</field> to level 5	[character].shotgun2.damage.xp		[character].shotgun2.damage.xp>=4	upgrade <field>[character].shotgun2.damage.title</field> to level 5	[character].shotgun2.damage.xp	
+[character].shotgun2.maxAmmo		[character].shotgun2.maxAmmo	"player.friends>=8,player.totalTime>=10800"	player.friends	>=	8	player.totalTime	>=	10800				and	"have 8 friends playing the game, have 3 hours playtime"	[character].shotgun2.piercing.xp>=4	upgrade <field>[character].shotgun2.piercing.title</field> to level 5	[character].shotgun2.piercing.xp		[character].shotgun2.piercing.xp>=4	upgrade <field>[character].shotgun2.piercing.title</field> to level 5	[character].shotgun2.piercing.xp	
+[character].uzi.accuracy		[character].uzi.accuracy											and		[character].uzi.state==owned				[character].uzi.state==owned			
+[character].uzi.fireRate		[character].uzi.fireRate	[character].uzi.accuracy.xp>=3	[character].uzi.accuracy.xp	>=	3							and	upgrade <field>[character].uzi.accuracy.title</field> to level 4	[character].uzi.accuracy.xp>=3	upgrade <field>[character].uzi.accuracy.title</field> to level 4	[character].uzi.accuracy.xp		[character].uzi.accuracy.xp>=3	upgrade <field>[character].uzi.accuracy.title</field> to level 4	[character].uzi.accuracy.xp	
+[character].uzi.range		[character].uzi.range	"[character].uzi.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].uzi.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].uzi.fireRate.title</field> to level 5,  play 7 days in a row"	[character].uzi.fireRate.xp>=4	upgrade <field>[character].uzi.fireRate.title</field> to level 5	[character].uzi.fireRate.xp		[character].uzi.fireRate.xp>=4	upgrade <field>[character].uzi.fireRate.title</field> to level 5	[character].uzi.fireRate.xp	
+[character].uzi.damage		[character].uzi.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"	[character].uzi.range.xp>=8	upgrade <field>[character].uzi.range.title</field> to level 9	[character].uzi.range.xp		[character].uzi.range.xp>=4	upgrade <field>[character].uzi.range.title</field> to level 5	[character].uzi.range.xp	
+[character].uzi.piercing		[character].uzi.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"	[character].uzi.damage.xp>=4	upgrade <field>[character].uzi.damage.title</field> to level 5	[character].uzi.damage.xp		[character].uzi.damage.xp>=4	upgrade <field>[character].uzi.damage.title</field> to level 5	[character].uzi.damage.xp	
+[character].uzi.maxAmmo		[character].uzi.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"	[character].uzi.piercing.xp>=4	upgrade <field>[character].uzi.piercing.title</field> to level 5	[character].uzi.piercing.xp		[character].uzi.piercing.xp>=4	upgrade <field>[character].uzi.piercing.title</field> to level 5	[character].uzi.piercing.xp	
+[character].uzi2.accuracy		[character].uzi2.accuracy											and									
+[character].uzi2.fireRate		[character].uzi2.fireRate	[character].uzi2.accuracy.xp>=3	[character].uzi2.accuracy.xp	>=	3							and	upgrade <field>[character].uzi2.accuracy.title</field> to level 4								
+[character].uzi2.range		[character].uzi2.range	"[character].uzi2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].uzi2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].uzi2.fireRate.title</field> to level 5,  play 7 days in a row"								
+[character].uzi2.damage		[character].uzi2.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"								
+[character].uzi2.piercing		[character].uzi2.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"								
+[character].uzi2.maxAmmo		[character].uzi2.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"								
+[character].minigun.spread		[character].minigun.spread											and						[character].minigun.state==owned			
+[character].minigun.fireRate		[character].minigun.fireRate	[character].minigun.spread.xp>=3	[character].minigun.spread.xp	>=	3							and	upgrade <field>[character].minigun.spread.title</field> to level 4					[character].minigun.spread.xp>=3	upgrade <field>[character].minigun.spread.title</field> to level 4	[character].minigun.spread.xp	
+[character].minigun.range		[character].minigun.range	"[character].minigun.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].minigun.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].minigun.fireRate.title</field> to level 5,  play 7 days in a row"					[character].minigun.fireRate.xp>=4	upgrade <field>[character].minigun.fireRate.title</field> to level 5	[character].minigun.fireRate.xp	
+[character].minigun.damage		[character].minigun.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"					[character].minigun.range.xp>=4	upgrade <field>[character].minigun.range.title</field> to level 5	[character].minigun.range.xp	
+[character].minigun.piercing		[character].minigun.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"					[character].minigun.damage.xp>=4	upgrade <field>[character].minigun.damage.title</field> to level 5	[character].minigun.damage.xp	
+[character].minigun.maxAmmo		[character].minigun.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"					[character].minigun.piercing.xp>=4	upgrade <field>[character].minigun.piercing.title</field> to level 5	[character].minigun.piercing.xp	
+[character].ak47.accuracy		[character].ak47.accuracy											and		[character].ak47.state==owned							
+[character].ak47.fireRate		[character].ak47.fireRate	[character].ak47.accuracy.xp>=3	[character].ak47.accuracy.xp	>=	3							and	upgrade <field>[character].ak47.accuracy.title</field> to level 4	[character].ak47.accuracy.xp>=3	upgrade <field>[character].ak47.accuracy.title</field> to level 4	[character].ak47.accuracy.xp					
+[character].ak47.range		[character].ak47.range	"[character].ak47.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].ak47.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].ak47.fireRate.title</field> to level 5,  play 7 days in a row"	[character].ak47.fireRate.xp>=4	upgrade <field>[character].ak47.fireRate.title</field> to level 5	[character].ak47.fireRate.xp					
+[character].ak47.damage		[character].ak47.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"	[character].ak47.range.xp>=8	upgrade <field>[character].ak47.range.title</field> to level 9	[character].ak47.range.xp					
+[character].ak47.piercing		[character].ak47.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"	[character].ak47.damage.xp>=4	upgrade <field>[character].ak47.damage.title</field> to level 5	[character].ak47.damage.xp					
+[character].ak47.maxAmmo		[character].ak47.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"	[character].ak47.piercing.xp>=4	upgrade <field>[character].ak47.piercing.title</field> to level 5	[character].ak47.piercing.xp					
+[character].ak47_2.accuracy		[character].ak47_2.accuracy											and		[character].ak47_2.state==owned							
+[character].ak47_2.fireRate		[character].ak47_2.fireRate	[character].ak47_2.accuracy.xp>=3	[character].ak47_2.accuracy.xp	>=	3							and	upgrade <field>[character].ak47_2.accuracy.title</field> to level 4	[character].ak47_2.accuracy.xp>=3	upgrade <field>[character].ak47_2.accuracy.title</field> to level 4	[character].ak47_2.accuracy.xp					
+[character].ak47_2.range		[character].ak47_2.range	"[character].ak47_2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].ak47_2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].ak47_2.fireRate.title</field> to level 5,  play 7 days in a row"	[character].ak47_2.fireRate.xp>=4	upgrade <field>[character].ak47_2.fireRate.title</field> to level 5	[character].ak47_2.fireRate.xp					
+[character].ak47_2.damage		[character].ak47_2.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"	[character].ak47_2.range.xp>=8	upgrade <field>[character].ak47_2.range.title</field> to level 9	[character].ak47_2.range.xp					
+[character].ak47_2.piercing		[character].ak47_2.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"	[character].ak47_2.damage.xp>=4	upgrade <field>[character].ak47_2.damage.title</field> to level 5	[character].ak47_2.damage.xp					
+[character].ak47_2.maxAmmo		[character].ak47_2.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"	[character].ak47_2.piercing.xp>=4	upgrade <field>[character].ak47_2.piercing.title</field> to level 5	[character].ak47_2.piercing.xp					
+[character].m16.accuracy		[character].m16.accuracy											and		[character].m16.state==owned							
+[character].m16.fireRate		[character].m16.fireRate	[character].m16.accuracy.xp>=3	[character].m16.accuracy.xp	>=	3							and	upgrade <field>[character].m16.accuracy.title</field> to level 4	[character].m16.accuracy.xp>=3	upgrade <field>[character].m16.accuracy.title</field> to level 4	[character].m16.accuracy.xp					
+[character].m16.range		[character].m16.range	"[character].m16.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].m16.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].m16.fireRate.title</field> to level 5,  play 7 days in a row"	[character].m16.fireRate.xp>=4	upgrade <field>[character].m16.fireRate.title</field> to level 5	[character].m16.fireRate.xp					
+[character].m16.damage		[character].m16.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"	[character].m16.range.xp>=8	upgrade <field>[character].m16.range.title</field> to level 9	[character].m16.range.xp					
+[character].m16.piercing		[character].m16.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"	[character].m16.damage.xp>=4	upgrade <field>[character].m16.damage.title</field> to level 5	[character].m16.damage.xp					
+[character].m16.maxAmmo		[character].m16.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"	[character].m16.piercing.xp>=4	upgrade <field>[character].m16.piercing.title</field> to level 5	[character].m16.piercing.xp					
+[character].m16_2.accuracy		[character].m16_2.accuracy											and		[character].m16_2.state==owned				[character].m16_2.state==owned			
+[character].m16_2.fireRate		[character].m16_2.fireRate	[character].m16_2.accuracy.xp>=3	[character].m16_2.accuracy.xp	>=	3							and	upgrade <field>[character].m16_2.accuracy.title</field> to level 4	[character].m16_2.accuracy.xp>=3	upgrade <field>[character].m16_2.accuracy.title</field> to level 4	[character].m16_2.accuracy.xp		[character].m16_2.accuracy.xp>=3	upgrade <field>[character].m16_2.accuracy.title</field> to level 4	[character].m16_2.accuracy.xp	
+[character].m16_2.range		[character].m16_2.range	"[character].m16_2.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].m16_2.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].m16_2.fireRate.title</field> to level 5,  play 7 days in a row"	[character].m16_2.fireRate.xp>=4	upgrade <field>[character].m16_2.fireRate.title</field> to level 5	[character].m16_2.fireRate.xp		[character].m16_2.fireRate.xp>=4	upgrade <field>[character].m16_2.fireRate.title</field> to level 5	[character].m16_2.fireRate.xp	
+[character].m16_2.damage		[character].m16_2.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"	[character].m16_2.range.xp>=8	upgrade <field>[character].m16_2.range.title</field> to level 9	[character].m16_2.range.xp		[character].m16_2.range.xp>=4	upgrade <field>[character].m16_2.range.title</field> to level 5	[character].m16_2.range.xp	
+[character].m16_2.piercing		[character].m16_2.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"	[character].m16_2.damage.xp>=4	upgrade <field>[character].m16_2.damage.title</field> to level 5	[character].m16_2.damage.xp		[character].m16_2.damage.xp>=4	upgrade <field>[character].m16_2.damage.title</field> to level 5	[character].m16_2.damage.xp	
+[character].m16_2.maxAmmo		[character].m16_2.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"	[character].m16_2.piercing.xp>=4	upgrade <field>[character].m16_2.piercing.title</field> to level 5	[character].m16_2.piercing.xp		[character].m16_2.piercing.xp>=4	upgrade <field>[character].m16_2.piercing.title</field> to level 5	[character].m16_2.piercing.xp	
+[character].grenade.throwRange		[character].grenade.throwRange											and						[character].grenade.state==owned			
+[character].grenade.biggerExplosion		[character].grenade.biggerExplosion	[character].grenade.throwRange.xp>=4	[character].grenade.throwRange.xp	>=	4							and	upgrade <field>[character].grenade.throwRange.title</field> to level 5					[character].grenade.throwRange.xp>=3	upgrade <field>[character].grenade.throwRange.title</field> to level 4	[character].grenade.throwRange.xp	
+[character].grenade.accuracy		[character].grenade.accuracy	[character].grenade.biggerExplosion.xp>=4	[character].grenade.biggerExplosion.xp	>=	4							and	upgrade <field>[character].grenade.biggerExplosion.title</field> to level 5					[character].grenade.biggerExplosion.xp>=4	upgrade <field>[character].grenade.biggerExplosion.title</field> to level 5	[character].grenade.biggerExplosion.xp	
+[character].grenade.reload		[character].grenade.reload	"[character].grenade.maxAmmo.xp>=5,player.totalPlayDaysInARow>=7"	[character].grenade.maxAmmo.xp	>=	5	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].grenade.maxAmmo.title</field> to level 6,  play 7 days in a row"					[character].grenade.accuracy.xp>=4	upgrade <field>[character].grenade.accuracy.title</field> to level 5	[character].grenade.accuracy.xp	
+[character].grenade.maxAmmo		[character].grenade.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"					[character].grenade.reload.xp>=4	upgrade <field>[character].grenade.reload.title</field> to level 5	[character].grenade.reload.xp	
+[character].crossbow.accuracy		[character].crossbow.accuracy											and						[character].crossbow.state==owned			
+[character].crossbow.trigger		[character].crossbow.trigger	[character].crossbow.accuracy.xp>=3	[character].crossbow.accuracy.xp	>=	3							and	upgrade <field>[character].crossbow.accuracy.title</field> to level 4					[character].crossbow.accuracy.xp>=4	upgrade <field>[character].crossbow.accuracy.title</field> to level 5	[character].crossbow.accuracy.xp	
+[character].crossbow.fireRate		[character].crossbow.fireRate	[character].crossbow.trigger.xp>=1	[character].crossbow.trigger.xp	>=	1							and	upgrade <field>[character].crossbow.trigger.title</field> to level 2					[character].crossbow.accuracy.xp>=3	upgrade <field>[character].crossbow.accuracy.title</field> to level 4	[character].crossbow.accuracy.xp	
+[character].crossbow.range		[character].crossbow.range	"[character].crossbow.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].crossbow.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].crossbow.fireRate.title</field> to level 5,  play 7 days in a row"					[character].crossbow.fireRate.xp>=4	upgrade <field>[character].crossbow.fireRate.title</field> to level 5	[character].crossbow.fireRate.xp	
+[character].crossbow.damage		[character].crossbow.damage	"player.friends>=10,player.totalTime>=10800"	player.friends	>=	10	player.totalTime	>=	10800				and	"have 10 friends playing the game, have 3 hours playtime"					[character].crossbow.range.xp>=4	upgrade <field>[character].crossbow.range.title</field> to level 5	[character].crossbow.range.xp	
+[character].crossbow.piercing		[character].crossbow.piercing	"player.friends>=12,player.totalTime>=14400"	player.friends	>=	12	player.totalTime	>=	14400				and	"have 12 friends playing the game, have 4 hours playtime"					[character].crossbow.damage.xp>=4	upgrade <field>[character].crossbow.damage.title</field> to level 5	[character].crossbow.damage.xp	
+[character].crossbow.maxAmmo		[character].crossbow.maxAmmo	"player.friends>=14,player.totalTime>=18000"	player.friends	>=	14	player.totalTime	>=	18000				and	"have 14 friends playing the game, have 5 hours playtime"					[character].crossbow.piercing.xp>=4	upgrade <field>[character].crossbow.piercing.title</field> to level 5	[character].crossbow.piercing.xp	
+[character].lasergun.accuracy		[character].lasergun.accuracy											and									
+[character].lasergun.trigger		[character].lasergun.trigger	[character].lasergun.accuracy.xp>=3	[character].lasergun.accuracy.xp	>=	3							and	upgrade <field>[character].lasergun.accuracy.title</field> to level 4								
+[character].lasergun.fireRate		[character].lasergun.fireRate	[character].lasergun.accuracy.xp>=4	[character].lasergun.accuracy.xp	>=	4							and	upgrade <field>[character].lasergun.accuracy.title</field> to level 5								
+[character].lasergun.damage		[character].lasergun.damage	[character].lasergun.fireRate.xp>=4	[character].lasergun.fireRate.xp	>=	4							and	upgrade <field>[character].lasergun.fireRate.title</field> to level 5								
+[character].lasergun.maxAmmo		[character].lasergun.maxAmmo	[character].lasergun.damage.xp>=6	[character].lasergun.damage.xp	>=	6							and	upgrade <field>[character].lasergun.damage.title</field> to level 7								
+[character].lasergun2.accuracy		[character].lasergun2.accuracy											and						[character].lasergun2.state==owned			
+[character].lasergun2.trigger		[character].lasergun2.trigger	[character].lasergun2.accuracy.xp>=3	[character].lasergun2.accuracy.xp	>=	3							and	upgrade <field>[character].lasergun2.accuracy.title</field> to level 4					[character].lasergun2.accuracy.xp>=3	upgrade <field>[character].lasergun2.accuracy.title</field> to level 4	[character].lasergun2.accuracy.xp	
+[character].lasergun2.fireRate		[character].lasergun2.fireRate	[character].lasergun2.accuracy.xp>=4	[character].lasergun2.accuracy.xp	>=	4							and	upgrade <field>[character].lasergun2.accuracy.title</field> to level 5					[character].lasergun2.trigger.xp>=1	upgrade <field>[character].lasergun2.trigger.title</field> to level 2	[character].lasergun2.trigger.xp	
+[character].lasergun2.damage		[character].lasergun2.damage	[character].lasergun2.fireRate.xp>=4	[character].lasergun2.fireRate.xp	>=	4							and	upgrade <field>[character].lasergun2.fireRate.title</field> to level 5					[character].lasergun2.fireRate.xp>=4	upgrade <field>[character].lasergun2.fireRate.title</field> to level 5	[character].lasergun2.fireRate.xp	
+[character].lasergun2.maxAmmo		[character].lasergun2.maxAmmo	[character].lasergun2.damage.xp>=6	[character].lasergun2.damage.xp	>=	6							and	upgrade <field>[character].lasergun2.damage.title</field> to level 7					[character].lasergun2.damage.xp>=4	upgrade <field>[character].lasergun2.damage.title</field> to level 5	[character].lasergun2.damage.xp	
+[character].railgun.accuracy		[character].railgun.accuracy											and									
+[character].railgun.trigger		[character].railgun.trigger	[character].railgun.accuracy.xp>=3	[character].railgun.accuracy.xp	>=	3							and	upgrade <field>[character].railgun.accuracy.title</field> to level 4								
+[character].railgun.fireRate		[character].railgun.fireRate	[character].railgun.accuracy.xp>=4	[character].railgun.accuracy.xp	>=	4							and	upgrade <field>[character].railgun.accuracy.title</field> to level 5								
+[character].railgun.damage		[character].railgun.damage	[character].railgun.fireRate.xp>=4	[character].railgun.fireRate.xp	>=	4							and	upgrade <field>[character].railgun.fireRate.title</field> to level 5								
+[character].railgun.maxAmmo		[character].railgun.maxAmmo	[character].railgun.damage.xp>=6	[character].railgun.damage.xp	>=	6							and	upgrade <field>[character].railgun.damage.title</field> to level 7								
+[character].railgun2.accuracy		[character].railgun2.accuracy											and									
+[character].railgun2.trigger		[character].railgun2.trigger	[character].railgun2.accuracy.xp>=3	[character].railgun2.accuracy.xp	>=	3							and	upgrade <field>[character].railgun2.accuracy.title</field> to level 4								
+[character].railgun2.fireRate		[character].railgun2.fireRate	[character].railgun2.accuracy.xp>=4	[character].railgun2.accuracy.xp	>=	4							and	upgrade <field>[character].railgun2.accuracy.title</field> to level 5								
+[character].railgun2.damage		[character].railgun2.damage	[character].railgun2.fireRate.xp>=4	[character].railgun2.fireRate.xp	>=	4							and	upgrade <field>[character].railgun2.fireRate.title</field> to level 5								
+[character].railgun2.maxAmmo		[character].railgun2.maxAmmo	[character].railgun2.damage.xp>=6	[character].railgun2.damage.xp	>=	6							and	upgrade <field>[character].railgun2.damage.title</field> to level 7								
+[character].grenade_launcher.accuracy		[character].grenade_launcher.accuracy											and									
+[character].grenade_launcher.trigger		[character].grenade_launcher.trigger	[character].grenade_launcher.accuracy.xp>=3	[character].grenade_launcher.accuracy.xp	>=	3							and	upgrade <field>[character].grenade_launcher.accuracy.title</field> to level 4								
+[character].grenade_launcher.fireRate		[character].grenade_launcher.fireRate	[character].grenade_launcher.accuracy.xp>=6	[character].grenade_launcher.accuracy.xp	>=	6							and	upgrade <field>[character].grenade_launcher.accuracy.title</field> to level 7								
+[character].grenade_launcher.biggerExplosion		[character].grenade_launcher.biggerExplosion	[character].grenade_launcher.fireRate.xp>=4	[character].grenade_launcher.fireRate.xp	>=	4							and	upgrade <field>[character].grenade_launcher.fireRate.title</field> to level 5								
+[character].grenade_launcher.maxAmmo		[character].grenade_launcher.maxAmmo	[character].grenade_launcher.biggerExplosion.xp>=6	[character].grenade_launcher.biggerExplosion.xp	>=	6							and	upgrade <field>[character].grenade_launcher.biggerExplosion.title</field> to level 7								
+[character].grenade_launcher2.accuracy		[character].grenade_launcher2.accuracy											and									
+[character].grenade_launcher2.trigger		[character].grenade_launcher2.trigger	[character].grenade_launcher2.accuracy.xp>=3	[character].grenade_launcher2.accuracy.xp	>=	3							and	upgrade <field>[character].grenade_launcher2.accuracy.title</field> to level 4								
+[character].grenade_launcher2.fireRate		[character].grenade_launcher2.fireRate	[character].grenade_launcher2.accuracy.xp>=6	[character].grenade_launcher2.accuracy.xp	>=	6							and	upgrade <field>[character].grenade_launcher2.accuracy.title</field> to level 7								
+[character].grenade_launcher2.biggerExplosion		[character].grenade_launcher2.biggerExplosion	[character].grenade_launcher2.fireRate.xp>=4	[character].grenade_launcher2.fireRate.xp	>=	4							and	upgrade <field>[character].grenade_launcher2.fireRate.title</field> to level 5								
+[character].grenade_launcher2.maxAmmo		[character].grenade_launcher2.maxAmmo	[character].grenade_launcher2.biggerExplosion.xp>=6	[character].grenade_launcher2.biggerExplosion.xp	>=	6							and	upgrade <field>[character].grenade_launcher2.biggerExplosion.title</field> to level 7								
+[character].rpg.accuracy		[character].rpg.accuracy											and									
+[character].rpg.trigger		[character].rpg.trigger	[character].rpg.accuracy.xp>=3	[character].rpg.accuracy.xp	>=	3							and	upgrade <field>[character].rpg.accuracy.title</field> to level 4								
+[character].rpg.fireRate		[character].rpg.fireRate	[character].rpg.trigger.xp>=1	[character].rpg.trigger.xp	>=	1							and	upgrade <field>[character].rpg.trigger.title</field> to level 2								
+[character].rpg.range		[character].rpg.range	"[character].rpg.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].rpg.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].rpg.fireRate.title</field> to level 5,  play 7 days in a row"								
+[character].rpg.biggerExplosion		[character].rpg.biggerExplosion	"player.friends>=18,player.totalTime>=14400"	player.friends	>=	18	player.totalTime	>=	14400				and	"have 18 friends playing the game, have 4 hours playtime"								
+[character].rpg.maxAmmo		[character].rpg.maxAmmo	"player.friends>=20,player.totalTime>=18000"	player.friends	>=	20	player.totalTime	>=	18000				and	"have 20 friends playing the game, have 5 hours playtime"								
+[character].rocket_launcher.accuracy		[character].rocket_launcher.accuracy											and						[character].rocket_launcher.state==owned			
+[character].rocket_launcher.fireRate		[character].rocket_launcher.fireRate	[character].rocket_launcher.accuracy.xp>=5	[character].rocket_launcher.accuracy.xp	>=	5							and	upgrade <field>[character].rocket_launcher.accuracy.title</field> to level 6					[character].rocket_launcher.accuracy.xp>=3	upgrade <field>[character].rocket_launcher.accuracy.title</field> to level 4	[character].rocket_launcher.accuracy.xp	
+[character].rocket_launcher.range		[character].rocket_launcher.range	"[character].rocket_launcher.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].rocket_launcher.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].rocket_launcher.fireRate.title</field> to level 5,  play 7 days in a row"					[character].rocket_launcher.fireRate.xp>=4	upgrade <field>[character].rocket_launcher.fireRate.title</field> to level 5	[character].rocket_launcher.fireRate.xp	
+[character].rocket_launcher.biggerExplosion		[character].rocket_launcher.biggerExplosion	"player.friends>=18,player.totalTime>=14400"	player.friends	>=	18	player.totalTime	>=	14400				and	"have 18 friends playing the game, have 4 hours playtime"					[character].rocket_launcher.range.xp>=4	upgrade <field>[character].rocket_launcher.range.title</field> to level 5	[character].rocket_launcher.range.xp	
+[character].rocket_launcher.maxAmmo		[character].rocket_launcher.maxAmmo	"player.friends>=20,player.totalTime>=18000"	player.friends	>=	20	player.totalTime	>=	18000				and	"have 20 friends playing the game, have 5 hours playtime"					[character].rocket_launcher.biggerExplosion.xp>=4	upgrade <field>[character].rocket_launcher.biggerExplosion.title</field> to level 5	[character].rocket_launcher.biggerExplosion.xp	
+[character].bazooka.accuracy		[character].bazooka.accuracy											and									
+[character].bazooka.trigger		[character].bazooka.trigger	[character].bazooka.accuracy.xp>=3	[character].bazooka.accuracy.xp	>=	3							and	upgrade <field>[character].bazooka.accuracy.title</field> to level 4								
+[character].bazooka.fireRate		[character].bazooka.fireRate	[character].bazooka.trigger.xp>=1	[character].bazooka.trigger.xp	>=	1							and	upgrade <field>[character].bazooka.trigger.title</field> to level 2								
+[character].bazooka.range		[character].bazooka.range	"[character].bazooka.fireRate.xp>=4,player.totalPlayDaysInARow>=7"	[character].bazooka.fireRate.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	upgrade <field>[character].bazooka.fireRate.title</field> to level 5  play 7 days in a row								
+[character].bazooka.biggerExplosion		[character].bazooka.biggerExplosion	"player.friends>=18,player.totalTime>=14400"	player.friends	>=	18	player.totalTime	>=	14400				and	"have 18 friends playing the game, have 4 hours playtime"								
+[character].bazooka.maxAmmo		[character].bazooka.maxAmmo	"player.friends>=20,player.totalTime>=18000"	player.friends	>=	20	player.totalTime	>=	18000				and	"have 20 friends playing the game, have 5 hours playtime"								
+[character].flamethrower.range		[character].flamethrower.range											and						[character].flamethrower.state==owned			
+[character].flamethrower.damage		[character].flamethrower.damage	[character].flamethrower.range.xp>=3	[character].flamethrower.range.xp	>=	3							and	upgrade <field>[character].flamethrower.range.title</field> to level 4					[character].flamethrower.range.xp>=4	upgrade <field>[character].flamethrower.range.title</field> to level 5	[character].flamethrower.range.xp	
+[character].flamethrower.maxAmmo		[character].flamethrower.maxAmmo	[character].flamethrower.damage.xp>=3	[character].flamethrower.damage.xp	>=	3							and	upgrade <field>[character].flamethrower.damage.title</field> to level 4					[character].flamethrower.damage.xp>=4	upgrade <field>[character].flamethrower.damage.title</field> to level 5	[character].flamethrower.damage.xp	
+[character].turret_50calibre.weaponAccuracy		[character].turret_50calibre.weaponAccuracy											and						[character].turret_50calibre.state==owned			
+[character].turret_50calibre.weaponFireRate		[character].turret_50calibre.weaponFireRate	[character].turret_50calibre.weaponAccuracy.xp>=6	[character].turret_50calibre.weaponAccuracy.xp	>=	6							and	upgrade <field>[character].turret_50calibre.weaponAccuracy.title</field> to level 7					[character].turret_50calibre.weaponAccuracy.xp>=4	upgrade <field>[character].turret_50calibre.weaponAccuracy.title</field> to level 5	[character].turret_50calibre.weaponAccuracy.xp	
+[character].turret_50calibre.weaponDamage		[character].turret_50calibre.weaponDamage	[character].turret_50calibre.weaponFireRate.xp>=4	[character].turret_50calibre.weaponFireRate.xp	>=	4							and	upgrade <field>[character].turret_50calibre.weaponFireRate.title</field> to level 5					[character].turret_50calibre.weaponFireRate.xp>=4	upgrade <field>[character].turret_50calibre.weaponFireRate.title</field> to level 5	[character].turret_50calibre.weaponFireRate.xp	
+[character].turret_50calibre.weaponPiercing		[character].turret_50calibre.weaponPiercing	"[character].turret_50calibre.weaponDamage.xp>=4,player.totalPlayDaysInARow>=7"	[character].turret_50calibre.weaponDamage.xp	>=	4	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].turret_50calibre.weaponDamage.title</field> to level 5, play 7 days in a row"					[character].turret_50calibre.weaponDamage.xp>=3	upgrade <field>[character].turret_50calibre.weaponDamage.title</field> to level 4	[character].turret_50calibre.weaponDamage.xp	
+[character].turret_50calibre.weaponAmmo		[character].turret_50calibre.weaponAmmo	[character].turret_50calibre.weaponPiercing.xp>=4	[character].turret_50calibre.weaponPiercing.xp	>=	4							and	upgrade <field>[character].turret_50calibre.weaponPiercing.title</field> to level 5					[character].turret_50calibre.weaponPiercing.xp>=3	upgrade <field>[character].turret_50calibre.weaponPiercing.title</field> to level 4	[character].turret_50calibre.weaponPiercing.xp	
+[character].turret_50calibre.maxAmmo		[character].turret_50calibre.maxAmmo	[character].turret_50calibre.weaponAmmo.xp>=6	[character].turret_50calibre.weaponAmmo.xp	>=	6							and	upgrade <field>[character].turret_50calibre.weaponAmmo.title</field> to level 7					[character].turret_50calibre.weaponAmmo.xp>=4	upgrade <field>[character].turret_50calibre.weaponAmmo.title</field> to level 5	[character].turret_50calibre.weaponAmmo.xp	
+[character].turret_50calibre.health		[character].turret_50calibre.health	[character].turret_50calibre.maxAmmo.xp>=6	[character].turret_50calibre.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_50calibre.maxAmmo.title</field> to level 7					[character].turret_50calibre.maxAmmo.xp>=4	upgrade <field>[character].turret_50calibre.maxAmmo.title</field> to level 5	[character].turret_50calibre.maxAmmo.xp	
+[character].turret_mortar.weaponAccuracy		[character].turret_mortar.weaponAccuracy											and		[character].turret_mortar.state==owned				[character].turret_mortar.state==owned			
+[character].turret_mortar.weaponFireRate		[character].turret_mortar.weaponFireRate	[character].turret_mortar.weaponAccuracy.xp>=6	[character].turret_mortar.weaponAccuracy.xp	>=	6							and	upgrade <field>[character].turret_mortar.weaponAccuracy.title</field> to level 7	[character].turret_mortar.weaponAccuracy.xp>=6	upgrade <field>[character].turret_mortar.weaponAccuracy.title</field> to level 7	[character].turret_mortar.weaponAccuracy.xp		[character].turret_mortar.weaponAccuracy.xp>=4	upgrade <field>[character].turret_mortar.weaponAccuracy.title</field> to level 5	[character].turret_mortar.weaponAccuracy.xp	
+[character].turret_mortar.weaponBiggerExplosion		[character].turret_mortar.weaponBiggerExplosion	[character].turret_mortar.weaponFireRate.xp>=4	[character].turret_mortar.weaponFireRate.xp	>=	4							and	upgrade <field>[character].turret_mortar.weaponFireRate.title</field> to level 5	[character].turret_mortar.weaponFireRate.xp>=4	upgrade <field>[character].turret_mortar.weaponFireRate.title</field> to level 5	[character].turret_mortar.weaponFireRate.xp		[character].turret_mortar.weaponFireRate.xp>=4	upgrade <field>[character].turret_mortar.weaponFireRate.title</field> to level 5	[character].turret_mortar.weaponFireRate.xp	
+[character].turret_mortar.weaponAmmo		[character].turret_mortar.weaponAmmo	[character].turret_mortar.weaponBiggerExplosion.xp>=3	[character].turret_mortar.weaponBiggerExplosion.xp	>=	3							and	upgrade <field>[character].turret_mortar.weaponBiggerExplosion.title</field> to level 4	[character].turret_mortar.weaponBiggerExplosion.xp>=3	upgrade <field>[character].turret_mortar.weaponBiggerExplosion.title</field> to level 4	[character].turret_mortar.weaponBiggerExplosion.xp		[character].turret_mortar.weaponBiggerExplosion.xp>=3	upgrade <field>[character].turret_mortar.weaponBiggerExplosion.title</field> to level 4	[character].turret_mortar.weaponBiggerExplosion.xp	
+[character].turret_mortar.maxAmmo		[character].turret_mortar.maxAmmo	[character].turret_mortar.weaponAmmo.xp>=6	[character].turret_mortar.weaponAmmo.xp	>=	6							and	upgrade <field>[character].turret_mortar.weaponAmmo.title</field> to level 7	[character].turret_mortar.weaponAmmo.xp>=6	upgrade <field>[character].turret_mortar.weaponAmmo.title</field> to level 7	[character].turret_mortar.weaponAmmo.xp		[character].turret_mortar.weaponAmmo.xp>=4	upgrade <field>[character].turret_mortar.weaponAmmo.title</field> to level 5	[character].turret_mortar.weaponAmmo.xp	
+[character].turret_mortar.health		[character].turret_mortar.health	[character].turret_mortar.maxAmmo.xp>=6	[character].turret_mortar.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_mortar.maxAmmo.title</field> to level 7	[character].turret_mortar.maxAmmo.xp>=6	upgrade <field>[character].turret_mortar.maxAmmo.title</field> to level 7	[character].turret_mortar.maxAmmo.xp		[character].turret_mortar.maxAmmo.xp>=4	upgrade <field>[character].turret_mortar.maxAmmo.title</field> to level 5	[character].turret_mortar.maxAmmo.xp	
+[character].turret_flamethrower.weaponRange		[character].turret_flamethrower.weaponRange											and									
+[character].turret_flamethrower.weaponDamage		[character].turret_flamethrower.weaponDamage	[character].turret_flamethrower.weaponRange.xp>=3	[character].turret_flamethrower.weaponRange.xp	>=	3							and	upgrade <field>[character].turret_flamethrower.weaponRange.title</field> to level 4								
+[character].turret_flamethrower.weaponAmmo		[character].turret_flamethrower.weaponAmmo	[character].turret_flamethrower.weaponDamage.xp>=6	[character].turret_flamethrower.weaponDamage.xp	>=	6							and	upgrade <field>[character].turret_flamethrower.weaponDamage.title</field> to level 7								
+[character].turret_flamethrower.maxAmmo		[character].turret_flamethrower.maxAmmo	[character].turret_flamethrower.weaponAmmo.xp>=2	[character].turret_flamethrower.weaponAmmo.xp	>=	2							and	upgrade <field>[character].turret_flamethrower.weaponAmmo.title</field> to level 3								
+[character].turret_flamethrower.health		[character].turret_flamethrower.health	[character].turret_flamethrower.maxAmmo.xp>=6	[character].turret_flamethrower.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_flamethrower.maxAmmo.title</field> to level 7								
+[character].turret_laser.weaponAccuracy		[character].turret_laser.weaponAccuracy											and						[character].turret_laser.state==owned			
+[character].turret_laser.weaponFireRate		[character].turret_laser.weaponFireRate	[character].turret_laser.weaponAccuracy.xp>=4	[character].turret_laser.weaponAccuracy.xp	>=	4							and	upgrade <field>[character].turret_laser.weaponAccuracy.title</field> to level 5					[character].turret_laser.weaponAccuracy.xp>=4	upgrade <field>[character].turret_laser.weaponAccuracy.title</field> to level 5	[character].turret_laser.weaponAccuracy.xp	
+[character].turret_laser.weaponDamage		[character].turret_laser.weaponDamage	[character].turret_laser.weaponFireRate.xp>=4	[character].turret_laser.weaponFireRate.xp	>=	4							and	upgrade <field>[character].turret_laser.weaponFireRate.title</field> to level 5					[character].turret_laser.weaponFireRate.xp>=4	upgrade <field>[character].turret_laser.weaponFireRate.title</field> to level 5	[character].turret_laser.weaponFireRate.xp	
+[character].turret_laser.weaponAmmo		[character].turret_laser.weaponAmmo	[character].turret_laser.weaponDamage.xp>=3	[character].turret_laser.weaponDamage.xp	>=	3							and	upgrade <field>[character].turret_laser.weaponDamage.title</field> to level 4					[character].turret_laser.weaponDamage.xp>=3	upgrade <field>[character].turret_laser.weaponDamage.title</field> to level 4	[character].turret_laser.weaponDamage.xp	
+[character].turret_laser.maxAmmo		[character].turret_laser.maxAmmo	[character].turret_laser.weaponAmmo.xp>=6	[character].turret_laser.weaponAmmo.xp	>=	6							and	upgrade <field>[character].turret_laser.weaponAmmo.title</field> to level 7					[character].turret_laser.weaponAmmo.xp>=4	upgrade <field>[character].turret_laser.weaponAmmo.title</field> to level 5	[character].turret_laser.weaponAmmo.xp	
+[character].turret_laser.health		[character].turret_laser.health	[character].turret_laser.maxAmmo.xp>=6	[character].turret_laser.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_laser.maxAmmo.title</field> to level 7					[character].turret_laser.maxAmmo.xp>=4	upgrade <field>[character].turret_laser.maxAmmo.title</field> to level 5	[character].turret_laser.maxAmmo.xp	
+[character].turret_minigun.weaponAccuracy		[character].turret_minigun.weaponAccuracy											and		[character].turret_minigun.state==owned							
+[character].turret_minigun.weaponFireRate		[character].turret_minigun.weaponFireRate	[character].turret_minigun.weaponAccuracy.xp>=4	[character].turret_minigun.weaponAccuracy.xp	>=	4							and	upgrade <field>[character].turret_minigun.weaponAccuracy.title</field> to level 5	[character].turret_minigun.weaponAccuracy.xp>=4	upgrade <field>[character].turret_minigun.weaponAccuracy.title</field> to level 5	[character].turret_minigun.weaponAccuracy.xp					
+[character].turret_minigun.weaponDamage		[character].turret_minigun.weaponDamage	[character].turret_minigun.weaponFireRate.xp>=4	[character].turret_minigun.weaponFireRate.xp	>=	4							and	upgrade <field>[character].turret_minigun.weaponFireRate.title</field> to level 5	[character].turret_minigun.weaponFireRate.xp>=4	upgrade <field>[character].turret_minigun.weaponFireRate.title</field> to level 5	[character].turret_minigun.weaponFireRate.xp					
+[character].turret_minigun.weaponPiercing		[character].turret_minigun.weaponPiercing	"[character].turret_minigun.weaponDamage.xp>=3,player.totalPlayDaysInARow>=7"	[character].turret_minigun.weaponDamage.xp	>=	3	player.totalPlayDaysInARow	>=	7				and	"upgrade <field>[character].turret_minigun.weaponDamage.title</field> to level 4, play 7 days in a row"	[character].turret_minigun.weaponDamage.xp>=3	upgrade <field>[character].turret_minigun.weaponDamage.title</field> to level 4	[character].turret_minigun.weaponDamage.xp					
+[character].turret_minigun.weaponAmmo		[character].turret_minigun.weaponAmmo	[character].turret_minigun.weaponPiercing.xp>=3	[character].turret_minigun.weaponPiercing.xp	>=	3							and	upgrade <field>[character].turret_minigun.weaponPiercing.title</field> to level 4	[character].turret_minigun.weaponPiercing.xp>=3	upgrade <field>[character].turret_minigun.weaponPiercing.title</field> to level 4	[character].turret_minigun.weaponPiercing.xp					
+[character].turret_minigun.maxAmmo		[character].turret_minigun.maxAmmo	[character].turret_minigun.weaponAmmo.xp>=6	[character].turret_minigun.weaponAmmo.xp	>=	6							and	upgrade <field>[character].turret_minigun.weaponAmmo.title</field> to level 7	[character].turret_minigun.weaponAmmo.xp>=6	upgrade <field>[character].turret_minigun.weaponAmmo.title</field> to level 7	[character].turret_minigun.weaponAmmo.xp					
+[character].turret_minigun.health		[character].turret_minigun.health	[character].turret_minigun.maxAmmo.xp>=6	[character].turret_minigun.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_minigun.maxAmmo.title</field> to level 7	[character].turret_minigun.maxAmmo.xp>=6	upgrade <field>[character].turret_minigun.maxAmmo.title</field> to level 7	[character].turret_minigun.maxAmmo.xp					
+[character].turret_railgun.weaponAccuracy		[character].turret_railgun.weaponAccuracy											and									
+[character].turret_railgun.weaponFireRate		[character].turret_railgun.weaponFireRate	[character].turret_railgun.weaponAccuracy.xp>=4	[character].turret_railgun.weaponAccuracy.xp	>=	4							and	upgrade <field>[character].turret_railgun.weaponAccuracy.title</field> to level 5								
+[character].turret_railgun.weaponDamage		[character].turret_railgun.weaponDamage	[character].turret_railgun.weaponFireRate.xp>=4	[character].turret_railgun.weaponFireRate.xp	>=	4							and	upgrade <field>[character].turret_railgun.weaponFireRate.title</field> to level 5								
+[character].turret_railgun.weaponAmmo		[character].turret_railgun.weaponAmmo	[character].turret_railgun.weaponDamage.xp>=3	[character].turret_railgun.weaponDamage.xp	>=	3							and	upgrade <field>[character].turret_railgun.weaponDamage.title</field> to level 4								
+[character].turret_railgun.maxAmmo		[character].turret_railgun.maxAmmo	[character].turret_railgun.weaponAmmo.xp>=6	[character].turret_railgun.weaponAmmo.xp	>=	6							and	upgrade <field>[character].turret_railgun.weaponAmmo.title</field> to level 7								
+[character].turret_railgun.health		[character].turret_railgun.health	[character].turret_railgun.maxAmmo.xp>=6	[character].turret_railgun.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_railgun.maxAmmo.title</field> to level 7								
+[character].turret_rocket.weaponAccuracy		[character].turret_rocket.weaponAccuracy											and						[character].turret_rocket.state==owned			
+[character].turret_rocket.weaponFireRate		[character].turret_rocket.weaponFireRate	[character].turret_rocket.weaponAccuracy.xp>=4	[character].turret_rocket.weaponAccuracy.xp	>=	4							and	upgrade <field>[character].turret_rocket.weaponAccuracy.title</field> to level 5					[character].turret_rocket.weaponAccuracy.xp>=4	upgrade <field>[character].turret_rocket.weaponAccuracy.title</field> to level 5	[character].turret_rocket.weaponAccuracy.xp	
+[character].turret_rocket.weaponBiggerExplosion		[character].turret_rocket.weaponBiggerExplosion	[character].turret_rocket.weaponFireRate.xp>=4	[character].turret_rocket.weaponFireRate.xp	>=	4							and	upgrade <field>[character].turret_rocket.weaponFireRate.title</field> to level 5					[character].turret_rocket.weaponFireRate.xp>=4	upgrade <field>[character].turret_rocket.weaponFireRate.title</field> to level 5	[character].turret_rocket.weaponFireRate.xp	
+[character].turret_rocket.weaponAmmo		[character].turret_rocket.weaponAmmo	[character].turret_rocket.weaponBiggerExplosion.xp>=4	[character].turret_rocket.weaponBiggerExplosion.xp	>=	4							and	upgrade <field>[character].turret_rocket.weaponBiggerExplosion.title</field> to level 5					[character].turret_rocket.weaponBiggerExplosion.xp>=3	upgrade <field>[character].turret_rocket.weaponBiggerExplosion.title</field> to level 4	[character].turret_rocket.weaponBiggerExplosion.xp	
+[character].turret_rocket.maxAmmo		[character].turret_rocket.maxAmmo	[character].turret_rocket.weaponAmmo.xp>=6	[character].turret_rocket.weaponAmmo.xp	>=	6							and	upgrade <field>[character].turret_rocket.weaponAmmo.title</field> to level 7					[character].turret_rocket.weaponAmmo.xp>=4	upgrade <field>[character].turret_rocket.weaponAmmo.title</field> to level 5	[character].turret_rocket.weaponAmmo.xp	
+[character].turret_rocket.health		[character].turret_rocket.health	[character].turret_rocket.maxAmmo.xp>=6	[character].turret_rocket.maxAmmo.xp	>=	6							and	upgrade <field>[character].turret_rocket.maxAmmo.title</field> to level 7					[character].turret_rocket.maxAmmo.xp>=4	upgrade <field>[character].turret_rocket.maxAmmo.title</field> to level 5	[character].turret_rocket.maxAmmo.xp	
+BATTLEFIELDS																						
+bf0005		bf0005											and									
+bf0010	bf0005	bf0010	bf0005.highestLevel>=6	bf0005.highestLevel	>=	6							and	complete level 5 in <field>bf0005.title</field>								
+bf0007	bf0010	bf0007	bf0010.highestLevel>=11	bf0010.highestLevel	>=	11							and	complete level 10 in <field>bf0010.title</field>	bf0005.highestLevel>=11	complete level 10 in <field>bf0005.title</field>	bf0005.highestLevel	bf0005				
+bf0003	bf0007	bf0003	bf0007.highestLevel>=11	bf0007.highestLevel	>=	11							and	complete level 10 in <field>bf0007.title</field>								
+bf0004	bf0003	bf0004	bf0003.highestLevel>=11	bf0003.highestLevel	>=	11							and	complete level 10 in <field>bf0003.title</field>								
+bf0002	bf0004	bf0002	bf0004.highestLevel>=11	bf0004.highestLevel	>=	11							and	complete level 10 in <field>bf0004.title</field>								
+bf0009	bf0007	bf0009	bf0007.highestLevel>=41	bf0007.highestLevel	>=	41							and	complete level 40 in <field>bf0007.title</field>								
+bf0018	bf0007	bf0018	bf0007.highestLevel>=46	bf0007.highestLevel	>=	46							and	complete level 45 in <field>bf0007.title</field>	bf0007.highestLevel>=21	complete level 20 in <field>bf0007.title</field>	bf0007.highestLevel	bf0007				
+bf0019	bf0018	bf0019	bf0018.highestLevel>=46	bf0018.highestLevel	>=	46							and	complete level 45 in <field>bf0018.title</field>	bf0018.highestLevel>=31	complete level 30 in <field>bf0018.title</field>	bf0018.highestLevel	bf0018				
+bf0020	bf0019	bf0020	bf0019.highestLevel>=46	bf0019.highestLevel	>=	46							and	complete level 45 in <field>bf0019.title</field>	bf0021.highestLevel>=41	complete level 40 in <field>bf0021.title</field>	bf0021.highestLevel	bf0021				
+bf0021	bf0020	bf0021	bf0020.successCount>=1	bf0020.successCount	>=	1							and	complete level 50 in <field>bf0020.title</field>	bf0019.highestLevel>=41	complete level 40 in <field>bf0019.title</field>	bf0019.highestLevel	bf0019				
+bf0001		bf0001	player.friends>=100	player.friends	>=	100							and	Mystery lock								
+bf0008	bf0010	bf0008	bf0010.highestLevel>=41	bf0010.highestLevel	>=	41							and	complete level 40 in <field>bf0010.title</field>								
+bf0006		bf0006	player.totalKills>=1999999	player.totalKills	>=	1999999							and	Mystery lock								
+bf0016		bf0016	player.totalKills>=2999999	player.totalKills	>=	2999999							and	Mystery lock								
+bf0017		bf0017	player.totalKills>=2999999	player.totalKills	>=	2999999							and	Mystery lock								
+bf0022		bf0022											and									
+bf0023		bf0023											and						bf0022.highestLevel>=11	complete level 10 in <field>bf0022.title</field>	bf0022.highestLevel	bf0022
+bf0024		bf0024											and						bf0023.highestLevel>=21	complete level 20 in <field>bf0023.title</field>	bf0023.highestLevel	bf0023
+bf0025		bf0025											and						bf0024.highestLevel>=31	complete level 30 in <field>bf0024.title</field>	bf0024.highestLevel	bf0024
+bf0026		bf0026											and						bf0025.highestLevel>=41	complete level 40 in <field>bf0025.title</field>	bf0025.highestLevel	bf0025
+CHARACTERS																						
+don	bf0005	don	bf0005.highestLevel>=11	bf0005.highestLevel	>=	11							and	complete level 10 in <field>bf0005.title</field>								
+granny	bf0007	granny	bf0007.highestLevel>=21	bf0007.highestLevel	>=	21							and	complete level 20 in <field>bf0007.title</field>								
+killer	bf0002	killer	bf0002.highestLevel>=21	bf0002.highestLevel	>=	21							and	complete level 20 in <field>bf0002.title</field>								
+ninja	bf0002	ninja	bf0002.highestLevel>=31	bf0002.highestLevel	>=	31							and	complete level 30 in <field>bf0002.title</field>								
+soldier	bf0004	soldier	bf0004.highestLevel>=21	bf0004.highestLevel	>=	21							and	complete level 20 in <field>bf0004.title</field>								
+mi6		mi6	player.friends>=50	player.friends	>=	50							and	Mystery lock								
+terrorist		terrorist	player.friends>=200	player.friends	>=	200							and	Mystery lock								
+badafi		badafi	bf0005.highestLevel>=49	bf0005.highestLevel	>=	49							and	Mystery lock								
+beaster		beaster	player.totalKills>=2999999	player.totalKills	>=	2999999							and	FREE								
+binny	bf0018	binny	bf0018.successCount==1	bf0018.successCount	==	1							and	complete level 50 in <field>bf0018.title</field>	bf0005.highestLevel>=31	complete level 30 in <field>bf0005.title</field>	bf0005.highestLevel	bf0005				
+bieber		bieber	player.totalKills>=1999999	player.totalKills	>=	1999999							and	Mystery lock								
+gaga		gaga	player.totalKills>=2999999	player.totalKills	>=	2999999							and	Mystery lock								
+darth	bf0004	darth	bf0004.highestLevel>=41	bf0004.highestLevel	>=	41							and	complete level 40 in <field>bf0004.title</field>								
+skeleton		skeleton	player.totalKills>=9999999	player.totalKills	>=	9999999							and	FREE								
+santa		santa	player.totalKills>=9999999	player.totalKills	>=	9999999							and	FREE								
+elf		elf	player.totalKills>=9999999	player.totalKills	>=	9999999							and	FREE					bf0022.highestLevel>=31	complete level 30 in <field>bf0022.title</field>	bf0022.highestLevel	bf0022
+CHARACTER UPGRADES																						
+[character].speed		[character].speed	[character].accuracy.xp>=3	[character].accuracy.xp	>=	3							and	upgrade <field>[character].accuracy.title</field> to level 4	[character].accuracy.xp>=3	upgrade <field>[character].accuracy.title</field> to level 4	[character].accuracy.xp		[character].accuracy.xp>=3	upgrade <field>[character].accuracy.title</field> to level 4	[character].accuracy.xp	
+[character].turn		[character].turn	[character].health.xp>=3	[character].health.xp	>=	3							and	upgrade <field>[character].health.title</field> to level 4	[character].health.xp>=3	upgrade <field>[character].health.title</field> to level 4	[character].health.xp		[character].health.xp>=3	upgrade <field>[character].health.title</field> to level 4	[character].health.xp	
+[character].health		[character].health	[character].speed.xp>=3	[character].speed.xp	>=	3							and	upgrade <field>[character].speed.title</field> to level 4	[character].speed.xp>=3	upgrade <field>[character].speed.title</field> to level 4	[character].speed.xp		[character].speed.xp>=3	upgrade <field>[character].speed.title</field> to level 4	[character].speed.xp	
+[character].accuracy		[character].accuracy											and		[character].state==owned				[character].state==owned			
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						

@@ -1,0 +1,25 @@
+					APPEARANCE				AUDIO	AFFECT
+id	name	cclass	subeffect	size	sheet	groundSheet	decal	animate	sampleid	affect
+										
+String	String	Class	DEffect	Number	String	String	String	Number	String	DAffect
+bullet_hit	bullet_hit	bxhnm.object.EffectSingle			default_bullet_hit	default_bullet_hit		0.1		
+blood_explosion	blood_explosion	bxhnm.object.EffectBlood			blood_explosion	blood_explosion		0.1		
+smoke	smoke	bxhnm.object.EffectSingle			smoke	smoke		0.2		
+flamethrower	flamethrower	bxhnm.object.EffectSingle			flame	flame		0.08		flamethrower
+onfire	onfire	bxhnm.object.EffectOnFire			onfire	onfire		0.1		onfire
+onfire_big	onfire_big	bxhnm.object.EffectOnFire			onfire_big	onfire_big		0.1		onfire_big
+fire	fire	bxhnm.object.EffectFire			onfire	onfire		0.05		fire
+										
+lucifer_onfire	lucifer_onfire	bxhnm.object.EffectOnFire			onfire	onfire		0.1		lucifer_onfire
+teleport_smoke	teleport_smoke	bxhnm.object.EffectSingle			smoke	smoke		0.1		
+devil_firewall	devil_firewall	bxhnm.object.EffectSingle			devil_firewall	devil_firewall	decal_scorch	0.03		devil_firewall
+bomber_death	bomber_death	bxhnm.object.EffectExplosionSmall	explosion_air	1						
+										
+explosion	explosion	bxhnm.object.EffectExplosion			explosion	explosion_ground	decal_scorch	0.1	explosion	explosion
+explosion_air	explosion_air	bxhnm.object.EffectExplosion			explosion	explosion	decal_scorch	0.1	explosion	explosion
+explosion_small	explosion_small	bxhnm.object.EffectExplosionSmall	explosion_air	1						
+										
+airstrike_napalm	airstrike_napalm	bxhnm.object.EffectExplosionNapalm	fire	1						
+airstrike_carpet	airstrike_carpet	bxhnm.object.EffectExplosionCarpet	explosion_air	1						
+airstrike_cluster	airstrike_cluster	bxhnm.object.EffectExplosionCluster	explosion_air	1						
+airstrike_nuke	airstrike_nuke	bxhnm.object.EffectExplosionNuke	explosion_air	1						

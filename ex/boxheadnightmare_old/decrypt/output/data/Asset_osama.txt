@@ -1,0 +1,26 @@
+terrorist													
+id	loadid	type	group	itemid	path	ext	uri	symbols					
+													
+String	String	String	String	String	String	String	String	Vector.<String>					
+osama_attack_grenade	osama	fl3dsheet	osama	attack_grenade	data/sprites/player/osama	png	data/sprites/player/osama/attack_grenade.png						
+osama_attack_knife	osama	fl3dsheet	osama	attack_knife	data/sprites/player/osama	png	data/sprites/player/osama/attack_knife.png						
+osama_dead	osama	fl3dsheet	osama	dead	data/sprites/player/osama	png	data/sprites/player/osama/dead.png						
+osama_dying	osama	fl3dsheet	osama	dying	data/sprites/player/osama	png	data/sprites/player/osama/dying.png						
+osama_hit	osama	fl3dsheet	osama	hit	data/sprites/player/osama	png	data/sprites/player/osama/hit.png						
+osama_walk_airstrike	osama	fl3dsheet	osama	walk_airstrike	data/sprites/player/osama	png	data/sprites/player/osama/walk_airstrike.png						
+osama_walk_ak47	osama	fl3dsheet	osama	walk_ak47	data/sprites/player/osama	png	data/sprites/player/osama/walk_ak47.png						
+osama_walk_barrel	osama	fl3dsheet	osama	walk_barrel	data/sprites/player/osama	png	data/sprites/player/osama/walk_barrel.png						
+osama_walk_bazooka	osama	fl3dsheet	osama	walk_bazooka	data/sprites/player/osama	png	data/sprites/player/osama/walk_bazooka.png						
+osama_walk_crossbow	osama	fl3dsheet	osama	walk_crossbow	data/sprites/player/osama	png	data/sprites/player/osama/walk_crossbow.png						
+osama_walk_flamethrower	osama	fl3dsheet	osama	walk_flamethrower	data/sprites/player/osama	png	data/sprites/player/osama/walk_flamethrower.png						
+osama_walk_grenade	osama	fl3dsheet	osama	walk_grenade	data/sprites/player/osama	png	data/sprites/player/osama/walk_grenade.png						
+osama_walk_knife	osama	fl3dsheet	osama	walk_knife	data/sprites/player/osama	png	data/sprites/player/osama/walk_knife.png						
+osama_walk_minigun	osama	fl3dsheet	osama	walk_minigun	data/sprites/player/osama	png	data/sprites/player/osama/walk_minigun.png						
+osama_walk_placement	osama	fl3dsheet	osama	walk_placement	data/sprites/player/osama	png	data/sprites/player/osama/walk_placement.png						
+osama_walk_revolver	osama	fl3dsheet	osama	walk_revolver	data/sprites/player/osama	png	data/sprites/player/osama/walk_revolver.png						
+osama_walk_rocket_launcher	osama	fl3dsheet	osama	walk_rocket_launcher	data/sprites/player/osama	png	data/sprites/player/osama/walk_rocket_launcher.png						
+osama_walk_shotgun	osama	fl3dsheet	osama	walk_shotgun	data/sprites/player/osama	png	data/sprites/player/osama/walk_shotgun.png						
+osama_walk_uzi2	osama	fl3dsheet	osama	walk_uzi2	data/sprites/player/osama	png	data/sprites/player/osama/walk_uzi2.png						
+													
+													
+													

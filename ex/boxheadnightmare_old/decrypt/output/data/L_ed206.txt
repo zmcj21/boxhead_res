@@ -1,0 +1,119 @@
+SYSTEM			COMMAND		SPAWN						UPGRADE				
+id	Name	level	command	parameter	peep	spawn	player	total	active	rate	health	speed	turn	attack	
+									at once	seconds	xp	xp	xp	xp	
+String	String	int	String	*	String	String	String	int	int	Number	int	int	int	int	
+		1	startwait	1											
+		1	complete	alldead											
+		1	spawn_items	barrel											
+		1	fail	dead											
+		1	spawn		ed206	troll	enemy	2	1	0.245	0	0	0	0	
+		1	endwait	5											
+		1	next	2											
+		2	spawn		ed206	troll	enemy	4	2	0.24	0	0	0	0	
+		2	next	3											
+		3	spawn		ed206	troll	enemy	6	3	0.235	0	0	0	0	
+		3	next	4											
+		4	spawn		ed206	troll	enemy	8	4	0.23	0	0	0	0	
+		4	next	5											
+		5	spawn		zombie	zombie	enemy	25	25	0	1	1	1	1	
+		5	spawn		ed206	troll	enemy	10	5	0.225	1	1	1	1	
+		5	next	6											
+		6	spawn		ed206	troll	enemy	12	6	0.22	1	1	1	1	
+		6	next	7											
+		7	spawn		ed206	troll	enemy	14	7	0.215	1	1	1	1	
+		7	next	8											
+		8	spawn		ed206	troll	enemy	16	8	0.21	1	1	1	1	
+		8	next	9											
+		9	spawn		ed206	troll	enemy	18	9	0.205	1	1	1	1	
+		9	next	10											
+		10	spawn		werewolf	zombie	enemy	25	25	0	2	2	2	2	
+		10	spawn		ed206	troll	enemy	20	10	0.2	2	2	2	2	
+		10	next	11											
+		11	spawn		ed206	troll	enemy	22	10	0.195	2	2	2	2	
+		11	next	12											
+		12	spawn		ed206	troll	enemy	24	10	0.19	2	2	2	2	
+		12	next	13											
+		13	spawn		ed206	troll	enemy	26	10	0.185	2	2	2	2	
+		13	next	14											
+		14	spawn		ed206	troll	enemy	28	10	0.18	2	2	2	2	
+		14	next	15											
+		15	spawn		lucifer	zombie	enemy	25	25	0	3	3	3	3	
+		15	spawn		ed206	troll	enemy	30	10	0.175	3	3	3	3	
+		15	next	16											
+		16	spawn		ed206	troll	enemy	32	10	0.17	3	3	3	3	
+		16	next	17											
+		17	spawn		ed206	troll	enemy	34	10	0.165	3	3	3	3	
+		17	next	18											
+		18	spawn		ed206	troll	enemy	36	10	0.16	3	3	3	3	
+		18	next	19											
+		19	spawn		ed206	troll	enemy	38	10	0.155	3	3	3	3	
+		19	next	20											
+		20	spawn		troll	troll	enemy	25	25	0	4	4	4	4	
+		20	spawn		ed206	troll	enemy	40	10	0.15	4	4	4	4	
+		20	next	21											
+		21	spawn		ed206	troll	enemy	42	10	0.145	4	4	4	4	
+		21	next	22											
+		22	spawn		ed206	troll	enemy	44	10	0.14	4	4	4	4	
+		22	next	23											
+		23	spawn		ed206	troll	enemy	46	10	0.135	4	4	4	4	
+		23	next	24											
+		24	spawn		ed206	troll	enemy	48	10	0.13	4	4	4	4	
+		24	next	25											
+		25	spawn		vampire	nearplayer	enemy	25	25	0	5	5	5	5	
+		25	spawn		ed206	troll	enemy	50	10	0.125	5	5	5	5	
+		25	next	26											
+		26	spawn		ed206	troll	enemy	52	10	0.12	5	5	5	5	
+		26	next	27											
+		27	spawn		ed206	troll	enemy	54	10	0.115	5	5	5	5	
+		27	next	28											
+		28	spawn		ed206	troll	enemy	56	10	0.11	5	5	5	5	
+		28	next	29											
+		29	spawn		ed206	troll	enemy	58	10	0.105	5	5	5	5	
+		29	next	30											
+		30	spawn		zombie	zombie	enemy	25	25	0	6	6	6	6	
+		30	spawn		ed206	troll	enemy	60	10	0.1	6	6	6	6	
+		30	next	31											
+		31	spawn		ed206	troll	enemy	62	10	0.095	6	6	6	6	
+		31	next	32											
+		32	spawn		ed206	troll	enemy	64	10	0.09	6	6	6	6	
+		32	next	33											
+		33	spawn		ed206	troll	enemy	66	10	0.085	6	6	6	6	
+		33	next	34											
+		34	spawn		ed206	troll	enemy	68	10	0.08	6	6	6	6	
+		34	next	35											
+		35	spawn		troll	troll	enemy	30	15	0	7	7	7	7	
+		35	spawn		ed206	troll	enemy	70	10	0.075	7	7	7	7	
+		35	next	36											
+		36	spawn		ed206	troll	enemy	72	10	0.07	7	7	7	7	
+		36	next	37											
+		37	spawn		ed206	troll	enemy	74	10	0.065	7	7	7	7	
+		37	next	38											
+		38	spawn		ed206	troll	enemy	76	10	0.06	7	7	7	7	
+		38	next	39											
+		39	spawn		ed206	troll	enemy	78	10	0.055	7	7	7	7	
+		39	next	40											
+		40	spawn		werewolf	zombie	enemy	25	25	0	8	8	8	8	
+		40	spawn		ed206	troll	enemy	80	10	0.05	7	7	7	7	
+		40	next	41											
+		41	spawn		ed206	troll	enemy	82	10	0.045	7	7	7	7	
+		41	next	42											
+		42	spawn		ed206	troll	enemy	84	10	0.041666667	7	7	7	7	
+		42	next	43											
+		43	spawn		ed206	troll	enemy	86	10	0.041666667	9	9	9	7	
+		43	next	44											
+		44	spawn		ed206	troll	enemy	88	10	0.041666667	9	9	9	7	
+		44	next	45											
+		45	spawn		vampire	zombie	enemy	25	25	0	9	9	9	7	
+		45	spawn		ed206	troll	enemy	90	10	0.041666667	9	9	9	7	
+		45	next	46											
+		46	spawn		ed206	troll	enemy	92	10	0.041666667	9	9	9	7	
+		46	next	47											
+		47	spawn		ed206	troll	enemy	94	10	0.041666667	9	9	9	7	
+		47	next	48											
+		48	spawn		ed206	troll	enemy	96	10	0.041666667	9	9	9	7	
+		48	next	49											
+		49	spawn		ed206	troll	enemy	98	10	0.041666667	9	9	9	7	
+		49	next	50											
+		50	spawn		lucifer	zombie	enemy	25	25	0	10	10	10	7	
+		50	spawn		ed206	troll	enemy	100	10	0.041666667	10	10	10	7	
+		50	next	0											

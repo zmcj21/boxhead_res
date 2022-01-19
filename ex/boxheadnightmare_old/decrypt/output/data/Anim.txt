@@ -1,0 +1,29 @@
+		ANIMATION			AFFECT					
+id	name	sheet	frameRate	state	rHitFrame	rHitAffect	lHitFrame	lHitAffect	hitEffect	
+		bambo+		bambo.state=						
+String	String	String	Number	String	Number	DAffect	Number	DAffect	DEffect	
+										
+sword	sword	_attack_sword	0.2	weapon_attack	0.3	stab				
+baseball_bat	baseball_bat	_attack_baseball_bat	0.2	weapon_attack	0.3	hammer				
+handbag	handbag	_attack_handbag	0.2	weapon_attack	0.3	hammer				
+chainsaw	chainsaw					stab				
+knife	knife	_attack_knife	0.2	weapon_attack	0	stab				
+hammer	hammer	_attack_hammer	0.3	weapon_attack	0.3	hammer				
+grenade	grenade	_attack_grenade	0.2	weapon_attack						
+										
+bomber_explode	bomber_explode		0.04	attack_explode	1				explosion_small	
+devil_attack	devil_attack	_attack	0.08	weapon_attack	0	devil_firewall				
+lucifer_attack	lucifer_attack	_attack	0.08	weapon_attack	0.6	lucifer_attack				
+mummy_attack	mummy_attack	_attack	0.08	weapon_attack	0.6	mummy_attack				
+attack_run	attack_run			attack_run						
+teleport	teleport		0.1	attack_teleport						
+troll_attack	troll_attack	_attack	0.2	weapon_attack	0.6	troll_attack				
+vampire_attack	vampire_attack	_attack	0.08	weapon_attack	0.6	vampire_attack				
+werewolf_attack	werewolf_attack	_attack	0.08	weapon_attack	0.6	werewolf_attack				
+zombie_attack	zombie_attack	_attack	0.08	weapon_attack	0.6	zombie_attack				
+										
+										
+										
+										
+										
+										

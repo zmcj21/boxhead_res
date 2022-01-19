@@ -1,0 +1,9 @@
+id	_awards	_field	_condition	_value	_price	_description
+						
+String	Vector.<String>	String	String	*	String	String
+price1	"aw2,aw6"	state	==	owned	weapon.revolver	You've won an Revolver
+						
+						
+						
+						
+						

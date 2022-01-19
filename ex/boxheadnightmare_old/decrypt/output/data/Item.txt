@@ -1,0 +1,31 @@
+		STYLE			CAUSE AND AFFECT					COLLISION		WEAPONS		
+id	name	cclass	state	asset	affects	fireDecay	deathEffect	health	score	radius	height	turn	weapon	
+								100%x1000				degrees		
+String	String	Class	String	String	Object	Number	DEffect	int	int	Number	Number	Number	DWeapon	
+barrel	barrel	bxhnm.object.Barrel	place	barrel		0.9	explosion_small	100		0.5	1			
+mine	mine	bxhnm.object.Mine	place	mine		1	explosion_small			0.5	0.3			
+tree	tree	bxhnm.object.Tree	stand	tree			smoke	"10,000"		0.6	5			
+														
+turret_railgun	turret_railgun	bxhnm.object.Turret	place	turret_railgun		1	smoke	"1,000"		0.5	2	9	turret_railgun_weapon	
+turret_minigun	turret_minigun	bxhnm.object.Turret	place	turret_minigun		1	smoke	"1,000"		0.5	2	9	turret_minigun_weapon	
+turret_rocket	turret_rocket	bxhnm.object.Turret	place	turret_rocket		1	smoke	"1,000"		0.5	2	9	turret_rocket_weapon	
+turret_flamethrower	turret_flamethrower	bxhnm.object.Turret	place	turret_flamethrower		1	smoke	"1,000"		0.5	2	9	turret_flamethrower_weapon	
+turret_laser	turret_laser	bxhnm.object.Turret	place	turret_laser		1	smoke	"1,000"		0.5	2	9	turret_laser_weapon	
+turret_mortar	turret_mortar	bxhnm.object.Turret	place	turret_mortar		1	smoke	"1,000"		0.5	2	9	turret_mortar_weapon	
+turret_50calibre	turret_50calibre	bxhnm.object.Turret	place	turret_50calibre		1	smoke	"1,000"		0.5	2	9	turret_50calibre_weapon	
+														
+pickup_bronze	pickup_bronze	bxhnm.object.PickupCoin	fly	coin_bronze				240	5	0.6	1.2			
+pickup_silver	pickup_silver	bxhnm.object.PickupCoin	fly	coin_silver				240	10	0.6	1.2			
+pickup_gold	pickup_gold	bxhnm.object.PickupCoin	fly	coin_gold				240	50	0.6	1.2			
+														
+airstrike_napalm	airstrike_napalm	bxhnm.object.AirstrikeNode	place	airstrike			airstrike_napalm							
+airstrike_carpet	airstrike_carpet	bxhnm.object.AirstrikeNode	place	airstrike			airstrike_carpet							
+airstrike_cluster	airstrike_cluster	bxhnm.object.AirstrikeNode	place	airstrike			airstrike_cluster							
+airstrike_nuke	airstrike_nuke	bxhnm.object.AirstrikeNode	place	airstrike			airstrike_nuke							
+														
+wall_tire	wall_tire	bxhnm.object.Wall	place	wall_tire		0.1	smoke	500		0.5	2			
+wall_crate	wall_crate	bxhnm.object.Wall	place	wall_crate		0	smoke	"1,000"		0.5	2			
+wall_sandbag	wall_sandbag	bxhnm.object.Wall	place	wall_sandbag		0.5	smoke	"2,000"		0.5	2			
+wall_barricade	wall_barricade	bxhnm.object.Wall	place	wall_barricade		0.9	smoke	"5,000"		0.5	2			
+														
+														

@@ -1,0 +1,190 @@
+header											
+id	owner	criteria	_criteria1	__operator1	value	logical	_type	_grade	_boins	_description	
+											
+String	String	Vector.<String>	String		int	String	String	int	int	String	
+award1	[character]	[character].barrel.totalKills>=50000	[character].barrel.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Barrel	
+award2	[character]	[character].mine.totalKills>=50000	[character].mine.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Mine	
+award3	[character]	[character].hammer.totalKills>=50000	[character].hammer.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Hammer	
+award4	[character]	[character].knife.totalKills>=50000	[character].knife.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Knife	
+award5	[character]	[character].sword.totalKills>=50000	[character].sword.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Sword	
+award6	[character]	[character].baseball_bat.totalKills>=50000	[character].baseball_bat.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Baseball Bat	
+award7	[character]	[character].handbag.totalKills>=50000	[character].handbag.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Handbag	
+award8	[character]	[character].chainsaw.totalKills>=50000	[character].chainsaw.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Chainsaw	
+award9	[character]	[character].airstrike_napalm.totalKills>=50000	[character].airstrike_napalm.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Airstrike Napalm	
+award10	[character]	[character].airstrike_carpet.totalKills>=50000	[character].airstrike_carpet.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Airstrike Carpet	
+award11	[character]	[character].airstrike_cluster.totalKills>=50000	[character].airstrike_cluster.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Airstrike Cluster	
+award12	[character]	[character].airstrike_nuke.totalKills>=50000	[character].airstrike_nuke.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Airstrike Nuke	
+award13	[character]	[character].pistol.totalKills>=50000	[character].pistol.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Pistol	
+award14	[character]	[character].revolver.totalKills>=50000	[character].revolver.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Revolver	
+award15	[character]	[character].shotgun.totalKills>=50000	[character].shotgun.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Shotgun	
+award16	[character]	[character].uzi.totalKills>=50000	[character].uzi.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Uzi	
+award17	[character]	[character].uzi2.totalKills>=50000	[character].uzi2.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Double Uzi	
+award18	[character]	[character].minigun.totalKills>=50000	[character].minigun.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Minigun	
+award19	[character]	[character].ak47.totalKills>=50000	[character].ak47.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s AK-47	
+award20	[character]	[character].m16.totalKills>=50000	[character].m16.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s M16	
+award21	[character]	[character].grenade.totalKills>=50000	[character].grenade.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Grenade	
+award22	[character]	[character].crossbow.totalKills>=50000	[character].crossbow.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Crossbow	
+award23	[character]	[character].rpg.totalKills>=50000	[character].rpg.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s RPG	
+award24	[character]	[character].rocket_launcher.totalKills>=50000	[character].rocket_launcher.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Rocket Launcher	
+award25	[character]	[character].bazooka.totalKills>=50000	[character].bazooka.totalKills	>=	50000	and	character.weapon.kills	2	2000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Bazooka	
+award26	[character]	[character].flamethrower.totalKills>=50000	[character].flamethrower.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Flamethrower	
+award27	[character]	[character].turret_50calibre.totalKills>=50000	[character].turret_50calibre.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret 50 calibre	
+award28	[character]	[character].turret_flamethrower.totalKills>=50000	[character].turret_flamethrower.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret Flamethrower	
+award29	[character]	[character].turret_laser.totalKills>=50000	[character].turret_laser.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret Laser	
+award30	[character]	[character].turret_minigun.totalKills>=50000	[character].turret_minigun.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret Minigun	
+award31	[character]	[character].turret_mortar.totalKills>=50000	[character].turret_mortar.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret Mortar	
+award32	[character]	[character].turret_railgun.totalKills>=50000	[character].turret_railgun.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret Railgun	
+award33	[character]	[character].turret_rocket.totalKills>=50000	[character].turret_rocket.totalKills	>=	50000	and	character.weapon.kills	3	3000000	You've killed <number>50000</number> baddies with <field>[character].title</field>'s Turret Rocket Launcher	
+award34	[battlefield]	[battlefield].highestLevel>=11	[battlefield].highestLevel	>=	11	and	battlefield.level	1	100000	You've completed level 10 in <field>[battlefield].title</field>	
+award35	[battlefield]	[battlefield].highestLevel>=31	[battlefield].highestLevel	>=	31	and	battlefield.level	2	200000	You've completed level 30 in <field>[battlefield].title</field>	
+award36	[battlefield]	[battlefield].successCount==1	[battlefield].successCount	==	1	and	battlefield.level	3	3000000	You've completed level 50 in <field>[battlefield].title</field>	
+award37	[battlefield]	[battlefield].totalKills>=100000	[battlefield].totalKills	>=	100000	and	battlefield.kills	1	1000000	You've killed <number>100000</number> baddies in <field>[battlefield].title</field>	
+award38	[battlefield]	[battlefield].totalKills>=500000	[battlefield].totalKills	>=	500000	and	battlefield.kills	2	2000000	You've killed <number>500000</number> baddies in <field>[battlefield].title</field>	
+award39	[battlefield]	[battlefield].totalKills>=1000000	[battlefield].totalKills	>=	1000000	and	battlefield.kills	3	3000000	You've killed <number>1000000</number> baddies in <field>[battlefield].title</field>	
+award40	[battlefield]	[battlefield].totalDistance>=50000	[battlefield].totalDistance	>=	50000	and	battlefield.distance	1	10000	You've walked 50 Miles in <field>[battlefield].title</field>	
+award41	[battlefield]	[battlefield].totalDistance>=100000	[battlefield].totalDistance	>=	100000	and	battlefield.distance	2	20000	You've walked 100 Miles in <field>[battlefield].title</field>	
+award42	[battlefield]	[battlefield].totalDistance>=200000	[battlefield].totalDistance	>=	200000	and	battlefield.distance	3	30000	You've walked 200 Miles in <field>[battlefield].title</field>	
+award43	[battlefield]	[battlefield].highestMultiplier>=100	[battlefield].highestMultiplier	>=	100	and	battlefield.multiplier	1	10000	Your mulitplier reached 100  in <field>[battlefield].title</field>	
+award44	[battlefield]	[battlefield].highestMultiplier>=500	[battlefield].highestMultiplier	>=	500	and	battlefield.multiplier	2	2000000	Your mulitplier reached 500  in <field>[battlefield].title</field>	
+award45	[battlefield]	[battlefield].highestMultiplier>=999	[battlefield].highestMultiplier	>=	999	and	battlefield.multiplier	3	3000000	Your mulitplier reached 999  in <field>[battlefield].title</field>	
+award46	[character]	[character].zombie.totalKills>=50000	[character].zombie.totalKills	>=	50000	and	character.enemy.kills	1	1000000	You've defeated the Zombies with <field>[character].title</field>	
+award47	[character]	[character].devil.totalKills>=50000	[character].devil.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Devils with <field>[character].title</field>	
+award48	[character]	[character].bomber.totalKills>=50000	[character].bomber.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Bombers with <field>[character].title</field>	
+award49	[character]	[character].ed206.totalKills>=50000	[character].ed206.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the ED 206 with <field>[character].title</field>	
+award50	[character]	[character].lucifer.totalKills>=50000	[character].lucifer.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Lucifers with <field>[character].title</field>	
+award51	[character]	[character].mummy.totalKills>=50000	[character].mummy.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Mummies with <field>[character].title</field>	
+award52	[character]	[character].troll.totalKills>=50000	[character].troll.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Trolls with <field>[character].title</field>	
+award53	[character]	[character].vampire.totalKills>=50000	[character].vampire.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Vampires with <field>[character].title</field>	
+award54	[character]	[character].werewolf.totalKills>=50000	[character].werewolf.totalKills	>=	50000	and	character.enemy.kills	3	3000000	You've defeated the Werewolf with <field>[character].title</field>	
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											

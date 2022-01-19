@@ -1,0 +1,19 @@
+header			GAME		FRONTEND													
+id	name	mapURI	mapSymbol	levelURI	order	_title	_subtitle	_description	_infoTooltip	_shopDescription	_state	_promotion	_bollars	_offers	totalLevels	_difficulty	_comingSoon	versionType
+																		
+String	String	String	String	String	int	String	String	String	String	String	String	Boolean	int	Vector.<String>	int	int	Boolean	Vector.<String>
+bf0003	bf0003	data/maps/map_gfx_1.swf	map_0003	data/L_1m_b.txt	8	Village	Kill 1M baddies	Don't go in the houses.	Awesome battlefield	_shopDescription	locked	TRUE	500	"bf0002:30,bf0004:30,bf0007:30,bf0010:30,granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	2	FALSE	facebook
+bf0004	bf0004	data/maps/map_gfx_1.swf	map_0004	data/L_def_h.txt	11	Massacre	Defence hard	Stay in the middle and defend yourself. Let the massacre begin!	Awesome battlefield	_shopDescription	locked	FALSE	500	"bf0002:30,bf0003:30,bf0007:30,bf0010:30,granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	3	FALSE	facebook
+bf0005	bf0005	data/maps/map_gfx_1.swf	map_0005	data/L_def_p.txt	1	Road 666	Defence	It's a long way home.	Awesome battlefield	_shopDescription	owned	FALSE	500	"granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	1	FALSE	"facebook,bxhnms1"
+bf0006	bf0006	data/maps/map_gfx_1.swf	map_0006	data/L_1m_b.txt	12	Castle	Kill 1M baddies	They come from everywhere.	Awesome battlefield	_shopDescription	locked	FALSE	500	"granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	3	TRUE	facebook
+bf0007	bf0007	data/maps/map_gfx_1.swf	map_0007	data/L_1m_z.txt	3	The Strip	Kill 1M zombies	Get them all.	Awesome battlefield	_shopDescription	locked	FALSE	500	"bf0002:30,bf0003:30,bf0004:30,bf0010:30,granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	3	FALSE	"facebook,bxhnms1"
+bf0008	bf0008	data/maps/map_gfx_1.swf	map_0008	data/L_1m_b_p.txt	13	Maze	Kill 1M baddies	Dont get lost in the maze. Kill all the baddies and escape from this nightmare!	Awesome battlefield	_shopDescription	locked	FALSE	500	"granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	3	TRUE	facebook
+bf0009	bf0009	data/maps/map_gfx_1.swf	map_0009	data/L_ed206.txt	9	ED 206	Defeat ED 206	Bobocops enemy.	Awesome battlefield	_shopDescription	locked	FALSE	500	"bf0002:30,bf0003:30,bf0004:30,bf0007:30,granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	2	FALSE	facebook
+bf0010	bf0010	data/maps/map_gfx_1.swf	map_0010	data/L_troll.txt	8	Troll	Defeat Troll	"The Forrest. Watch out for the Troll, he wants to boil you in a cooking pot."	Awesome battlefield	_shopDescription	locked	FALSE	500	"bf0002:30,bf0003:30,bf0004:30,bf0007:30,granny:20,killer:20,soldier:20,ninja:20,badafi:20,don:20"	50	2	FALSE	facebook
+bf0012	bf0012	data/maps/map_gfx_1.swf	map_0012	data/L_def_p.txt	4	Subway	Defence	Find your way out.	Awesome battlefield	_shopDescription	locked	FALSE	500		50	2	FALSE	bxhnms1
+bf0013	bf0013	data/maps/map_gfx_1.swf	map_0013	data/L_1m_b_p.txt	5	Church	Kill 1M baddies	Don't go in the houses.	Awesome battlefield	_shopDescription	locked	FALSE	500		50	2	FALSE	bxhnms1
+bf0014	bf0014	data/maps/map_gfx_1.swf	map_0014	data/L_1m_b_p_h.txt	7	Hurricane	Kill 1M baddies	Hold the line	Awesome battlefield	_shopDescription	locked	FALSE	500		50	3	FALSE	bxhnms1
+bf0015	bf0015	data/maps/map_gfx_1.swf	map_0015	data/L_def_p_h.txt	6	Deja vu	Defence	Stay in the base and defend yourself. Let the massacre begin!	Awesome battlefield	_shopDescription	locked	FALSE	500		50	3	FALSE	bxhnms1
+																		
+																		
+																		

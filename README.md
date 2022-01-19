@@ -1,6 +1,6 @@
 # Boxhead Resources
 
-僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
+僵尸危机游戏资源与信息大全
 
 最后更新日期：2022/1/20
 
@@ -10,7 +10,7 @@
 
 1. boxhead_series中所有的swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
 
-1. 使用FlashPlayer.exe直接打开.swf文件游玩
+1. 使用flash_player中的FlashPlayer.exe或flashplayer_32_sa.exe直接打开.swf文件游玩
 
 1. 可以使用[ffdec](https://github.com/jindrapetrik/jpexs-decompiler)反编译.swf文件获取美术/音频/代码资源。
 

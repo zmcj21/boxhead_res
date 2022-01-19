@@ -2,13 +2,13 @@
 
 僵尸危机游戏资源大全，这里也汇总了有关僵尸危机的信息
 
-最后更新日期：2022/1/19
+最后更新日期：2022/1/20
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 
 ## 注意：
 
-1. 本仓库所有.swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
+1. boxhead_series中所有的swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
 
 1. 使用FlashPlayer.exe直接打开.swf文件游玩
 

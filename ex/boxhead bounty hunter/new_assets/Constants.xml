@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<!--
+		damage values should be less than 100 (won't communicate 3 digits)
+		fireDelay values should be multiples of 0.05 (20 per second)
+		moveSpeed is a multiplier of the default speed
+		
+		killMessage and suicideMessage (optional) formatting:
+		#source = killer's name/you
+		#source-he = he/she/they/you
+		#source-his = his/her/their/your
+		#source-himself = himself/herself/themself/yourself
+		#source-was = was/were
+		#target = dead person's name/you
+		#target-he = he/she/they/you
+		#target-his = his/her/their/your
+		#target-himself = himself/herself/themself/yourself
+		#target-was = was/were
+		
+		(see Grenades for example)
+	-->
+	
+	<playerHealth>100</playerHealth>
+	
+	<barrelHealth>20</barrelHealth>
+	<barricadeHealth>40</barricadeHealth>
+	<chargePackHealth>1</chargePackHealth>
+	<claymoreHealth>1</claymoreHealth>
+	<turretMGHealth>50</turretMGHealth>
+	<turretMortarHealth>50</turretMortarHealth>
+	
+	<turretMGDamage>5</turretMGDamage>
+	<turretMGFireDelay>0.5</turretMGFireDelay>
+	
+	<turretMortarDamage>20</turretMortarDamage>
+	<turretMortarFireDelay>2</turretMortarFireDelay>
+	
+	
+	<weapon id="0" name="Pistol" shortName="Pistol">
+		<ammo>Infinite</ammo>
+		<ammoIncrement>0</ammoIncrement>
+		<damage>7</damage>
+		<range>20</range>
+		<spread>0.12</spread>
+		<fireDelay>0.5</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>0</cost>
+		<ammoCost>0</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>damage</type>
+			<value>9</value>
+			<cost>2500</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2500</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="1" name="Dual Pistols" shortName="Dual Pistols">
+		<ammo>Infinite</ammo>
+		<ammoIncrement>0</ammoIncrement>
+		<damage>7</damage>
+		<range>20</range>
+		<spread>0.12</spread>
+		<fireDelay>0.25</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>12000</cost>
+		<ammoCost>0</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>damage</type>
+			<value>9</value>
+			<cost>6000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2500</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="2" name="Dual Uzis" shortName="Dual Uzis">
+		<ammo>250</ammo>
+		<ammoIncrement>250</ammoIncrement>
+		<damage>4</damage>
+		<range>20</range>
+		<spread>0.16</spread>
+		<fireDelay>0.15</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>6500</cost>
+		<ammoCost>5</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>damage</type>
+			<value>5</value>
+			<cost>3800</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>3000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="3" name="Shotgun" shortName="Shotgun">
+		<ammo>35</ammo>
+		<ammoIncrement>35</ammoIncrement>
+		<damage>6</damage> <!-- Hits up to 5 times per shot -->
+		<range>10</range>
+		<spread>0.3</spread>
+		<fireDelay>1.5</fireDelay>
+		<moveSpeed>0.8</moveSpeed>
+		<cost>7000</cost>
+		<ammoCost>50</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>damage</type>
+			<value>7</value>
+			<cost>4000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>fireDelay</type>
+			<value>1.2</value>
+			<cost>5000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="4" name="Minigun" shortName="Minigun">
+		<ammo>200</ammo>
+		<ammoIncrement>200</ammoIncrement>
+		<damage>8</damage>
+		<range>20</range>
+		<spread>0.15</spread>
+		<fireDelay>0.15</fireDelay>
+		<moveSpeed>0.8</moveSpeed>
+		<cost>27000</cost>
+		<ammoCost>25</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>damage</type>
+			<value>9</value>
+			<cost>15000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1</value>
+			<cost>9000</cost>
+		</upgrade2>
+	</weapon>
+		
+	<weapon id="5" name="Flamer" shortName="Flamer">
+		<ammo>200</ammo>
+		<ammoIncrement>200</ammoIncrement>
+		<damage>3</damage> <!-- Hits up to 5 times per shot -->
+		<range>3</range>
+		<spread>0</spread>
+		<fireDelay>0.2</fireDelay>
+		<moveSpeed>0.6</moveSpeed>
+		<cost>13500</cost>
+		<ammoCost>20</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>damage</type>
+			<value>4</value>
+			<cost>8000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>0.7</value>
+			<cost>3500</cost>
+		</upgrade2>
+	</weapon>
+		
+	<weapon id="6" name="Grenades" shortName="Grenades">
+		<ammo>5</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>55</damage> <!-- Falloff to 0 depending on distance -->
+		<range>5</range> <!-- From standing, max power -->
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>1000</cost>
+		<ammoCost>1000</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>The ultimate in hand-held shrapnel-propelling death. Show them you care by tossing them a little combustible love!</description>
+		<upgrade1>
+			<type>damage</type>
+			<value>45</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>range</type>
+			<value>6</value>
+			<cost>2000</cost>
+		</upgrade2>
+		<!-- <killMessage>#source killed #source-his enemy #target real good with a grenade.</killMessage> -->
+		<!-- <suicideMessage>#source killed #source-himself real good. #source-he #source-was embarrassed.</suicideMessage> -->
+	</weapon>
+			
+	<weapon id="7" name="Barrels" shortName="Barrels">
+		<ammo>5</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>35</damage> <!-- Falloff to 0 depending on distance -->
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>1000</cost>
+		<ammoCost>1000</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>damage</type>
+			<value>35</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+			
+	<weapon id="8" name="Barricades" shortName="Barricades">
+		<ammo>5</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>0</damage>
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>100</cost>
+		<ammoCost>100</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>ammo</type>
+			<value>10</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+			
+	<weapon id="9" name="MG Turret" shortName="MG Turret">
+		<ammo>3</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>0</damage>
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>30000</cost>
+		<ammoCost>10000</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>ammo</type>
+			<value>5</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+			
+	<weapon id="10" name="Mortar Turret" shortName="Mortar Tur.">
+		<ammo>3</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>0</damage>
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>30000</cost>
+		<ammoCost>10000</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>ammo</type>
+			<value>5</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+			
+	<weapon id="11" name="Magnum" shortName="Magnum">
+		<ammo>20</ammo>
+		<ammoIncrement>20</ammoIncrement>
+		<damage>45</damage>
+		<range>20</range>
+		<spread>0.08</spread>
+		<fireDelay>0.8</fireDelay>
+		<moveSpeed>0.9</moveSpeed>
+		<cost>30000</cost>
+		<ammoCost>250</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>ammo</type>
+			<value>30</value>
+			<cost>4000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1</value>
+			<cost>9500</cost>
+		</upgrade2>
+	</weapon>
+			
+	<weapon id="12" name="Spy Satellite" shortName="Spy Sat.">
+		<ammo>Infinite</ammo>
+		<ammoIncrement>0</ammoIncrement>
+		<damage>0</damage>
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>1000</cost>
+		<ammoCost>0</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type/>
+			<value/>
+			<cost/>
+		</upgrade1>
+		<upgrade2>
+			<type/>
+			<value/>
+			<cost/>
+		</upgrade2>
+	</weapon>
+			
+	<weapon id="13" name="AK47" shortName="AK47">
+		<ammo>100</ammo>
+		<ammoIncrement>100</ammoIncrement>
+		<damage>9</damage>
+		<range>20</range>
+		<spread>0.12</spread>
+		<fireDelay>0.2</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>17500</cost>
+		<ammoCost>12</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>5000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>10</value>
+			<cost>6000</cost>
+		</upgrade2>
+	</weapon>
+
+	<weapon id="14" name="M16" shortName="M16">
+		<ammo>300</ammo>
+		<ammoIncrement>300</ammoIncrement>
+		<damage>10</damage>
+		<range>20</range>
+		<spread>0</spread>
+		<fireDelay>0.2</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>17500</cost>
+		<ammoCost>12</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>5000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>11</value>
+			<cost>6000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="15" name="Rifle" shortName="Rifle">
+		<ammo>35</ammo>
+		<ammoIncrement>35</ammoIncrement>
+		<damage>27</damage>
+		<range>25</range>
+		<spread>0.05</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>0.7</moveSpeed>
+		<cost>8500</cost>
+		<ammoCost>90</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>0.8</value>
+			<cost>3000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>32</value>
+			<cost>5000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="16" name="Railgun" shortName="Railgun">
+		<ammo>20</ammo>
+		<ammoIncrement>20</ammoIncrement>
+		<damage>50</damage>
+		<range>Infinite</range>
+		<spread>0.05</spread>
+		<fireDelay>0.8</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>30000</cost>
+		<ammoCost>250</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>ammo</type>
+			<value>30</value>
+			<cost>7000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>9500</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="17" name="C4 Packs" shortName="C4 Packs">
+		<ammo>5</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>40</damage>
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay> <!-- x2 (one to plant, one to detonate) -->
+		<moveSpeed>1</moveSpeed>
+		<cost>600</cost>
+		<ammoCost>600</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>50</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="18" name="Airstrike" shortName="Airstrike">
+		<ammo>3</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>75</damage> <!-- Falloff to 0 depending on distance -->
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>15</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>5000</cost>
+		<ammoCost>5000</ammoCost>
+		<refillCooldown>20</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>85</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="19" name="Mines" shortName="Mines">
+		<ammo>5</ammo>
+		<ammoIncrement>1</ammoIncrement>
+		<damage>30</damage> <!-- Falloff to 0 depending on distance -->
+		<range>0</range>
+		<spread>0</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>1</moveSpeed>
+		<cost>500</cost>
+		<ammoCost>500</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<description>Buy me!</description>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>1.1</value>
+			<cost>2000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>50</value>
+			<cost>2000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="20" name="Grenade Launcher" shortName="Gren. Launcher">
+		<ammo>10</ammo>
+		<ammoIncrement>10</ammoIncrement>
+		<damage>55</damage> <!-- Falloff to 0 depending on distance -->
+		<range>10</range>
+		<spread>0.1</spread>
+		<fireDelay>1</fireDelay>
+		<moveSpeed>0.8</moveSpeed>
+		<cost>21000</cost>
+		<ammoCost>300</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>0.9</value>
+			<cost>6000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>damage</type>
+			<value>60</value>
+			<cost>9000</cost>
+		</upgrade2>
+	</weapon>
+	
+	<weapon id="21" name="Plasma Cannon" shortName="Plas. Cannon">
+		<ammo>15</ammo>
+		<ammoIncrement>15</ammoIncrement>
+		<damage>60</damage>
+		<range>Infinite</range>
+		<spread>0.1</spread>
+		<fireDelay>1.2</fireDelay>
+		<moveSpeed>0.6</moveSpeed>
+		<cost>23000</cost>
+		<ammoCost>300</ammoCost>
+		<refillCooldown>0</refillCooldown>
+		<upgrade1>
+			<type>moveSpeed</type>
+			<value>0.8</value>
+			<cost>4000</cost>
+		</upgrade1>
+		<upgrade2>
+			<type>fireDelay</type>
+			<value>1</value>
+			<cost>8000</cost>
+		</upgrade2>
+	</weapon>
+	
+	
+	
+	<premium id="0" name="Pistol Upgrade">
+		<description>Two is always better than one. With this premium get a second starting pistol! This Premium lasts 1 week.</description>
+		<value>n/a</value>
+		<cost>125</cost>
+	</premium>
+
+	<premium id="1" name="AK-47 Upgrade">
+		<description>This premium upgrades your regular AK-47 into the powerful M16 Fully-Automatic Weapon. This Premium lasts 1 week.</description>
+		<value>n/a</value>
+		<cost>125</cost>
+	</premium>
+	
+	<premium id="2" name="Magnum Upgrade">
+		<description>Upgrade your magnum into the technologically superior Rail Gun! This Premium lasts 1 week.</description>
+		<value>n/a</value>
+		<cost>150</cost>
+	</premium>
+
+	<premium id="3" name="Body Armor">
+		<description>100% Durithium Infused Kevlarium, guaranteed to stop 10% of incoming damage.This Premium lasts 1 week.</description>
+		<value>1.1</value>
+		<cost>200</cost>
+	</premium>
+
+	<premium id="4" name="Running Shoes">
+		<description>Gain a neat 10% speed advantage over your adversaries. This Premium lasts 1 week.</description>
+		<value>1.1</value>
+		<cost>80</cost>
+	</premium>
+
+	<premium id="5" name="Wallet">
+		<description>This fat wallet increases your cash flow by a cool 10% on pick-up! This Premium lasts 1 week.</description>
+		<value>1.1</value>
+		<cost>90</cost>
+	</premium>
+		
+	<premium id="7" name="Advanced Radar">
+		<description>The advanced radar points to 2nd and 3rd placed players as well. This Premium lasts 1 week.</description>
+		<value>2</value>	<!-- Extra pointers -->
+		<cost>100</cost>
+	</premium>
+	
+	<premium id="8" name="Grenades">
+		<description>Start each round with extra Grenades. This Premium lasts 1 week.</description>
+		<value>3</value>
+		<cost>100</cost>
+	</premium>
+
+	<premium id="9" name="C4 Packs">
+		<description>Start each round with extra C4 Packs. This Premium lasts 1 week.</description>
+		<value>3</value>
+		<cost>100</cost>
+	</premium>
+
+	<premium id="10" name="Mines">
+		<description>Start each round with extra Mines. This Premium lasts 1 week.</description>
+		<value>5</value>
+		<cost>100</cost>
+	</premium>
+
+	<premium id="11" name="Airstrikes">
+		<description>Start each round with an extra Airstrike. This Premium lasts 1 week.</description>
+		<value>1</value>
+		<cost>150</cost>
+	</premium>
+	
+	<premium id="12" name="Barrels">
+		<description>Start each round with extra Barrels. This Premium lasts 1 week.</description>
+		<value>5</value>
+		<cost>50</cost>
+	</premium>
+	
+	<premium id="13" name="Barricades">
+		<description>Start each round with extra Barricades. This Premium lasts 1 week.</description>
+		<value>5</value>
+		<cost>50</cost>
+	</premium>
+	
+	<premium id="14" name="Spy Satellite">
+		<description>Start each round with the Spy Satellite. This Premium lasts 1 week.</description>
+		<value>1</value>
+		<cost>70</cost>
+	</premium>
+
+	<premium id="15" name="MG Turrets">
+		<description>Start each round with extra MG Turrets. This Premium lasts 1 week.</description>
+		<value>2</value>
+		<cost>100</cost>
+	</premium>
+	
+	<premium id="16" name="Mortar Turrets">
+		<description>Start each round with extra Mortar Turrets. This Premium lasts 1 week.</description>
+		<value>2</value>
+		<cost>100</cost>
+	</premium>
+	
+	<premium id="17" name="Devil Character">
+		<description>Unleash hell! Unlocks the devil character in the character customization screen. This Premium lasts forever.</description>
+		<value>n/a</value>
+		<cost>25</cost>
+	</premium>
+	
+
+	
+	
+</data>

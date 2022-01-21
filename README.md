@@ -24,6 +24,16 @@
 
 https://zmcj21.github.io/
 
+## Boxhead系列世界观：
+
+1. https://www.crazymonkeygames.com/guide/Boxhead/
+
+1. https://www.crazymonkeygames.com/guide/Boxhead-2Play-Rooms/
+
+1. https://www.crazymonkeygames.com/guide/Boxhead-Zombie-Wars/
+
+1. https://www.crazymonkeygames.com/guide/Boxhead-the-Nightmare/
+
 ## 公告：
 
 只要你不停下来，走多慢都无所谓。——孔子

@@ -2,7 +2,7 @@
 
 僵尸危机游戏资源与信息大全
 
-最后更新日期：2022/1/29
+最后更新日期：2022/1/30
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 
@@ -10,7 +10,7 @@
 
 1. boxhead_series中所有的swf文件均来源于疯狂猴子网：https://www.crazymonkeygames.com/
 
-1. 使用flash_player中的FlashPlayer.exe或flashplayer_32_sa.exe直接打开.swf文件游玩
+1. 使用flash_player中的FlashPlayer11.exe/FlashPlayer28.exe/flashplayer_32_sa.exe直接打开.swf文件游玩
 
 1. 可以使用[ffdec](https://github.com/jindrapetrik/jpexs-decompiler)反编译.swf文件获取美术/音频/代码资源。
 
@@ -23,6 +23,22 @@
 ## Boxhead:Immortal官网
 
 https://zmcj21.github.io/
+
+## 僵尸危机历代Flash版本发行日期：
+
+[信息来源](https://www.crazymonkeygames.com/series/Boxhead-Series.php)
+
+1. Boxhead (a Halloween Special):Released October 27, 2006
+
+1. Boxhead: The Rooms:Released December 24, 2006
+
+1. Boxhead: More Rooms:Released February 9, 2007
+
+1. Boxhead: 2Play Rooms:Released May 16, 2007
+
+1. Boxhead: The Zombie Wars:Released March 7, 2008
+
+1. Boxhead the Nightmare:Released August 29th, 2011
 
 ## Boxhead系列世界观：
 

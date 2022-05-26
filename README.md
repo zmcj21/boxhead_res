@@ -2,7 +2,7 @@
 
 僵尸危机游戏资源与信息大全
 
-最后更新日期：2022/5/5
+最后更新日期：2022/5/26
 
 ![BG](https://github.com/zmcj21/boxhead_res/blob/main/docs/1.png)
 
@@ -75,6 +75,8 @@ Boxhead 是由 Sean Cooper 创作并由 Crazy Monkey Games 赞助的一系列游
 邮箱： zmcj20plusplus@gmail.com
 
 ## 联系僵尸危机原作者(Sean Cooper)：
+
+提示：Sean Cooper也是FLISO: Flash Isometric Graphics Engine的作者。
 
 官网：https://www.seantcooper.com/
 
